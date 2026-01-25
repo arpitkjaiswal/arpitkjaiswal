@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Arpit!
 
 🎓 2nd Year IT Student at MIT Manipal  
-💻 Passionate about DSA, Web, and building cool apps  
-🚀 Currently working on: Cool Projects
+💻 Passionate about DSA, Web, and building Apps
+🚀 Currently working on: Projects
 
 ---
 
@@ -28,8 +28,8 @@
   <summary>📚 My Current Learning</summary>
   
   - Advanced DSA (Linked Lists, Trees, Graphs)
-  - Web Devloper 
-  - Flutter + Firebase App Dev
+  - Web/App Devloper 
+  - Flutter + kotlin + Firebase App Dev
 </details>
 
 ## 🎶 What I'm Listening To
