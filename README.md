@@ -44,7 +44,7 @@ Let's connect and collaborate to build innovative software solutions together. F
 
 ## 🎶 What I'm Listening To
 
-[![YouTube Music](https://img.youtube.com/vi/ZM8rAsTT7yE/0.jpg)](https://music.youtube.com/watch?v=ZM8rAsTT7yE)
+[![YouTube Music](https://img.youtube.com/vi/Ztdc7TcPdAA/0.jpg)](https://music.youtube.com/watch?v=Ztdc7TcPdAA)
 
 
 > 🎧 *Right now listening to this track*
