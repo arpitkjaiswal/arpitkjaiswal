@@ -8,11 +8,13 @@ A passionate and dedicated developer with a strong focus on creating robust and 
 
 ✉️ Email: arpit.kr.jaiswal@gmail.com
 
-💻 Core Skills: Blockchain, Full-stack Development Web Development (HTML, CSS, JavaScript) Back-end Development (Node.js) Front-end Frameworks (React) Database Management (MongoDB) Version Control (Git, GitHub)
+💻 Core Skills:  Full-stack Development Web Development (HTML, CSS, JavaScript) Back-end Development (Node.js) Front-end Frameworks (React) Database Management (MongoDB) Version Control (Git, GitHub)
 
-🌱 Constantly learning and staying updated with the latest industry trends and technologies, I am committed to delivering high-quality, efficient, and scalable solutions. I value clean code, effective problem-solving, and continuous improvement in my development practices.
+💡 I am committed to continuous learning and staying aligned with evolving industry trends and emerging technologies. My focus is on delivering reliable, scalable, and high-performance solutions that create meaningful impact.
 
-Let's connect and collaborate to build innovative software solutions together. Feel free to explore my repositories, contribute, or reach out to me for exciting projects or discussions.
+I prioritize clean, maintainable code, strong analytical thinking, and a structured problem-solving approach while continuously refining my technical expertise.
+
+🤝 I welcome opportunities for professional collaboration and innovative projects. Please feel free to explore my work, share your insights, or connect to discuss potential collaborations.
 
 ---
 
