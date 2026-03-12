@@ -6,7 +6,7 @@ A passionate and dedicated developer with a strong focus on creating robust and 
 
 ✉️ [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/arpit-kumar-j-819478302/)
 
-✉️ Email: arpit.kr.jaiswal@gmail.com
+✉️ [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:arpit.kr.jaiswal@gmail.com)
 
 💻 Core Skills:  Full-stack Development Web Development (HTML, CSS, JavaScript) Back-end Development (Node.js) Front-end Frameworks (React) Database Management (MongoDB) Version Control (Git, GitHub)
 
