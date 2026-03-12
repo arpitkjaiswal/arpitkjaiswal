@@ -4,7 +4,7 @@
 
 A passionate and dedicated developer with a strong focus on creating robust and innovative software solutions. With a deep love for coding and problem-solving, I'm always seeking new challenges and opportunities to expand my skills.
 
-✉️ Linkedin:https://www.linkedin.com/in/arpit-kumar-jaiswal/
+✉️ [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/arpit-kumar-j-819478302/)
 
 ✉️ Email: arpit.kr.jaiswal@gmail.com
 
