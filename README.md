@@ -19,8 +19,8 @@ I prioritize clean, maintainable code, strong analytical thinking, and a structu
 ---
 
 ## 🌐 Connect with me:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/arpit-kumar-j-819478302/)
-[![Gmail](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](arpitjais5524@gmail.com)
+![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/arpit-kumar-j-819478302/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:arpit.kr.jaiswal@gmail.com)
 
 ---
 
