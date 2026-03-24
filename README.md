@@ -39,7 +39,7 @@ I prioritize clean, maintainable code, strong analytical thinking, and a structu
 
 ## 🎶 What I'm Listening To
 
-[![YouTube Music](https://img.youtube.com/vi/Ztdc7TcPdAA/0.jpg)](https://music.youtube.com/watch?v=Ztdc7TcPdAA)
+[![YouTube Music](https://img.youtube.com/vi/W4C-NEWrnSQ/0.jpg)](https://music.youtube.com/watch?v=W4C-NEWrnSQ)
 
 
 > 🎧 *Right now listening to this track*
