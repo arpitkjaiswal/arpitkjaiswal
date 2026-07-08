@@ -57,7 +57,7 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arpitkjaiswal&show_icons=true&theme=default&count_private=true&cache_seconds=1800" alt="GitHub Stats" height="165"/>
+  <img src="https://github-stats-extended.vercel.app/api?username=arpitkjaiswal&show_icons=true&theme=default&count_private=true" alt="GitHub Stats" height="165"/>
   <img src="https://streak-stats.demolab.com/?user=arpitkjaiswal&theme=default" alt="GitHub Streak" height="165"/>
 </p>
 
