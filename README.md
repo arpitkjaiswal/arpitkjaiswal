@@ -57,14 +57,24 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arpit-jaiswal&show_icons=true&theme=default" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arpit-jaiswal" alt="GitHub Streak" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=arpitkjaiswal&show_icons=true&theme=default&count_private=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arpitkjaiswal&theme=default" alt="GitHub Streak" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=arpitkjaiswal&theme=github-compact&hide_border=true" alt="Contribution Graph" width="95%"/>
+</p>
+
+<p align="center">
+  <a href="https://github.com/arpitkjaiswal">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=arpit-jaiswal&color=blue&style=flat" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=arpitkjaiswal&color=blue&style=flat" alt="Profile Views"/>
 </p>
 
 <p align="center"><i>Thanks for visiting — feel free to reach out and connect!</i></p>
