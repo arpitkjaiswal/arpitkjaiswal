@@ -10,11 +10,12 @@
 text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
 .muted{fill:#99a8ba}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
 .mint{fill:#86f7cf}.violet{fill:#b5a0ff}
-@media(prefers-reduced-motion:reduce){.motion{display:none}}
+.static-only{display:none}
+@media(prefers-reduced-motion:reduce){.motion{display:none}.static-only{display:inline}}
 </style>
 <rect x="1" y="1" width="1198" height="408" rx="18" fill="#080c12" stroke="url(#border)"/>
 <text x="32" y="43" font-size="12" letter-spacing="2" class="mono mint">TECHNOLOGY INDEX / TOOLS IN CONTEXT</text>
-<text x="32" y="77" font-size="16" class="muted">A toolkit shaped by the projects below the badges.</text>
+<text x="32" y="77" font-size="16" class="muted">Tools used in the repositories linked here.</text>
 <rect x="32" y="110" width="358" height="122" rx="10" fill="#0d141c" stroke="#243239"/>
 <text x="50" y="138" font-size="11" letter-spacing="1.5" class="mono mint">01 / LANGUAGES</text>
 <text x="50" y="172" font-size="14">Python · TypeScript · JavaScript</text><text x="50" y="197" font-size="13" class="muted">Java · C · C++ · SQL</text>

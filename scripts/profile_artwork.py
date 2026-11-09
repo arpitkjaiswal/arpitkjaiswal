@@ -1,6 +1,8 @@
 """Self-contained, script-free SVG artwork for the GitHub profile."""
 
 from html import escape
+from itertools import combinations
+import math
 
 
 def svg(width, height, title, description, content):
@@ -16,7 +18,8 @@ def svg(width, height, title, description, content):
 text{{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}}
 .muted{{fill:#99a8ba}}.mono{{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}}
 .mint{{fill:#86f7cf}}.violet{{fill:#b5a0ff}}
-@media(prefers-reduced-motion:reduce){{.motion{{display:none}}}}
+.static-only{{display:none}}
+@media(prefers-reduced-motion:reduce){{.motion{{display:none}}.static-only{{display:inline}}}}
 </style>
 <rect x="1" y="1" width="{width-2}" height="{height-2}" rx="18" fill="#080c12" stroke="url(#border)"/>
 {content}
@@ -33,45 +36,83 @@ def orbit(cx, cy, radius, color="#86f7cf"):
 <circle cx="{cx}" cy="{cy}" r="{radius*.62}" fill="none" stroke="#b5a0ff" stroke-dasharray="3 14" opacity=".8"><animateTransform attributeName="transform" type="rotate" from="360 {cx} {cy}" to="0 {cx} {cy}" dur="24s" repeatCount="indefinite"/></circle></g>'''
 
 
+def wireframe_core(cx=1100, cy=240, radius=153):
+    """Perspective-project a rotating icosahedron into script-free SVG frames."""
+    phi = (1+math.sqrt(5))/2
+    raw = [(0, a, b*phi) for a in (-1, 1) for b in (-1, 1)]
+    raw += [(a, b*phi, 0) for a in (-1, 1) for b in (-1, 1)]
+    raw += [(a*phi, 0, b) for a in (-1, 1) for b in (-1, 1)]
+    scale = math.sqrt(1+phi*phi)
+    vertices = [tuple(v/scale for v in point) for point in raw]
+    distances = {(a, b): sum((vertices[a][i]-vertices[b][i])**2 for i in range(3))
+                 for a, b in combinations(range(12), 2)}
+    minimum = min(distances.values())
+    edges = {pair for pair, distance in distances.items() if abs(distance-minimum) < 1e-6}
+    faces = [face for face in combinations(range(12), 3)
+             if all(tuple(sorted(pair)) in edges for pair in combinations(face, 2))]
+    frames = []
+    for frame in range(37):
+        angle = frame/36*math.tau
+        pitch = .4+.14*math.sin(angle)
+        projected = []
+        for x, y, z in vertices:
+            x, z = x*math.cos(angle)+z*math.sin(angle), z*math.cos(angle)-x*math.sin(angle)
+            y, z = y*math.cos(pitch)-z*math.sin(pitch), z*math.cos(pitch)+y*math.sin(pitch)
+            perspective = 4/(4-z)
+            projected.append((cx+x*radius*perspective, cy+y*radius*perspective, z))
+        frames.append(projected)
+
+    def path(frame, indices, close=False):
+        return "M"+"L".join(f"{frame[i][0]:.2f} {frame[i][1]:.2f}" for i in indices)+("Z" if close else "")
+
+    animated, static = [], []
+    for face in faces:
+        values = ";".join(path(frame, face, True) for frame in frames)
+        base = f'<path d="{path(frames[0], face, True)}" fill="#86f7cf" fill-opacity=".035"'
+        animated.append(base+f'><animate attributeName="d" values="{values}" dur="28s" repeatCount="indefinite"/></path>')
+        static.append(base+'/>')
+    for edge in sorted(edges):
+        values = ";".join(path(frame, edge) for frame in frames)
+        opacity = ";".join(f"{.23+.4*(1+sum(frame[i][2] for i in edge)/2)/2:.3f}" for frame in frames)
+        base = f'<path data-mesh-edge="true" d="{path(frames[0], edge)}" fill="none" stroke="#86f7cf" stroke-width="1.15" stroke-opacity=".55"'
+        animated.append(base+f'><animate attributeName="d" values="{values}" dur="28s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="{opacity}" dur="28s" repeatCount="indefinite"/></path>')
+        static.append(base+'/>')
+    for i in range(12):
+        x, y, _ = frames[0][i]
+        base = f'<circle cx="{x:.2f}" cy="{y:.2f}" r="2.8" fill="#e9fff7"'
+        animation = "".join(f'<animate attributeName="{attr}" values="'+";".join(f"{frame[i][index]:.2f}" for frame in frames)+'" dur="28s" repeatCount="indefinite"/>' for attr, index in [("cx", 0), ("cy", 1)])
+        animated.append(base+'>'+animation+'</circle>')
+        static.append(base+'/>')
+    return '<g class="motion">'+"".join(animated)+'</g><g class="static-only">'+"".join(static)+'</g>'
+
+
 def header():
-    grid = []
-    for x in range(-300, 1600, 100):
-        grid.append(f'<path d="M940 330L{x} 520" stroke="#86f7cf" opacity=".09"/>')
-    for y in [350, 368, 394, 430, 480]:
-        grid.append(f'<path d="M600 {y}H1200" stroke="#86f7cf" opacity=".06"/>')
-    stars = "".join(
-        f'<circle cx="{(i*137+41)%1160+20}" cy="{(i*67+23)%370+20}" r="1" fill="#86f7cf" opacity=".3"/>'
-        for i in range(28)
-    )
-    core = []
-    # An isometric wireframe cube, with a moving signal around its perimeter.
-    for path in ["M944 155L1006 191V263L944 299L882 263V191Z",
-                 "M882 191L944 227L1006 191M944 227V299",
-                 "M944 155V227M882 263L944 227L1006 263"]:
-        core.append(f'<path d="{path}" fill="none" stroke="#86f7cf" stroke-opacity=".65" stroke-width="1.5"/>')
-    core.append('''<circle r="3" fill="#fff" class="motion"><animateMotion path="M944 155L1006 191V263L944 299L882 263V191Z" dur="10s" repeatCount="indefinite"/></circle>''')
-    return svg(1200, 520, "Arpit Kumar Jaiswal — backend, full-stack, and applied AI",
-               "Animated engineering console with an orbital wireframe core. Open to software engineering opportunities.", f'''
-<rect x="2" y="2" width="1196" height="516" rx="18" fill="url(#grid)"/>
-{stars}
-<circle cx="946" cy="220" r="265" fill="url(#halo)"/>
-<path d="M32 72V32H72M1128 32H1168V72M32 448V488H72M1128 488H1168V448" fill="none" stroke="#86f7cf" stroke-opacity=".45"/>
-<text x="64" y="62" font-size="12" letter-spacing="2.5" class="mono mint">ARPIT / SOFTWARE DEVELOPER</text>
-<text x="1136" y="62" font-size="11" text-anchor="end" letter-spacing="2" class="mono muted">BUILD. UNDERSTAND. ITERATE.</text>
-<text x="60" y="173" font-size="84" font-weight="850" letter-spacing="-4">ARPIT KUMAR</text>
-<text x="60" y="263" font-size="92" font-weight="850" letter-spacing="-4" class="mint">JAISWAL<tspan fill="#edf3f8">.</tspan></text>
-<text x="66" y="311" font-size="20">Backend systems. Applied AI. Thoughtful interfaces.</text>
-<text x="66" y="343" font-size="14" class="mono muted">B.Tech · Information Technology · MIT Manipal</text>
-<circle cx="72" cy="387" r="4" fill="#86f7cf"/>
-<text x="88" y="392" font-size="12" letter-spacing="1.2" class="mono mint">OPEN TO SOFTWARE ENGINEERING OPPORTUNITIES</text>
-{''.join(grid)}
-{orbit(944, 227, 163)}
-{''.join(core)}
-<text x="944" y="426" text-anchor="middle" font-size="10" letter-spacing="3" class="mono muted">IDEA → SYSTEM</text>
-<rect x="52" y="446" width="1096" height="42" rx="8" fill="#0d151c" stroke="#20332f"/>
-<circle cx="72" cy="467" r="3" fill="#86f7cf"/><circle cx="86" cy="467" r="3" fill="#b5a0ff"/><circle cx="100" cy="467" r="3" fill="#e8bc85"/>
-<text x="128" y="472" font-size="13" class="mono"><tspan fill="#86f7cf">arpit@build</tspan><tspan fill="#99a8ba">:~$ </tspan>turn curiosity into working software<tspan class="motion"> ▍<animate attributeName="opacity" values="1;1;0;0;1" dur="2s" repeatCount="indefinite"/></tspan></text>
-<text x="1124" y="472" text-anchor="end" font-size="11" class="mono muted">PY / TS</text>
+    ticks = []
+    for i in range(60):
+        angle = math.tau*i/60
+        inner = 192 if i % 5 == 0 else 198
+        x1, y1 = 1100+inner*math.cos(angle), 240+inner*math.sin(angle)
+        x2, y2 = 1100+204*math.cos(angle), 240+204*math.sin(angle)
+        ticks.append(f'<path d="M{x1:.2f} {y1:.2f}L{x2:.2f} {y2:.2f}" stroke="#86f7cf" stroke-opacity="{.45 if i%5==0 else .16}"/>')
+    return svg(1400, 520, "Arpit Kumar Jaiswal — software developer",
+               "Software engineering portfolio. Backend systems, developer tools, and applied AI. A decorative mathematical wireframe rotates in perspective; a static version is shown for reduced motion.", f'''
+<rect x="2" y="2" width="1396" height="516" rx="18" fill="url(#grid)"/>
+<circle cx="1100" cy="240" r="270" fill="url(#halo)"/>
+<path d="M32 72V32H72M1328 32H1368V72M32 448V488H72M1328 488H1368V448" stroke="#86f7cf" stroke-opacity=".5" fill="none"/>
+<text x="66" y="68" font-size="12" letter-spacing="3" class="mono mint">ARPIT KUMAR JAISWAL / ENGINEERING PORTFOLIO</text>
+<text x="60" y="176" font-size="94" font-weight="850" letter-spacing="-4">ARPIT KUMAR</text>
+<text x="60" y="271" font-size="104" font-weight="850" letter-spacing="-4" class="mint">JAISWAL<tspan fill="#edf3f8">.</tspan></text>
+<text x="67" y="321" font-size="23">Useful systems. Inspectable decisions.</text>
+<text x="67" y="355" font-size="16" class="muted">Backend development / Developer tools / Applied AI</text>
+<path d="M68 386H820" stroke="#233c35"/>
+<text x="68" y="414" font-size="13" class="mono muted">B.Tech · Information Technology · MIT Manipal</text>
+{''.join(ticks)}
+<circle cx="1100" cy="240" r="211" fill="none" stroke="#86f7cf" stroke-opacity=".2"/>
+<circle cx="1100" cy="240" r="220" fill="none" stroke="#b5a0ff" stroke-opacity=".55" stroke-dasharray="130 900" class="motion"><animateTransform attributeName="transform" type="rotate" from="0 1100 240" to="360 1100 240" dur="36s" repeatCount="indefinite"/></circle>
+{wireframe_core()}
+<text x="1100" y="480" text-anchor="middle" font-size="11" letter-spacing="3" class="mono mint">DESIGN / BUILD / VERIFY</text>
+<circle cx="73" cy="470" r="4" fill="#86f7cf"/>
+<text x="91" y="475" font-size="12" letter-spacing="1.5" class="mono mint">OPEN TO SOFTWARE ENGINEERING OPPORTUNITIES</text>
 ''')
 
 
@@ -85,31 +126,40 @@ def divider():
 
 
 def architecture():
-    nodes = [
-        (54, 95, "01", "INTERFACES", "React / TypeScript / Vite", "#86f7cf"),
-        (54, 205, "02", "BACKEND", "FastAPI / Node.js / Express", "#86f7cf"),
-        (54, 315, "03", "DATA", "PostgreSQL / Redis / SQLite", "#86f7cf"),
-        (856, 95, "04", "APPLIED AI", "PyTorch / scikit-learn / MCP", "#b5a0ff"),
-        (856, 205, "05", "SECURITY", "Encryption / policy / audit", "#b5a0ff"),
-        (856, 315, "06", "DELIVERY", "Docker / pytest / Playwright", "#b5a0ff"),
+    columns = [
+        ("NEXORA", "DEVELOPER TOOLING", "#86f7cf", [
+            ("REACT / TYPESCRIPT", "Explore findings and dependency maps"),
+            ("NODE.JS ANALYSIS API", "Imports, AST metrics, code checks"),
+            ("GRAPH + ADVISORY SIGNALS", "Relative imports and npm advisories"),
+            ("SAVED SNAPSHOTS", "Historical findings and review exports")]),
+        ("TalentOS", "EXPLAINABLE RANKING", "#b5a0ff", [
+            ("REACT / TYPESCRIPT", "Roles, candidates, and Resume Lab"),
+            ("FASTAPI BOUNDARY", "Validated inputs and bounded extraction"),
+            ("SCIKIT-LEARN", "Pairwise TF-IDF and skill coverage"),
+            ("SQLALCHEMY / POSTGRESQL", "Transactional records and migrations")]),
+        ("AegisVault", "ENCRYPTION RESEARCH", "#e8bc85", [
+            ("PYTHON SDK / HTTP API", "Explicit document operations"),
+            ("POLICY + MANIFEST", "Tenant, role, purpose, and contracts"),
+            ("ENCRYPTION + SEARCH", "AEAD payloads and scoped HMAC terms"),
+            ("DATABASE + AUDIT", "Atomic updates and authenticated events")]),
     ]
-    content = ['<rect x="2" y="2" width="1196" height="456" rx="18" fill="url(#grid)"/>',
-               '<text x="32" y="43" font-size="12" letter-spacing="2" class="mono mint">SYSTEM VIEW / CONNECTING THE LAYERS</text>']
-    for i, (x, y, index, label, tools, color) in enumerate(nodes):
-        target_x = x+290 if x < 600 else x
-        path = f"M600 253 C{target_x} 253 600 {y+40} {target_x} {y+40}"
-        content.append(f'<path d="{path}" stroke="{color}" opacity=".25" fill="none"/>')
-        content.append(f'<circle r="3" fill="{color}" class="motion"><animateMotion path="{path}" dur="{5+i%3}s" begin="-{i}s" repeatCount="indefinite"/></circle>')
-        content.append(f'<rect x="{x}" y="{y}" width="290" height="84" rx="10" fill="#0d141e" stroke="#283544"/>')
-        content.append(f'<text x="{x+18}" y="{y+28}" font-size="11" letter-spacing="2" class="mono" style="fill:{color}">{index} / {label}</text>')
-        content.append(f'<text x="{x+18}" y="{y+58}" font-size="13">{tools}</text>')
-    content.append(orbit(600, 253, 111))
-    content.append('''<circle cx="600" cy="253" r="60" fill="#080c12" stroke="#86f7cf" stroke-opacity=".5"/>
-<text x="600" y="248" text-anchor="middle" font-size="24" font-weight="800">BUILD</text>
-<text x="600" y="271" text-anchor="middle" font-size="10" class="mono muted">END TO END</text>
-<text x="600" y="435" text-anchor="middle" font-size="11" class="mono muted">Interfaces → APIs → data → useful outcomes</text>''')
-    return svg(1200, 460, "Engineering across the stack",
-               "Animated overview of the technologies connected across Arpit's projects.", "\n".join(content))
+    content = ['<rect x="2" y="2" width="1396" height="756" rx="18" fill="url(#grid)"/>',
+               '<text x="42" y="48" font-size="12" letter-spacing="2.5" class="mono mint">ENGINEERING BLUEPRINT / THREE IMPLEMENTATIONS</text>',
+               '<text x="40" y="96" font-size="34" font-weight="750">From interface to system behavior.</text>']
+    for i, (title, category, color, steps) in enumerate(columns):
+        x = 42+i*448
+        content.append(f'<text x="{x}" y="157" font-size="27" font-weight="750">{title}</text><text x="{x}" y="182" font-size="10" letter-spacing="1.5" class="mono" style="fill:{color}">{category}</text>')
+        for j, (label, description) in enumerate(steps):
+            y = 217+j*111
+            if j:
+                path = f"M{x+202} {y-28}V{y}"
+                content.append(f'<path d="{path}" stroke="{color}" stroke-opacity=".5"/><path d="M{x+198} {y-7}L{x+202} {y-2}L{x+206} {y-7}" fill="none" stroke="{color}"/>')
+                content.append(f'<circle r="2.8" fill="{color}" class="motion"><animateMotion path="{path}" dur="2s" begin="-{j*.6}s" repeatCount="indefinite"/></circle>')
+            content.append(f'<rect x="{x}" y="{y}" width="404" height="83" rx="10" fill="#0d141c" stroke="{color}" stroke-opacity=".25"/><path d="M{x} {y+15}V{y+68}" stroke="{color}" stroke-width="2"/>')
+            content.append(f'<text x="{x+19}" y="{y+31}" font-size="12" letter-spacing=".8" class="mono" style="fill:{color}">{label}</text><text x="{x+19}" y="{y+58}" font-size="13" class="muted">{description}</text>')
+    content.append('<path d="M42 685H1358" stroke="#26383a"/><text x="42" y="716" font-size="12" class="muted">Conceptual request paths from project documentation. Each application has its own scope and deployment model.</text>')
+    return svg(1400, 760, "Architecture of NEXORA, TalentOS, and AegisVault",
+               "Three documented application paths: repository analysis, explainable candidate ranking, and policy-aware encrypted document storage. Moving signals illustrate the paths and do not represent live traffic.", "\n".join(content))
 
 
 def project_card(key):
@@ -169,7 +219,7 @@ def stack():
     ]
     content = [
         '<text x="32" y="43" font-size="12" letter-spacing="2" class="mono mint">TECHNOLOGY INDEX / TOOLS IN CONTEXT</text>',
-        '<text x="32" y="77" font-size="16" class="muted">A toolkit shaped by the projects below the badges.</text>',
+        '<text x="32" y="77" font-size="16" class="muted">Tools used in the repositories linked here.</text>',
     ]
     for i, (index, title, row1, row2) in enumerate(groups):
         x, y = 32+(i%3)*389, 110+(i//3)*146

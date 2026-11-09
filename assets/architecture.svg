@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
-<title id="title">Engineering across the stack</title><desc id="desc">Animated overview of the technologies connected across Arpit&#x27;s projects.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+<title id="title">Architecture of NEXORA, TalentOS, and AegisVault</title><desc id="desc">Three documented application paths: repository analysis, explainable candidate ranking, and policy-aware encrypted document storage. Moving signals illustrate the paths and do not represent live traffic.</desc>
 <defs>
 <linearGradient id="border"><stop stop-color="#28433f"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
 <linearGradient id="accent"><stop stop-color="#86f7cf"><animate attributeName="stop-color" values="#86f7cf;#b5a0ff;#86f7cf" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
@@ -10,48 +10,57 @@
 text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
 .muted{fill:#99a8ba}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
 .mint{fill:#86f7cf}.violet{fill:#b5a0ff}
-@media(prefers-reduced-motion:reduce){.motion{display:none}}
+.static-only{display:none}
+@media(prefers-reduced-motion:reduce){.motion{display:none}.static-only{display:inline}}
 </style>
-<rect x="1" y="1" width="1198" height="458" rx="18" fill="#080c12" stroke="url(#border)"/>
-<rect x="2" y="2" width="1196" height="456" rx="18" fill="url(#grid)"/>
-<text x="32" y="43" font-size="12" letter-spacing="2" class="mono mint">SYSTEM VIEW / CONNECTING THE LAYERS</text>
-<path d="M600 253 C344 253 600 135 344 135" stroke="#86f7cf" opacity=".25" fill="none"/>
-<circle r="3" fill="#86f7cf" class="motion"><animateMotion path="M600 253 C344 253 600 135 344 135" dur="5s" begin="-0s" repeatCount="indefinite"/></circle>
-<rect x="54" y="95" width="290" height="84" rx="10" fill="#0d141e" stroke="#283544"/>
-<text x="72" y="123" font-size="11" letter-spacing="2" class="mono" style="fill:#86f7cf">01 / INTERFACES</text>
-<text x="72" y="153" font-size="13">React / TypeScript / Vite</text>
-<path d="M600 253 C344 253 600 245 344 245" stroke="#86f7cf" opacity=".25" fill="none"/>
-<circle r="3" fill="#86f7cf" class="motion"><animateMotion path="M600 253 C344 253 600 245 344 245" dur="6s" begin="-1s" repeatCount="indefinite"/></circle>
-<rect x="54" y="205" width="290" height="84" rx="10" fill="#0d141e" stroke="#283544"/>
-<text x="72" y="233" font-size="11" letter-spacing="2" class="mono" style="fill:#86f7cf">02 / BACKEND</text>
-<text x="72" y="263" font-size="13">FastAPI / Node.js / Express</text>
-<path d="M600 253 C344 253 600 355 344 355" stroke="#86f7cf" opacity=".25" fill="none"/>
-<circle r="3" fill="#86f7cf" class="motion"><animateMotion path="M600 253 C344 253 600 355 344 355" dur="7s" begin="-2s" repeatCount="indefinite"/></circle>
-<rect x="54" y="315" width="290" height="84" rx="10" fill="#0d141e" stroke="#283544"/>
-<text x="72" y="343" font-size="11" letter-spacing="2" class="mono" style="fill:#86f7cf">03 / DATA</text>
-<text x="72" y="373" font-size="13">PostgreSQL / Redis / SQLite</text>
-<path d="M600 253 C856 253 600 135 856 135" stroke="#b5a0ff" opacity=".25" fill="none"/>
-<circle r="3" fill="#b5a0ff" class="motion"><animateMotion path="M600 253 C856 253 600 135 856 135" dur="5s" begin="-3s" repeatCount="indefinite"/></circle>
-<rect x="856" y="95" width="290" height="84" rx="10" fill="#0d141e" stroke="#283544"/>
-<text x="874" y="123" font-size="11" letter-spacing="2" class="mono" style="fill:#b5a0ff">04 / APPLIED AI</text>
-<text x="874" y="153" font-size="13">PyTorch / scikit-learn / MCP</text>
-<path d="M600 253 C856 253 600 245 856 245" stroke="#b5a0ff" opacity=".25" fill="none"/>
-<circle r="3" fill="#b5a0ff" class="motion"><animateMotion path="M600 253 C856 253 600 245 856 245" dur="6s" begin="-4s" repeatCount="indefinite"/></circle>
-<rect x="856" y="205" width="290" height="84" rx="10" fill="#0d141e" stroke="#283544"/>
-<text x="874" y="233" font-size="11" letter-spacing="2" class="mono" style="fill:#b5a0ff">05 / SECURITY</text>
-<text x="874" y="263" font-size="13">Encryption / policy / audit</text>
-<path d="M600 253 C856 253 600 355 856 355" stroke="#b5a0ff" opacity=".25" fill="none"/>
-<circle r="3" fill="#b5a0ff" class="motion"><animateMotion path="M600 253 C856 253 600 355 856 355" dur="7s" begin="-5s" repeatCount="indefinite"/></circle>
-<rect x="856" y="315" width="290" height="84" rx="10" fill="#0d141e" stroke="#283544"/>
-<text x="874" y="343" font-size="11" letter-spacing="2" class="mono" style="fill:#b5a0ff">06 / DELIVERY</text>
-<text x="874" y="373" font-size="13">Docker / pytest / Playwright</text>
-<circle cx="600" cy="253" r="111" fill="url(#halo)"/>
-<ellipse cx="600" cy="253" rx="111" ry="39.96" fill="none" stroke="#86f7cf" stroke-opacity=".35" transform="rotate(-32 600 253)"/>
-<ellipse cx="600" cy="253" rx="111" ry="39.96" fill="none" stroke="#86f7cf" stroke-opacity=".35" transform="rotate(32 600 253)"/>
-<g class="motion"><circle cx="600" cy="253" r="91.02" fill="none" stroke="#86f7cf" stroke-width="1.5" stroke-dasharray="80 18 2 18" opacity=".65"><animateTransform attributeName="transform" type="rotate" from="0 600 253" to="360 600 253" dur="35s" repeatCount="indefinite"/></circle>
-<circle cx="600" cy="253" r="68.82" fill="none" stroke="#b5a0ff" stroke-dasharray="3 14" opacity=".8"><animateTransform attributeName="transform" type="rotate" from="360 600 253" to="0 600 253" dur="24s" repeatCount="indefinite"/></circle></g>
-<circle cx="600" cy="253" r="60" fill="#080c12" stroke="#86f7cf" stroke-opacity=".5"/>
-<text x="600" y="248" text-anchor="middle" font-size="24" font-weight="800">BUILD</text>
-<text x="600" y="271" text-anchor="middle" font-size="10" class="mono muted">END TO END</text>
-<text x="600" y="435" text-anchor="middle" font-size="11" class="mono muted">Interfaces → APIs → data → useful outcomes</text>
+<rect x="1" y="1" width="1398" height="758" rx="18" fill="#080c12" stroke="url(#border)"/>
+<rect x="2" y="2" width="1396" height="756" rx="18" fill="url(#grid)"/>
+<text x="42" y="48" font-size="12" letter-spacing="2.5" class="mono mint">ENGINEERING BLUEPRINT / THREE IMPLEMENTATIONS</text>
+<text x="40" y="96" font-size="34" font-weight="750">From interface to system behavior.</text>
+<text x="42" y="157" font-size="27" font-weight="750">NEXORA</text><text x="42" y="182" font-size="10" letter-spacing="1.5" class="mono" style="fill:#86f7cf">DEVELOPER TOOLING</text>
+<rect x="42" y="217" width="404" height="83" rx="10" fill="#0d141c" stroke="#86f7cf" stroke-opacity=".25"/><path d="M42 232V285" stroke="#86f7cf" stroke-width="2"/>
+<text x="61" y="248" font-size="12" letter-spacing=".8" class="mono" style="fill:#86f7cf">REACT / TYPESCRIPT</text><text x="61" y="275" font-size="13" class="muted">Explore findings and dependency maps</text>
+<path d="M244 300V328" stroke="#86f7cf" stroke-opacity=".5"/><path d="M240 321L244 326L248 321" fill="none" stroke="#86f7cf"/>
+<circle r="2.8" fill="#86f7cf" class="motion"><animateMotion path="M244 300V328" dur="2s" begin="-0.6s" repeatCount="indefinite"/></circle>
+<rect x="42" y="328" width="404" height="83" rx="10" fill="#0d141c" stroke="#86f7cf" stroke-opacity=".25"/><path d="M42 343V396" stroke="#86f7cf" stroke-width="2"/>
+<text x="61" y="359" font-size="12" letter-spacing=".8" class="mono" style="fill:#86f7cf">NODE.JS ANALYSIS API</text><text x="61" y="386" font-size="13" class="muted">Imports, AST metrics, code checks</text>
+<path d="M244 411V439" stroke="#86f7cf" stroke-opacity=".5"/><path d="M240 432L244 437L248 432" fill="none" stroke="#86f7cf"/>
+<circle r="2.8" fill="#86f7cf" class="motion"><animateMotion path="M244 411V439" dur="2s" begin="-1.2s" repeatCount="indefinite"/></circle>
+<rect x="42" y="439" width="404" height="83" rx="10" fill="#0d141c" stroke="#86f7cf" stroke-opacity=".25"/><path d="M42 454V507" stroke="#86f7cf" stroke-width="2"/>
+<text x="61" y="470" font-size="12" letter-spacing=".8" class="mono" style="fill:#86f7cf">GRAPH + ADVISORY SIGNALS</text><text x="61" y="497" font-size="13" class="muted">Relative imports and npm advisories</text>
+<path d="M244 522V550" stroke="#86f7cf" stroke-opacity=".5"/><path d="M240 543L244 548L248 543" fill="none" stroke="#86f7cf"/>
+<circle r="2.8" fill="#86f7cf" class="motion"><animateMotion path="M244 522V550" dur="2s" begin="-1.7999999999999998s" repeatCount="indefinite"/></circle>
+<rect x="42" y="550" width="404" height="83" rx="10" fill="#0d141c" stroke="#86f7cf" stroke-opacity=".25"/><path d="M42 565V618" stroke="#86f7cf" stroke-width="2"/>
+<text x="61" y="581" font-size="12" letter-spacing=".8" class="mono" style="fill:#86f7cf">SAVED SNAPSHOTS</text><text x="61" y="608" font-size="13" class="muted">Historical findings and review exports</text>
+<text x="490" y="157" font-size="27" font-weight="750">TalentOS</text><text x="490" y="182" font-size="10" letter-spacing="1.5" class="mono" style="fill:#b5a0ff">EXPLAINABLE RANKING</text>
+<rect x="490" y="217" width="404" height="83" rx="10" fill="#0d141c" stroke="#b5a0ff" stroke-opacity=".25"/><path d="M490 232V285" stroke="#b5a0ff" stroke-width="2"/>
+<text x="509" y="248" font-size="12" letter-spacing=".8" class="mono" style="fill:#b5a0ff">REACT / TYPESCRIPT</text><text x="509" y="275" font-size="13" class="muted">Roles, candidates, and Resume Lab</text>
+<path d="M692 300V328" stroke="#b5a0ff" stroke-opacity=".5"/><path d="M688 321L692 326L696 321" fill="none" stroke="#b5a0ff"/>
+<circle r="2.8" fill="#b5a0ff" class="motion"><animateMotion path="M692 300V328" dur="2s" begin="-0.6s" repeatCount="indefinite"/></circle>
+<rect x="490" y="328" width="404" height="83" rx="10" fill="#0d141c" stroke="#b5a0ff" stroke-opacity=".25"/><path d="M490 343V396" stroke="#b5a0ff" stroke-width="2"/>
+<text x="509" y="359" font-size="12" letter-spacing=".8" class="mono" style="fill:#b5a0ff">FASTAPI BOUNDARY</text><text x="509" y="386" font-size="13" class="muted">Validated inputs and bounded extraction</text>
+<path d="M692 411V439" stroke="#b5a0ff" stroke-opacity=".5"/><path d="M688 432L692 437L696 432" fill="none" stroke="#b5a0ff"/>
+<circle r="2.8" fill="#b5a0ff" class="motion"><animateMotion path="M692 411V439" dur="2s" begin="-1.2s" repeatCount="indefinite"/></circle>
+<rect x="490" y="439" width="404" height="83" rx="10" fill="#0d141c" stroke="#b5a0ff" stroke-opacity=".25"/><path d="M490 454V507" stroke="#b5a0ff" stroke-width="2"/>
+<text x="509" y="470" font-size="12" letter-spacing=".8" class="mono" style="fill:#b5a0ff">SCIKIT-LEARN</text><text x="509" y="497" font-size="13" class="muted">Pairwise TF-IDF and skill coverage</text>
+<path d="M692 522V550" stroke="#b5a0ff" stroke-opacity=".5"/><path d="M688 543L692 548L696 543" fill="none" stroke="#b5a0ff"/>
+<circle r="2.8" fill="#b5a0ff" class="motion"><animateMotion path="M692 522V550" dur="2s" begin="-1.7999999999999998s" repeatCount="indefinite"/></circle>
+<rect x="490" y="550" width="404" height="83" rx="10" fill="#0d141c" stroke="#b5a0ff" stroke-opacity=".25"/><path d="M490 565V618" stroke="#b5a0ff" stroke-width="2"/>
+<text x="509" y="581" font-size="12" letter-spacing=".8" class="mono" style="fill:#b5a0ff">SQLALCHEMY / POSTGRESQL</text><text x="509" y="608" font-size="13" class="muted">Transactional records and migrations</text>
+<text x="938" y="157" font-size="27" font-weight="750">AegisVault</text><text x="938" y="182" font-size="10" letter-spacing="1.5" class="mono" style="fill:#e8bc85">ENCRYPTION RESEARCH</text>
+<rect x="938" y="217" width="404" height="83" rx="10" fill="#0d141c" stroke="#e8bc85" stroke-opacity=".25"/><path d="M938 232V285" stroke="#e8bc85" stroke-width="2"/>
+<text x="957" y="248" font-size="12" letter-spacing=".8" class="mono" style="fill:#e8bc85">PYTHON SDK / HTTP API</text><text x="957" y="275" font-size="13" class="muted">Explicit document operations</text>
+<path d="M1140 300V328" stroke="#e8bc85" stroke-opacity=".5"/><path d="M1136 321L1140 326L1144 321" fill="none" stroke="#e8bc85"/>
+<circle r="2.8" fill="#e8bc85" class="motion"><animateMotion path="M1140 300V328" dur="2s" begin="-0.6s" repeatCount="indefinite"/></circle>
+<rect x="938" y="328" width="404" height="83" rx="10" fill="#0d141c" stroke="#e8bc85" stroke-opacity=".25"/><path d="M938 343V396" stroke="#e8bc85" stroke-width="2"/>
+<text x="957" y="359" font-size="12" letter-spacing=".8" class="mono" style="fill:#e8bc85">POLICY + MANIFEST</text><text x="957" y="386" font-size="13" class="muted">Tenant, role, purpose, and contracts</text>
+<path d="M1140 411V439" stroke="#e8bc85" stroke-opacity=".5"/><path d="M1136 432L1140 437L1144 432" fill="none" stroke="#e8bc85"/>
+<circle r="2.8" fill="#e8bc85" class="motion"><animateMotion path="M1140 411V439" dur="2s" begin="-1.2s" repeatCount="indefinite"/></circle>
+<rect x="938" y="439" width="404" height="83" rx="10" fill="#0d141c" stroke="#e8bc85" stroke-opacity=".25"/><path d="M938 454V507" stroke="#e8bc85" stroke-width="2"/>
+<text x="957" y="470" font-size="12" letter-spacing=".8" class="mono" style="fill:#e8bc85">ENCRYPTION + SEARCH</text><text x="957" y="497" font-size="13" class="muted">AEAD payloads and scoped HMAC terms</text>
+<path d="M1140 522V550" stroke="#e8bc85" stroke-opacity=".5"/><path d="M1136 543L1140 548L1144 543" fill="none" stroke="#e8bc85"/>
+<circle r="2.8" fill="#e8bc85" class="motion"><animateMotion path="M1140 522V550" dur="2s" begin="-1.7999999999999998s" repeatCount="indefinite"/></circle>
+<rect x="938" y="550" width="404" height="83" rx="10" fill="#0d141c" stroke="#e8bc85" stroke-opacity=".25"/><path d="M938 565V618" stroke="#e8bc85" stroke-width="2"/>
+<text x="957" y="581" font-size="12" letter-spacing=".8" class="mono" style="fill:#e8bc85">DATABASE + AUDIT</text><text x="957" y="608" font-size="13" class="muted">Atomic updates and authenticated events</text>
+<path d="M42 685H1358" stroke="#26383a"/><text x="42" y="716" font-size="12" class="muted">Conceptual request paths from project documentation. Each application has its own scope and deployment model.</text>
 </svg>
