@@ -1,0 +1,44 @@
+name: Refresh profile visuals
+
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_profile.py
+      - .github/workflows/profile-visuals.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'arpitkjaiswal/arpitkjaiswal'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+      - name: Generate artwork from public GitHub data
+        run: python3 scripts/update_profile.py
+      - name: Commit refreshed artwork
+        run: |
+          git add -- assets/
+          if git diff --cached --quiet; then
+            echo "Profile artwork is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh profile graphs"
+          git push origin HEAD:main

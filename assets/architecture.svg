@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Animated project technology map</title><desc id="desc">Interfaces, backend, data, applied AI, security, and delivery connect across Arpit&#x27;s projects.</desc>
+<defs><linearGradient id="border"><stop stop-color="#164e63"/><stop offset="1" stop-color="#4c1d95"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#22d3ee"><animate attributeName="stop-color" values="#22d3ee;#a78bfa;#22d3ee" dur="12s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#a78bfa"><animate attributeName="stop-color" values="#a78bfa;#22d3ee;#a78bfa" dur="12s" repeatCount="indefinite"/></stop></linearGradient></defs>
+<style>text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#e2e8f0}.muted{fill:#94a3b8}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}</style>
+<rect x="1" y="1" width="1198" height="438" rx="20" fill="#080f20" stroke="url(#border)"/>
+<text x="32" y="42" font-size="20" font-weight="700">Different layers. One builder.</text>
+<text x="32" y="66" font-size="12" class="muted">The technologies connected across my public projects</text>
+<path d="M600 246 C350 246 600 122 350 122" stroke="#22d3ee" opacity=".25" stroke-width="1.5" fill="none"/>
+<circle r="3" fill="#22d3ee"><animateMotion path="M600 246 C350 246 600 122 350 122" dur="4s" begin="-0s" repeatCount="indefinite"/></circle>
+<rect x="70" y="86" width="280" height="76" rx="12" fill="#0e1930" stroke="#22d3ee" stroke-opacity=".4"/>
+<text x="90" y="115" font-size="12" font-weight="700" letter-spacing="2" style="fill:#22d3ee">INTERFACES</text>
+<text x="90" y="139" font-size="12" class="muted">React · TypeScript · Vite</text>
+<path d="M600 246 C350 246 600 230 350 230" stroke="#34d399" opacity=".25" stroke-width="1.5" fill="none"/>
+<circle r="3" fill="#34d399"><animateMotion path="M600 246 C350 246 600 230 350 230" dur="5s" begin="-1s" repeatCount="indefinite"/></circle>
+<rect x="70" y="194" width="280" height="76" rx="12" fill="#0e1930" stroke="#34d399" stroke-opacity=".4"/>
+<text x="90" y="223" font-size="12" font-weight="700" letter-spacing="2" style="fill:#34d399">BACKEND</text>
+<text x="90" y="247" font-size="12" class="muted">FastAPI · Node.js · Express</text>
+<path d="M600 246 C350 246 600 338 350 338" stroke="#60a5fa" opacity=".25" stroke-width="1.5" fill="none"/>
+<circle r="3" fill="#60a5fa"><animateMotion path="M600 246 C350 246 600 338 350 338" dur="6s" begin="-2s" repeatCount="indefinite"/></circle>
+<rect x="70" y="302" width="280" height="76" rx="12" fill="#0e1930" stroke="#60a5fa" stroke-opacity=".4"/>
+<text x="90" y="331" font-size="12" font-weight="700" letter-spacing="2" style="fill:#60a5fa">DATA</text>
+<text x="90" y="355" font-size="12" class="muted">PostgreSQL · Redis · SQLite</text>
+<path d="M600 246 C850 246 600 122 850 122" stroke="#a78bfa" opacity=".25" stroke-width="1.5" fill="none"/>
+<circle r="3" fill="#a78bfa"><animateMotion path="M600 246 C850 246 600 122 850 122" dur="4s" begin="-3s" repeatCount="indefinite"/></circle>
+<rect x="850" y="86" width="280" height="76" rx="12" fill="#0e1930" stroke="#a78bfa" stroke-opacity=".4"/>
+<text x="870" y="115" font-size="12" font-weight="700" letter-spacing="2" style="fill:#a78bfa">APPLIED AI</text>
+<text x="870" y="139" font-size="12" class="muted">PyTorch · scikit-learn · MCP</text>
+<path d="M600 246 C850 246 600 230 850 230" stroke="#f472b6" opacity=".25" stroke-width="1.5" fill="none"/>
+<circle r="3" fill="#f472b6"><animateMotion path="M600 246 C850 246 600 230 850 230" dur="5s" begin="-4s" repeatCount="indefinite"/></circle>
+<rect x="850" y="194" width="280" height="76" rx="12" fill="#0e1930" stroke="#f472b6" stroke-opacity=".4"/>
+<text x="870" y="223" font-size="12" font-weight="700" letter-spacing="2" style="fill:#f472b6">SECURITY</text>
+<text x="870" y="247" font-size="12" class="muted">Encryption · policy · audit</text>
+<path d="M600 246 C850 246 600 338 850 338" stroke="#fbbf24" opacity=".25" stroke-width="1.5" fill="none"/>
+<circle r="3" fill="#fbbf24"><animateMotion path="M600 246 C850 246 600 338 850 338" dur="6s" begin="-5s" repeatCount="indefinite"/></circle>
+<rect x="850" y="302" width="280" height="76" rx="12" fill="#0e1930" stroke="#fbbf24" stroke-opacity=".4"/>
+<text x="870" y="331" font-size="12" font-weight="700" letter-spacing="2" style="fill:#fbbf24">DELIVERY</text>
+<text x="870" y="355" font-size="12" class="muted">Docker · pytest · Playwright</text>
+<circle cx="600" cy="246" r="70" fill="#0e1930" stroke="url(#accent)" stroke-width="2"/>
+<circle cx="600" cy="246" r="84" fill="none" stroke="#a78bfa" opacity=".4" stroke-dasharray="8 18"><animateTransform attributeName="transform" type="rotate" from="360 600 246" to="0 600 246" dur="35s" repeatCount="indefinite"/></circle>
+<text x="600" y="241" text-anchor="middle" font-size="22" font-weight="800">BUILD.</text>
+<text x="600" y="264" text-anchor="middle" font-size="11" class="muted mono">CONNECT. ITERATE.</text>
+<text x="600" y="412" text-anchor="middle" font-size="11" class="muted">Interfaces to intelligence. Data to delivery.</text>
+</svg>

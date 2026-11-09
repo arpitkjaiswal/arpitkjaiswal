@@ -1,135 +1,193 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:312e81,100:06b6d4&height=240&section=header&text=Arpit%20Kumar%20Jaiswal&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Build%20with%20curiosity.%20Ship%20with%20purpose.&descAlignY=60&descSize=18" alt="Arpit Kumar Jaiswal — Build with curiosity. Ship with purpose." />
+<img src="./assets/header.svg" width="100%" alt="Arpit Kumar Jaiswal — animated constellation banner. Software engineering, applied AI, and backend systems." />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=700&height=65&lines=Hey%2C+I%27m+Arpit.+Welcome+to+my+corner+of+GitHub.;Backend+%26+full-stack+development;DSA%2C+data%2C+and+a+healthy+dose+of+curiosity;Turning+ideas+into+things+you+can+use." alt="Animated introduction: backend and full-stack development, DSA, data, and curiosity" /></a>
+<a href="https://github.com/arpitkjaiswal?tab=repositories"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2600&pause=1000&color=22D3EE&center=true&vCenter=true&width=850&height=60&lines=Full-stack+interfaces.+Backend+systems.+Applied+AI.;Python+%2B+TypeScript+%2B+a+lot+of+curiosity.;From+encrypted+vaults+to+AI+voice+companions.;Build.+Test.+Debug.+Learn.+Repeat." alt="Animated introduction: Full-stack interfaces. Backend systems. Applied AI. Build, test, debug, learn, repeat." /></a>
 
-**B.Tech · Information Technology · MIT Manipal**<br />
-Building useful software. Learning how things work. Getting better with every iteration.
+**Hey, I’m Arpit 👋 — I turn curiosity into working software.**
 
-<a href="https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302"><img src="https://img.shields.io/badge/LET'S_CONNECT-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
-<a href="mailto:arpit.kr.jaiswal@gmail.com"><img src="https://img.shields.io/badge/SAY_HELLO-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Arpit" /></a>
-<a href="https://github.com/arpitkjaiswal?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-My_Repositories-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Explore my repositories" /></a>
+B.Tech · Information Technology · **MIT Manipal**
 
-<br /><br />
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="460" alt="Animated illustration of a developer working at a computer" />
+<a href="https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302"><img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+<a href="mailto:arpit.kr.jaiswal@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Arpit" /></a>
+<a href="https://github.com/arpitkjaiswal?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore_my_work-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Explore my repositories" /></a>
+
+[About me](#-the-person-behind-the-code) · [Tech stack](#-the-toolbox-behind-my-projects) · [Projects](#-things-ive-been-building) · [Graphs](#-the-building-in-public-dashboard)
 
 </div>
 
-## ⚡ The person behind the commits
+<img src="./assets/divider.svg" width="100%" alt="Animated cyan and violet divider" />
 
-I’m **Arpit**, a developer from **MIT Manipal** who enjoys taking an idea from “what if?” to a working product. My focus is **backend and full-stack development**: connecting interfaces, APIs, and data into software that feels useful and makes sense under the hood.
+## ⚡ The person behind the code
 
-- 🛠️ **I like building:** web applications, backend systems, and hackathon prototypes.
-- 🧩 **I’m sharpening:** data structures, algorithms, and competitive programming skills.
-- 📊 **I’m exploring:** data analysis and visualization to ask better questions of data.
-- 🤖 **I work with:** AI-assisted development tools, alongside hands-on debugging and problem solving.
-- 🤝 **I’m open to:** collaboration, hackathons, and interesting engineering problems.
-- 🚀 **What keeps me going:** learning something, building with it, and making the next version better.
+I’m a developer who likes understanding the **whole system**: the interface someone uses, the API behind it, the data it depends on, and the tradeoffs that hold everything together.
 
-> Good software starts with curiosity—and gets better through iteration.
+My repositories span **developer tools, AI-assisted workflows, document search, voice companions, full-stack applications, and encryption research prototypes**. I enjoy building across those boundaries—and learning what makes each layer work.
 
-## 🧰 My development toolbox
+- 🧠 **Currently drawn to:** applied AI, backend architecture, and tools that help people work better.
+- 🛠️ **My usual starting point:** Python or TypeScript, a clear problem, and a small working version.
+- 🔐 **A recurring theme:** access control, data boundaries, explainability, and useful failure states.
+- 🧩 **Always practicing:** data structures, algorithms, and turning big problems into smaller ones.
+- 📊 **Beyond web apps:** data analysis, visualization, and machine learning experiments.
+- 🤝 **Count me in for:** hackathons, thoughtful collaborations, and ambitious ideas with room to learn.
+
+> **Understand the problem. Build the smallest useful thing. Make the next version better.**
+
+<img src="./assets/architecture.svg" width="100%" alt="Animated map connecting React interfaces, FastAPI backends, databases, applied AI, security, and delivery tools across my projects" />
+
+## 🧰 The toolbox behind my projects
+
+Technologies found in my public project manifests and documentation, alongside my core programming foundations.
 
 <div align="center">
 
 ### Languages & foundations
 
-<img src="https://skillicons.dev/icons?i=java,js,c,cpp,html,css&theme=dark&perline=6" alt="Java, JavaScript, C, C++, HTML, and CSS" />
+<img src="https://skillicons.dev/icons?i=python,ts,js,java,c,cpp,html,css&theme=dark&perline=8" alt="Python, TypeScript, JavaScript, Java, C, C++, HTML, CSS" />
 
-### Web & application development
+### Interfaces & APIs
 
-<img src="https://skillicons.dev/icons?i=react,nodejs,express&theme=dark&perline=6" alt="React, Node.js, and Express" />
-
-### Databases & data
-
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,firebase&theme=dark&perline=6" alt="MongoDB, PostgreSQL, and Firebase" />
+<img src="https://skillicons.dev/icons?i=react,vite,nodejs,express,fastapi&theme=dark&perline=8" alt="React, Vite, Node.js, Express, FastAPI" />
 
 <br /><br />
-<img src="https://img.shields.io/badge/SQL-Database_Queries-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+<img src="https://img.shields.io/badge/Pydantic-Validation-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
+<img src="https://img.shields.io/badge/REST-APIs-22D3EE?style=for-the-badge" alt="REST APIs" />
+<img src="https://img.shields.io/badge/MCP-Tool_Interfaces-8B5CF6?style=for-the-badge" alt="Model Context Protocol" />
+
+### Databases, storage & search
+
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,sqlite&theme=dark&perline=8" alt="PostgreSQL, MongoDB, Redis, SQLite" />
+
+<br /><br />
+<img src="https://img.shields.io/badge/SQLAlchemy-D50813?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
+<img src="https://img.shields.io/badge/Alembic-Migrations-4B8BBE?style=for-the-badge" alt="Alembic database migrations" />
+<img src="https://img.shields.io/badge/SQL-Queries_%26_Schemas-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL queries and schemas" />
+
+### Machine learning & data
+
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark" alt="PyTorch and scikit-learn" />
+
+<br /><br />
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" />
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib" />
 <img src="https://img.shields.io/badge/Seaborn-4EAEAA?style=for-the-badge" alt="Seaborn" />
 
-### Version control & AI-assisted workflow
+<br />
+<img src="https://img.shields.io/badge/Whisper-Speech_to_Text-14B8A6?style=for-the-badge" alt="Whisper speech recognition in LEXA" />
+<img src="https://img.shields.io/badge/OpenAI-API-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI API integrations" />
+<img src="https://img.shields.io/badge/Anthropic-Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic Claude integration in LEXA" />
+<img src="https://img.shields.io/badge/Ollama-Local_Models-181818?style=for-the-badge&logo=ollama&logoColor=white" alt="Optional local Ollama integration in LEXA" />
 
-<img src="https://skillicons.dev/icons?i=git,github&theme=dark" alt="Git and GitHub" />
+### Testing, delivery & developer tools
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux&theme=dark&perline=8" alt="Docker, Git, GitHub, GitHub Actions, Linux" />
 
 <br /><br />
-<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" />
-<img src="https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
-<img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
-<img src="https://img.shields.io/badge/Cursor-181818?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
-<img src="https://img.shields.io/badge/Verilog-543978?style=for-the-badge" alt="Verilog" />
+<img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest" />
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge" alt="Playwright browser testing" />
+<img src="https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=black" alt="Ruff" />
+<img src="https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge&logo=uv&logoColor=white" alt="uv Python tooling" />
+<img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white" alt="Render deployment configurations" />
 
 </div>
 
-## 🌱 The next layer
+<details>
+<summary><b>🔎 See where the stack shows up</b></summary>
 
-There’s always another layer to understand. These are the areas I’m interested in exploring as I grow my full-stack toolkit:
+<br />
 
-| Direction | Technologies on my radar | What interests me |
-| :--- | :--- | :--- |
-| Typed applications | TypeScript · Next.js | Structuring larger applications and building better developer experiences |
-| Backend architecture | REST APIs · authentication · caching | Designing services that are clear, reliable, and maintainable |
-| Delivery & infrastructure | Docker · GitHub Actions · Linux | Understanding how code moves from a laptop to a running service |
-| Data & performance | Redis · database indexing · query optimization | Finding out what makes an application fast |
-| Quality | Automated testing · API testing · observability | Making changes with confidence and understanding failures |
+| Project | Technologies reflected in its manifests and docs |
+| :--- | :--- |
+| [NEXORA](https://github.com/arpitkjaiswal/NEXORA) | React, TypeScript, Vite, Node.js, Playwright, Docker |
+| [TalentOS](https://github.com/arpitkjaiswal/Candidate-Ranking-System) | React, TypeScript, FastAPI, SQLAlchemy, Alembic, PostgreSQL, scikit-learn |
+| [LeafScan](https://github.com/arpitkjaiswal/CNN) | React, Express, MongoDB, FastAPI, PyTorch, Docker Compose |
+| [AegisVault](https://github.com/arpitkjaiswal/AegisVault) | Python, cryptography, SQLAlchemy, PostgreSQL, FastAPI, pytest, Hypothesis |
+| [LEXA](https://github.com/arpitkjaiswal/LEXA) | Python, PySide6, Whisper, Anthropic/OpenAI clients, optional Ollama |
+| [DevOS](https://github.com/arpitkjaiswal/DevOS-AI-Software-Engineering-Agent) | Python, FastAPI, Pydantic, SQLite, HTTPX, MCP |
+| [URLShortener](https://github.com/arpitkjaiswal/URLShortener) | FastAPI, SQLAlchemy, PostgreSQL, SQLite, optional Redis |
+| [DocumentAnalyser](https://github.com/arpitkjaiswal/DocumentAnalyser) | FastAPI, scikit-learn, NumPy, PDF/DOCX parsing, SQLite |
 
-## 🎯 What I bring to a team
+Some integrations are optional. Individual repositories document implementation scope and setup requirements.
 
-**A builder’s mindset.** I enjoy turning open-ended ideas into something tangible, especially in hackathon settings where the scope has to stay focused.
+</details>
 
-**Curiosity across the stack.** I’m interested in how the interface, server, and database work together—and where each part can improve.
+<img src="./assets/divider.svg" width="100%" alt="Animated cyan and violet divider" />
 
-**A learning-first approach.** I use tools to move faster, ask questions when something is unclear, and treat debugging as part of understanding the system.
+## 🚀 Things I’ve been building
+
+| Engineering & intelligence | Products & experiments |
+| :--- | :--- |
+| **🛰️ [NEXORA](https://github.com/arpitkjaiswal/NEXORA)**<br />An engineering intelligence workspace for repository analysis, dependency maps, code findings, and prioritized reviews.<br /><br />`React` `TypeScript` `Node.js` | **🧠 [TalentOS](https://github.com/arpitkjaiswal/Candidate-Ranking-System)**<br />Resume analysis and explainable candidate ranking, with a recruiter workspace and private Resume Lab.<br /><br />`FastAPI` `React` `scikit-learn` |
+| **🔐 [AegisVault](https://github.com/arpitkjaiswal/AegisVault)**<br />An encryption research prototype with policy-gated document reads, tenant-scoped search, and authenticated audit trails.<br /><br />`Python` `PostgreSQL` `cryptography` | **🌿 [LeafScan](https://github.com/arpitkjaiswal/CNN)**<br />A leaf identification app connecting photo uploads, accounts, scan history, and a PyTorch inference service.<br /><br />`React` `Express` `PyTorch` |
+| **🛠️ [DevOS](https://github.com/arpitkjaiswal/DevOS-AI-Software-Engineering-Agent)**<br />A local, read-only engineering workbench for repository investigations, durable run state, and human review.<br /><br />`FastAPI` `SQLite` `MCP` | **🎙️ [LEXA](https://github.com/arpitkjaiswal/LEXA)**<br />A macOS-first AI desktop companion with voice recognition, chat providers, and allowlisted local skills.<br /><br />`Python` `Whisper` `PySide6` |
+
+**Keep exploring →** [Document search](https://github.com/arpitkjaiswal/DocumentAnalyser) · [Link management](https://github.com/arpitkjaiswal/URLShortener) · [Concord workspace](https://github.com/arpitkjaiswal/Concord) · [Searchable encryption](https://github.com/arpitkjaiswal/veildb) · [LeetCode sync extension](https://github.com/arpitkjaiswal/CommitSync)
+
+## 📊 The building-in-public dashboard
+
+<div align="center">
+
+<img src="./assets/contributions.svg" width="100%" alt="Animated annual contribution heatmap with real GitHub contribution counts and a moving light trail" />
+
+<br /><br />
+<img src="./assets/languages.svg" width="49%" alt="Language distribution across public non-fork repositories, with a rotating accent ring" />
+<img src="./assets/monthly.svg" width="49%" alt="Monthly GitHub contribution bar chart with an animated cyan and violet gradient" />
+
+</div>
 
 <details>
-<summary><b>🧑‍💻 A little more about how I work</b></summary>
+<summary><b>📡 What these graphs measure</b></summary>
+
+<br />
+
+- **Calendar:** the contributions shown on my public GitHub calendar. The moving light is decorative; cell colors and counts come from GitHub.
+- **Monthly rhythm:** contributions grouped into the latest 12 calendar months. The current month is partial.
+- **Language mix:** one GitHub-detected primary language per public non-fork repository. Forks, this profile repository, and repositories without a detected language are excluded. This measures repository counts, not lines of code or proficiency.
+- **Freshness:** a daily [GitHub Actions workflow](./.github/workflows/profile-visuals.yml) refreshes the checked-in artwork. Each graph shows its snapshot date; delays or disabled Actions leave the last successful version visible.
+
+The graphics are stored in this repository. [Data snapshot](./assets/profile-data.json) · [Refresh script](./scripts/update_profile.py) · [Workflow runs](https://github.com/arpitkjaiswal/arpitkjaiswal/actions/workflows/profile-visuals.yml)
+
+</details>
+
+<img src="./assets/divider.svg" width="100%" alt="Animated cyan and violet divider" />
+
+## 🌱 The next iteration
+
+I want to keep getting better at **designing reliable systems**, **evaluating AI features honestly**, **making data useful**, and **shipping interfaces that feel good to use**. Every project is another chance to connect those pieces.
+
+<details>
+<summary><b>🧑‍💻 My development loop</b></summary>
 
 <br />
 
 ```text
-start with an idea
-    ↓
-break it into smaller problems
-    ↓
-build → test → debug → learn
-    ↑                       ↓
-    └──── improve & repeat ─┘
+  understand the problem
+           ↓
+  build a useful first version
+           ↓
+  test → observe → debug
+           ↓
+  learn something → improve it → repeat
 ```
 
-My interests connect **software engineering**, **problem solving**, and **data**. I’m especially excited by projects where I can learn a new concept and immediately put it to work.
+I use AI-assisted tools including Claude, ChatGPT, Gemini, and Cursor to explore ideas and accelerate development, while working through the implementation and its tradeoffs.
 
 </details>
 
-## 📡 Explore my work
+## 🤝 Let’s build something worth opening again
+
+Have an idea, a hackathon team, or a problem that needs a fresh pair of eyes? **Let’s talk.**
 
 <div align="center">
 
-<a href="https://github.com/arpitkjaiswal?tab=repositories"><img src="https://img.shields.io/badge/VIEW_THE_CODE-Explore_Repositories-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="View all of Arpit's repositories" /></a>
-<a href="https://github.com/arpitkjaiswal?tab=stars"><img src="https://img.shields.io/badge/WHAT_CAUGHT_MY_EYE-Starred_Projects-A78BFA?style=for-the-badge&logo=github&logoColor=white" alt="Explore Arpit's starred projects" /></a>
+[**Connect on LinkedIn ↗**](https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302) · [**Send an email ↗**](mailto:arpit.kr.jaiswal@gmail.com) · [**Explore my repositories ↗**](https://github.com/arpitkjaiswal?tab=repositories)
 
-<br /><br />
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=arpitkjaiswal&bg_color=020617&color=22d3ee&line=818cf8&point=ffffff&area=true&hide_border=true" alt="Arpit's recent public GitHub contribution activity" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2800&pause=1400&color=A78BFA&center=true&vCenter=true&width=700&height=70&lines=Thanks+for+visiting+my+little+corner+of+the+internet.;Keep+learning.+Keep+building.+Keep+going." alt="Animated closing: Thanks for visiting. Keep learning. Keep building. Keep going." />
 
-</div>
+**Made with curiosity, a terminal, and one more iteration.**
 
-## 🤝 Let’s build something interesting
-
-Have a project idea, a hackathon team, or a problem worth solving? **I’d love to hear about it.**
-
-<div align="center">
-
-[**Connect on LinkedIn ↗**](https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302) · [**Send me an email ↗**](mailto:arpit.kr.jaiswal@gmail.com)
-
-<br />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1600&color=A78BFA&center=true&vCenter=true&width=600&lines=Thanks+for+stopping+by.;Keep+learning.+Keep+building.+Keep+going." alt="Animated closing: Thanks for stopping by. Keep learning. Keep building. Keep going." />
-
-<br />
-<img src="https://komarev.com/ghpvc/?username=arpitkjaiswal&color=7c3aed&style=flat-square&label=PROFILE+VIEWS" alt="Profile view counter" />
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:312e81,100:020617&height=120&section=footer" alt="Decorative gradient wave footer" />
+<img src="./assets/divider.svg" width="100%" alt="Animated cyan and violet footer" />
 
 </div>
