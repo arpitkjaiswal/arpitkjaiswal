@@ -114,6 +114,16 @@ These tools reflect project manifests, documentation, and my stated foundations.
 
 ## 04 / Building in public
 
+### The GitHub Work Atlas
+
+A connected map of my public non-fork repositories: project areas on the outside, documented tools in the middle, and primary languages at the core.
+
+<a href="https://raw.githubusercontent.com/arpitkjaiswal/arpitkjaiswal/main/assets/work-atlas.svg"><img src="./assets/work-atlas.svg" width="100%" alt="Animated GitHub Work Atlas connecting public non-fork project repositories to their primary languages and documented tools, grouped by project area" /></a>
+
+[**Open the full-size graph**](https://raw.githubusercontent.com/arpitkjaiswal/arpitkjaiswal/main/assets/work-atlas.svg) · [Download the interactive explorer](https://raw.githubusercontent.com/arpitkjaiswal/arpitkjaiswal/main/assets/work-atlas.html) · [Graph data](./assets/work-atlas-data.json)
+
+Save the explorer HTML file and open it in a browser to **search, filter, pan, zoom, and inspect each connection**. It works offline; GitHub displays the animated image here.
+
 <div align="center">
 
 <img src="./assets/contributions.svg" width="100%" alt="Public GitHub contribution calendar with an animated light trail; each cell uses real GitHub contribution data" />
@@ -132,6 +142,7 @@ These tools reflect project manifests, documentation, and my stated foundations.
 - **Calendar:** contributions displayed on my public GitHub calendar. The moving light is decorative.
 - **Monthly chart:** contributions grouped into the latest 12 calendar months; the current month is partial.
 - **Languages:** one GitHub-detected primary language per public non-fork repository. This profile and repositories without a detected language are excluded. Counts describe repositories, not lines of code or proficiency.
+- **Work atlas:** includes every public non-fork project repository, including those without a detected language. Project areas are curated; tool links come from reviewed manifests and READMEs. Links describe primary languages or documented tool use, not dependencies between repositories. Motion is decorative.
 - **Updates:** the daily workflow refreshes the checked-in graphics. Snapshot dates appear on each graph; the last successful version stays visible if a refresh is delayed.
 
 [Data snapshot](./assets/profile-data.json) · [Refresh script](./scripts/update_profile.py) · [Workflow runs](https://github.com/arpitkjaiswal/arpitkjaiswal/actions/workflows/profile-visuals.yml)
