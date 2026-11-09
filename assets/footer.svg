@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
 <title id="title">Let&#x27;s build something worth using</title><desc id="desc">Open to software engineering opportunities and collaborations. Contact links follow this artwork.</desc>
 <defs>
-<linearGradient id="border"><stop stop-color="#28433f"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
-<linearGradient id="accent"><stop stop-color="#86f7cf"><animate attributeName="stop-color" values="#86f7cf;#b5a0ff;#86f7cf" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
-<radialGradient id="halo"><stop stop-color="#86f7cf" stop-opacity=".13"/><stop offset="1" stop-color="#86f7cf" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#86f7cf" stroke-opacity=".045"/></pattern>
+<linearGradient id="border"><stop stop-color="#174464"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#78dcff"><animate attributeName="stop-color" values="#78dcff;#b5a0ff;#78dcff" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#78dcff" stop-opacity=".18"/><stop offset="1" stop-color="#78dcff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#78dcff" stroke-opacity=".045"/></pattern>
 </defs>
 <style>
 text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
 .muted{fill:#99a8ba}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
-.mint{fill:#86f7cf}.violet{fill:#b5a0ff}
+.mint{fill:#78dcff}.violet{fill:#b5a0ff}
 .static-only{display:none}
 @media(prefers-reduced-motion:reduce){.motion{display:none}.static-only{display:inline}}
 </style>
-<rect x="1" y="1" width="1198" height="218" rx="18" fill="#080c12" stroke="url(#border)"/>
+<rect x="1" y="1" width="1198" height="218" rx="18" fill="#070d18" stroke="url(#border)"/>
 
 <rect x="2" y="2" width="1196" height="216" rx="18" fill="url(#grid)"/>
 <text x="48" y="52" font-size="12" letter-spacing="2" class="mono mint">NEXT / A CONVERSATION</text>

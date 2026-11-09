@@ -1,52 +1,40 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Arpit Kumar Jaiswal — software developer. Backend systems, applied AI, and thoughtful interfaces. B.Tech Information Technology, MIT Manipal. Open to software engineering opportunities." />
+<img src="./assets/header.svg" width="100%" alt="Arpit Kumar Jaiswal — software developer. Animated 3D engineering portfolio. Backend systems, developer tools, and applied AI. B.Tech Information Technology, MIT Manipal." />
 
-**Software developer · Backend systems · Developer tools · Applied AI**
-
-**[Email](mailto:arpit.kr.jaiswal@gmail.com)** &nbsp; / &nbsp; **[LinkedIn](https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302)** &nbsp; / &nbsp; **[Repositories](https://github.com/arpitkjaiswal?tab=repositories)**
-
-[Selected work](#01--selected-engineering-work) · [Engineering notes](./docs/engineering-notes.md) · [Architecture](#02--how-i-think-about-engineering) · [Technology](#03--technology-in-context) · [GitHub atlas](#04--building-in-public) · [Contact](#05--lets-talk)
+**[Selected work](#selected-work)** &nbsp; / &nbsp; **[Engineering](#engineering)** &nbsp; / &nbsp; **[Toolbox](#toolbox)** &nbsp; / &nbsp; **[GitHub atlas](#github-work-atlas)** &nbsp; / &nbsp; **[Contact](#contact)**
 
 </div>
 
-I’m **Arpit Kumar Jaiswal**, a developer from **MIT Manipal** with a background in **Information Technology**. I work across **Python and TypeScript**, building applications that connect useful interfaces, explicit API contracts, and durable data workflows.
+I’m **Arpit Kumar Jaiswal**, a developer from **MIT Manipal**. I build with **Python and TypeScript**, working across backend systems, developer tools, and applied AI. My projects focus on making complicated systems easier to understand, use, and verify.
 
-My work spans **repository analysis**, **explainable ranking**, and **policy-aware encrypted storage**. I care about making system behavior inspectable and connecting implementation choices to evidence.
+**[Email](mailto:arpit.kr.jaiswal@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302)** · **[Engineering walkthroughs](./docs/engineering-notes.md)**
 
-**[Read the engineering walkthroughs](./docs/engineering-notes.md)** · **[Explore the repository network](#04--building-in-public)**
+## Selected work
 
-<img src="./assets/divider.svg" width="100%" alt="Animated mint signal divider" />
+<div align="center">
 
-## 01 / Selected engineering work
+<a href="https://github.com/arpitkjaiswal/NEXORA"><img src="./assets/project-nexora.svg" width="32%" alt="NEXORA: repository analysis and developer tooling, built with React, TypeScript, and Node.js. Open the source repository." /></a>
+<a href="https://github.com/arpitkjaiswal/Candidate-Ranking-System"><img src="./assets/project-talentos.svg" width="32%" alt="TalentOS: explainable candidate ranking with React, FastAPI, and scikit-learn. Open the source repository." /></a>
+<a href="https://github.com/arpitkjaiswal/AegisVault"><img src="./assets/project-aegisvault.svg" width="32%" alt="AegisVault: policy-aware encryption research using Python and PostgreSQL. Open the source repository." /></a>
 
-Three implementations, each with a different engineering problem. Follow the source, design decisions, and recorded verification for a closer look.
+</div>
 
-<a href="https://github.com/arpitkjaiswal/NEXORA"><img src="./assets/project-nexora.svg" width="100%" alt="NEXORA — developer tooling. Repository analysis and prioritized engineering reviews with React, TypeScript, and Node.js." /></a>
+### NEXORA
 
-### NEXORA — source analysis that leads somewhere useful
+**Make a codebase easier to navigate.** A repository analysis workspace connecting import graphs, AST-based metrics, code findings, npm advisories, and saved review snapshots.
 
-A repository analysis workspace that connects dependency maps, code findings, historical snapshots, and prioritized engineering reviews.
+**Engineering to inspect:** relative-import resolution, signed webhook delivery deduplication, and a rules-based review path with an optional AI adapter.
 
-- **Built with:** React, TypeScript, Node.js, Vite, Docker, and Playwright.
-- **Technical depth:** relative-import resolution, AST-based metrics, npm advisory checks, durable snapshots, and signed webhook ingestion with delivery deduplication.
-- **Design choice:** a rules-based review path works without AI credentials; optional provider reviews have a documented metadata boundary.
+[Source](https://github.com/arpitkjaiswal/NEXORA) · [Design decisions](./docs/engineering-notes.md#nexora--turn-source-analysis-into-something-a-developer-can-use) · [Build & verification](https://github.com/arpitkjaiswal/NEXORA#validation)
 
-[**Source**](https://github.com/arpitkjaiswal/NEXORA) · [**Engineering walkthrough**](./docs/engineering-notes.md#nexora--turn-source-analysis-into-something-a-developer-can-use) · [Build & verification](https://github.com/arpitkjaiswal/NEXORA#validation)
+### TalentOS
 
-<br />
+**Show the evidence behind a ranking.** A React/FastAPI candidate workspace with explainable lexical and skill scoring, excerpts, skill gaps, and a private Resume Lab.
 
-<a href="https://github.com/arpitkjaiswal/Candidate-Ranking-System"><img src="./assets/project-talentos.svg" width="100%" alt="TalentOS — applied machine learning. Explainable candidate ranking using FastAPI, React, and scikit-learn." /></a>
+**Engineering to inspect:** bounded extraction workers, independent resume/JD scoring, transactional uploads, and stale-write protection.
 
-### TalentOS — evidence behind the ranking
-
-A candidate intelligence workspace that turns resumes and role requirements into explainable scores, excerpts, skill gaps, and reviewable workflow state.
-
-- **Built with:** React, TypeScript, FastAPI, scikit-learn, SQLAlchemy, Alembic, and PostgreSQL/SQLite.
-- **Technical depth:** bounded extraction subprocesses, independent resume/JD scoring, transactional batch uploads, optimistic versions, and stale-write protection.
-- **Design choice:** an explicit lexical/skill model keeps results inspectable. The private Resume Lab processes a resume without persisting its profile.
-
-[**Source**](https://github.com/arpitkjaiswal/Candidate-Ranking-System) · [**Engineering walkthrough**](./docs/engineering-notes.md#talentos--make-a-ranking-explainable-and-reviewable) · [Architecture](https://github.com/arpitkjaiswal/Candidate-Ranking-System/blob/HEAD/docs/ARCHITECTURE.md) · [Recorded verification](https://github.com/arpitkjaiswal/Candidate-Ranking-System/blob/HEAD/docs/VALIDATION.md)
+[Source](https://github.com/arpitkjaiswal/Candidate-Ranking-System) · [Design decisions](./docs/engineering-notes.md#talentos--make-a-ranking-explainable-and-reviewable) · [Recorded verification](https://github.com/arpitkjaiswal/Candidate-Ranking-System/blob/HEAD/docs/VALIDATION.md)
 
 <details>
 <summary><b>Product preview — recruiter workspace with synthetic demonstration data</b></summary>
@@ -59,21 +47,13 @@ Original screenshot from the [project documentation](https://github.com/arpitkja
 
 </details>
 
-<br />
+### AegisVault
 
-<a href="https://github.com/arpitkjaiswal/AegisVault"><img src="./assets/project-aegisvault.svg" width="100%" alt="AegisVault — security research prototype. Policy-aware encrypted document reads and authenticated audit trails with Python and PostgreSQL." /></a>
+**Make data boundaries explicit.** A Python SDK and HTTP API for policy-gated encrypted records, tenant-scoped exact search, and authenticated audit chains.
 
-### AegisVault — explicit policy, encryption, and audit semantics
+**Engineering to inspect:** manifest-bound interpretation, atomic record/search-term updates, optimistic revisions, and plaintext release after read-audit commit. Research prototype; not independently security-audited.
 
-An encryption research prototype that connects policy-gated document operations, tenant-scoped exact search, and authenticated audit chains.
-
-- **Built with:** Python, FastAPI, cryptography, SQLAlchemy, PostgreSQL, pytest, and Hypothesis.
-- **Technical depth:** manifest-bound interpretation, authenticated encryption, transactional record/term updates, optimistic revisions, and serialized audit-head updates.
-- **Design choice:** plaintext release depends on the read-audit transaction committing. Search leakage and key-custody responsibilities are part of the documented boundary.
-
-**Scope:** research prototype; not independently security-audited.
-
-[**Source**](https://github.com/arpitkjaiswal/AegisVault) · [**Engineering walkthrough**](./docs/engineering-notes.md#aegisvault--make-the-data-boundary-explicit) · [Security boundaries](https://github.com/arpitkjaiswal/AegisVault/blob/HEAD/docs/security.md) · [Recorded verification](https://github.com/arpitkjaiswal/AegisVault/blob/HEAD/docs/status.md)
+[Source](https://github.com/arpitkjaiswal/AegisVault) · [Design decisions](./docs/engineering-notes.md#aegisvault--make-the-data-boundary-explicit) · [Security boundaries](https://github.com/arpitkjaiswal/AegisVault/blob/HEAD/docs/security.md) · [Recorded verification](https://github.com/arpitkjaiswal/AegisVault/blob/HEAD/docs/status.md)
 
 <details>
 <summary><b>More work: voice interfaces, computer vision, document search, and developer tools</b></summary>
@@ -93,27 +73,19 @@ An encryption research prototype that connects policy-gated document operations,
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" alt="Animated mint signal divider" />
+<img src="./assets/divider.svg" width="100%" alt="Animated signal divider" />
 
-## 02 / How I think about engineering
+## Engineering
 
-I like working through the whole path from an interface to the system behavior behind it: the contract, the state transition, the failure mode, and the evidence that a change works.
+I care about the behavior behind the interface: **clear contracts, consistent state changes, inspectable results, and useful failure states**. These three projects apply those ideas in different ways.
 
-| Principle | Concrete example |
-| :--- | :--- |
-| **Make outputs inspectable.** | Navigate a source finding in NEXORA; inspect terms, excerpts, and score components in TalentOS. |
-| **Make state changes explicit.** | Transactional uploads and stale-write protection in TalentOS; record, search-term, and audit updates in AegisVault. |
-| **Treat boundaries as design decisions.** | Bounded extraction workers, provider data boundaries, tenant/purpose policy, and documented deployment scope. |
-| **Connect implementation to verification.** | API tests, browser flows, database checks, and reproducible commands in the project documentation. |
+<img src="./assets/architecture.svg" width="100%" alt="Three application blueprints: NEXORA source analysis, TalentOS bounded extraction and explainable ranking, and AegisVault policy, encryption, transactional storage, and audit" />
 
-<img src="./assets/architecture.svg" width="100%" alt="Architecture blueprint showing three separate documented application flows: NEXORA repository analysis, TalentOS bounded extraction and ranking, and AegisVault policy, encryption, storage, and audit" />
+The [engineering walkthroughs](./docs/engineering-notes.md) connect each implementation to its design choices, tradeoffs, source revisions, and recorded verification.
 
-[**Read the design decisions and tradeoffs**](./docs/engineering-notes.md)
+## Toolbox
 
-
-## 03 / Technology in context
-
-My main tools are **Python and TypeScript**. I use the surrounding stack where it fits the problem, and keep the implementation scope visible in each repository.
+**Python and TypeScript** are my main tools. The rest of the stack comes from the applications linked here.
 
 <img src="./assets/stack.svg" width="100%" alt="Technology index: Python, TypeScript, JavaScript, Java, C, C++, SQL; React, Vite, Node.js, Express, FastAPI, Pydantic, MCP; PostgreSQL, SQLAlchemy, Alembic, MongoDB, Redis, SQLite; PyTorch, scikit-learn, Whisper, NumPy, Pandas, SciPy; Docker, GitHub Actions, Linux, pytest, Playwright, Ruff, uv; optional OpenAI, Anthropic, and Ollama integrations." />
 
@@ -136,9 +108,7 @@ These tools reflect project manifests, documentation, and my stated foundations.
 
 </details>
 
-## 04 / Building in public
-
-### The GitHub Work Atlas
+## GitHub work atlas
 
 A connected map of my public non-fork repositories: project areas on the outside, documented tools in the middle, and primary languages at the core.
 
@@ -154,7 +124,7 @@ Save the explorer HTML file and open it in a browser to **search, filter, pan, z
 
 <br /><br />
 <img src="./assets/languages.svg" width="49%" alt="Primary-language distribution across public non-fork repositories, with a decorative orbital accent" />
-<img src="./assets/monthly.svg" width="49%" alt="Monthly GitHub contribution counts with an animated mint and violet gradient" />
+<img src="./assets/monthly.svg" width="49%" alt="Monthly GitHub contribution counts with an animated cyan and violet gradient" />
 
 </div>
 
@@ -173,12 +143,12 @@ Save the explorer HTML file and open it in a browser to **search, filter, pan, z
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" alt="Animated mint signal divider" />
+<img src="./assets/divider.svg" width="100%" alt="Animated signal divider" />
 
-## 05 / Let’s talk
+## Contact
 
 <img src="./assets/footer.svg" width="100%" alt="Let's build something worth using. Open to software engineering opportunities and collaborations." />
 
-**Open to software engineering opportunities, internships, and collaborations.** I’m interested in teams building developer tools, backend systems, and useful AI applications. I’d be glad to walk through the code, explain a design decision, or discuss a problem your team is working on.
+Open to **software engineering roles, internships, and collaborations**, especially around developer tools, backend systems, and useful AI applications.
 
 **[Email me](mailto:arpit.kr.jaiswal@gmail.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302)** · **[Browse the code](https://github.com/arpitkjaiswal?tab=repositories)**

@@ -1,27 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
-<title id="title">TalentOS — applied machine learning</title><desc id="desc">Candidate ranking you can inspect and explain. Decorative project illustration.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="350" viewBox="0 0 450 350" role="img" aria-labelledby="title desc">
+<title id="title">TalentOS — explainable ml</title><desc id="desc">Rank with evidence. Keep the reasoning visible. Decorative project illustration.</desc>
 <defs>
-<linearGradient id="border"><stop stop-color="#28433f"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
-<linearGradient id="accent"><stop stop-color="#86f7cf"><animate attributeName="stop-color" values="#86f7cf;#b5a0ff;#86f7cf" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
-<radialGradient id="halo"><stop stop-color="#86f7cf" stop-opacity=".13"/><stop offset="1" stop-color="#86f7cf" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#86f7cf" stroke-opacity=".045"/></pattern>
+<linearGradient id="border"><stop stop-color="#174464"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#78dcff"><animate attributeName="stop-color" values="#78dcff;#b5a0ff;#78dcff" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#78dcff" stop-opacity=".18"/><stop offset="1" stop-color="#78dcff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#78dcff" stroke-opacity=".045"/></pattern>
 </defs>
 <style>
 text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
 .muted{fill:#99a8ba}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
-.mint{fill:#86f7cf}.violet{fill:#b5a0ff}
+.mint{fill:#78dcff}.violet{fill:#b5a0ff}
 .static-only{display:none}
 @media(prefers-reduced-motion:reduce){.motion{display:none}.static-only{display:inline}}
 </style>
-<rect x="1" y="1" width="1198" height="288" rx="18" fill="#080c12" stroke="url(#border)"/>
+<rect x="1" y="1" width="448" height="348" rx="18" fill="#070d18" stroke="url(#border)"/>
 
-<rect x="2" y="2" width="1196" height="286" rx="18" fill="url(#grid)"/>
-<path d="M28 42V28H64M1136 262H1172V226" stroke="#b5a0ff" stroke-opacity=".5" fill="none"/>
-<text x="50" y="60" font-size="12" letter-spacing="2" class="mono" style="fill:#b5a0ff">02 / APPLIED MACHINE LEARNING</text>
-<text x="46" y="141" font-size="70" font-weight="800" letter-spacing="-2">TalentOS</text>
-<text x="50" y="184" font-size="19" class="muted">Candidate ranking you can inspect and explain.</text>
-<text x="50" y="239" font-size="12" letter-spacing="1" class="mono" style="fill:#b5a0ff">FASTAPI / REACT / SCIKIT-LEARN</text>
-<path d="M760 40V250" stroke="#243039"/>
-<rect x="825" y="70" width="285" height="43" rx="9" fill="#131122" stroke="#39304e"/><circle cx="849" cy="91" r="9" fill="#b5a0ff" opacity=".6"/><path d="M874 86H1010M874 97H978" stroke="#b5a0ff" opacity=".4"/><circle cx="1084" cy="91" r="4" fill="#b5a0ff" class="motion"><animate attributeName="opacity" values=".25;1;.25" dur="4s" begin="-0s" repeatCount="indefinite"/></circle><rect x="825" y="132" width="285" height="43" rx="9" fill="#131122" stroke="#39304e"/><circle cx="849" cy="153" r="9" fill="#b5a0ff" opacity=".6"/><path d="M874 148H1010M874 159H978" stroke="#b5a0ff" opacity=".4"/><circle cx="1084" cy="153" r="4" fill="#b5a0ff" class="motion"><animate attributeName="opacity" values=".25;1;.25" dur="4s" begin="-1s" repeatCount="indefinite"/></circle><rect x="825" y="194" width="285" height="43" rx="9" fill="#131122" stroke="#39304e"/><circle cx="849" cy="215" r="9" fill="#b5a0ff" opacity=".6"/><path d="M874 210H1010M874 221H978" stroke="#b5a0ff" opacity=".4"/><circle cx="1084" cy="215" r="4" fill="#b5a0ff" class="motion"><animate attributeName="opacity" values=".25;1;.25" dur="4s" begin="-2s" repeatCount="indefinite"/></circle><path d="M812 48H1124V251H812Z" fill="none" stroke="#b5a0ff" stroke-opacity=".12"/>
+<rect x="2" y="2" width="446" height="346" rx="18" fill="url(#grid)"/>
+<path d="M20 45V20H45M403 330H428V305" stroke="#b5a0ff" stroke-opacity=".5" fill="none"/>
+<text x="27" y="43" font-size="11" letter-spacing="1.2" class="mono" style="fill:#b5a0ff">02 / EXPLAINABLE ML</text>
+<text x="24" y="101" font-size="47" font-weight="800" letter-spacing="-1.5">TalentOS</text>
+<text x="27" y="132" font-size="15">Rank with evidence.</text>
+<text x="27" y="155" font-size="14" class="muted">Keep the reasoning visible.</text>
+<path d="M27 292H421" stroke="#b5a0ff" stroke-opacity=".2"/>
+<text x="27" y="321" font-size="10.5" class="mono" style="fill:#b5a0ff">FASTAPI / REACT / SCIKIT-LEARN</text>
+<rect x="27" y="191" width="113" height="70" rx="9" fill="#141329" stroke="#b5a0ff" stroke-opacity=".35"/><text x="83" y="219" text-anchor="middle" font-size="10" class="mono violet">RESUME</text><path d="M49 234H118M49 245H102" stroke="#b5a0ff" stroke-opacity=".35"/><path d="M140 226H162" stroke="#b5a0ff" stroke-opacity=".5"/><circle r="2.4" fill="#b5a0ff" class="motion"><animateMotion path="M140 226H162" dur="2.7s" begin="-0s" repeatCount="indefinite"/></circle><rect x="162" y="191" width="113" height="70" rx="9" fill="#141329" stroke="#b5a0ff" stroke-opacity=".35"/><text x="218" y="219" text-anchor="middle" font-size="10" class="mono violet">MODEL</text><path d="M184 234H253M184 245H237" stroke="#b5a0ff" stroke-opacity=".35"/><path d="M275 226H297" stroke="#b5a0ff" stroke-opacity=".5"/><circle r="2.4" fill="#b5a0ff" class="motion"><animateMotion path="M275 226H297" dur="2.7s" begin="-1s" repeatCount="indefinite"/></circle><rect x="297" y="191" width="113" height="70" rx="9" fill="#141329" stroke="#b5a0ff" stroke-opacity=".35"/><text x="353" y="219" text-anchor="middle" font-size="10" class="mono violet">EVIDENCE</text><path d="M319 234H388M319 245H372" stroke="#b5a0ff" stroke-opacity=".35"/>
 
 </svg>

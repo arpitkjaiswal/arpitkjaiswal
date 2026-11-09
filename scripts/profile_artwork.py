@@ -9,19 +9,19 @@ def svg(width, height, title, description, content):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
 <title id="title">{escape(title)}</title><desc id="desc">{escape(description)}</desc>
 <defs>
-<linearGradient id="border"><stop stop-color="#28433f"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
-<linearGradient id="accent"><stop stop-color="#86f7cf"><animate attributeName="stop-color" values="#86f7cf;#b5a0ff;#86f7cf" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
-<radialGradient id="halo"><stop stop-color="#86f7cf" stop-opacity=".13"/><stop offset="1" stop-color="#86f7cf" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#86f7cf" stroke-opacity=".045"/></pattern>
+<linearGradient id="border"><stop stop-color="#174464"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#78dcff"><animate attributeName="stop-color" values="#78dcff;#b5a0ff;#78dcff" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#78dcff" stop-opacity=".18"/><stop offset="1" stop-color="#78dcff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#78dcff" stroke-opacity=".045"/></pattern>
 </defs>
 <style>
 text{{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}}
 .muted{{fill:#99a8ba}}.mono{{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}}
-.mint{{fill:#86f7cf}}.violet{{fill:#b5a0ff}}
+.mint{{fill:#78dcff}}.violet{{fill:#b5a0ff}}
 .static-only{{display:none}}
 @media(prefers-reduced-motion:reduce){{.motion{{display:none}}.static-only{{display:inline}}}}
 </style>
-<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="18" fill="#080c12" stroke="url(#border)"/>
+<rect x="1" y="1" width="{width-2}" height="{height-2}" rx="18" fill="#070d18" stroke="url(#border)"/>
 {content}
 </svg>
 '''
@@ -68,18 +68,18 @@ def wireframe_core(cx=1100, cy=240, radius=153):
     animated, static = [], []
     for face in faces:
         values = ";".join(path(frame, face, True) for frame in frames)
-        base = f'<path d="{path(frames[0], face, True)}" fill="#86f7cf" fill-opacity=".035"'
+        base = f'<path d="{path(frames[0], face, True)}" fill="#78dcff" fill-opacity=".055"'
         animated.append(base+f'><animate attributeName="d" values="{values}" dur="28s" repeatCount="indefinite"/></path>')
         static.append(base+'/>')
     for edge in sorted(edges):
         values = ";".join(path(frame, edge) for frame in frames)
         opacity = ";".join(f"{.23+.4*(1+sum(frame[i][2] for i in edge)/2)/2:.3f}" for frame in frames)
-        base = f'<path data-mesh-edge="true" d="{path(frames[0], edge)}" fill="none" stroke="#86f7cf" stroke-width="1.15" stroke-opacity=".55"'
+        base = f'<path data-mesh-edge="true" d="{path(frames[0], edge)}" fill="none" stroke="#78dcff" stroke-width="1.65" stroke-opacity=".65"'
         animated.append(base+f'><animate attributeName="d" values="{values}" dur="28s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="{opacity}" dur="28s" repeatCount="indefinite"/></path>')
         static.append(base+'/>')
     for i in range(12):
         x, y, _ = frames[0][i]
-        base = f'<circle cx="{x:.2f}" cy="{y:.2f}" r="2.8" fill="#e9fff7"'
+        base = f'<circle cx="{x:.2f}" cy="{y:.2f}" r="3.2" fill="#eefbff"'
         animation = "".join(f'<animate attributeName="{attr}" values="'+";".join(f"{frame[i][index]:.2f}" for frame in frames)+'" dur="28s" repeatCount="indefinite"/>' for attr, index in [("cx", 0), ("cy", 1)])
         animated.append(base+'>'+animation+'</circle>')
         static.append(base+'/>')
@@ -99,10 +99,10 @@ def header():
 <rect x="2" y="2" width="1396" height="516" rx="18" fill="url(#grid)"/>
 <circle cx="1100" cy="240" r="270" fill="url(#halo)"/>
 <path d="M32 72V32H72M1328 32H1368V72M32 448V488H72M1328 488H1368V448" stroke="#86f7cf" stroke-opacity=".5" fill="none"/>
-<text x="66" y="68" font-size="12" letter-spacing="3" class="mono mint">ARPIT KUMAR JAISWAL / ENGINEERING PORTFOLIO</text>
+<text x="66" y="68" font-size="12" letter-spacing="3" class="mono mint">SOFTWARE ENGINEERING / ARPIT KUMAR JAISWAL</text>
 <text x="60" y="176" font-size="94" font-weight="850" letter-spacing="-4">ARPIT KUMAR</text>
 <text x="60" y="271" font-size="104" font-weight="850" letter-spacing="-4" class="mint">JAISWAL<tspan fill="#edf3f8">.</tspan></text>
-<text x="67" y="321" font-size="23">Useful systems. Inspectable decisions.</text>
+<text x="67" y="321" font-size="23">From a problem to a working system.</text>
 <text x="67" y="355" font-size="16" class="muted">Backend development / Developer tools / Applied AI</text>
 <path d="M68 386H820" stroke="#233c35"/>
 <text x="68" y="414" font-size="13" class="mono muted">B.Tech · Information Technology · MIT Manipal</text>
@@ -164,48 +164,50 @@ def architecture():
 
 def project_card(key):
     projects = {
-        "nexora": ("01", "DEVELOPER TOOLING", "NEXORA", "Understand a codebase. Find what matters.",
-                   "REACT / TYPESCRIPT / NODE.JS", "#86f7cf"),
-        "talentos": ("02", "APPLIED MACHINE LEARNING", "TalentOS", "Candidate ranking you can inspect and explain.",
+        "nexora": ("01", "DEVELOPER TOOLS", "NEXORA", "Read the codebase.", "Find what matters.",
+                   "REACT / TYPESCRIPT / NODE.JS", "#78dcff"),
+        "talentos": ("02", "EXPLAINABLE ML", "TalentOS", "Rank with evidence.", "Keep the reasoning visible.",
                      "FASTAPI / REACT / SCIKIT-LEARN", "#b5a0ff"),
-        "aegisvault": ("03", "SECURITY RESEARCH PROTOTYPE", "AegisVault", "Policy-aware reads. Verifiable audit trails.",
+        "aegisvault": ("03", "SECURITY RESEARCH", "AegisVault", "Make data boundaries explicit.", "Policy. Encryption. Audit.",
                        "PYTHON / POSTGRESQL / CRYPTOGRAPHY", "#e8bc85"),
     }
-    index, category, title, tagline, stack, color = projects[key]
+    index, category, title, tagline, second_line, tools, color = projects[key]
     art = []
     if key == "nexora":
-        points = [(870, 62), (1040, 87), (945, 142), (837, 208), (1070, 218)]
-        for a, b in [(0, 2), (1, 2), (2, 3), (2, 4), (0, 1), (3, 4)]:
+        points = [(66, 224), (182, 192), (182, 255), (344, 224)]
+        for a, b in [(0, 1), (0, 2), (1, 3), (2, 3), (1, 2)]:
             x1, y1 = points[a]; x2, y2 = points[b]
             path = f"M{x1} {y1}L{x2} {y2}"
-            art.append(f'<path d="{path}" stroke="{color}" stroke-opacity=".3"/>')
-            art.append(f'<circle r="2" fill="{color}" class="motion"><animateMotion path="{path}" dur="4s" begin="-{a}s" repeatCount="indefinite"/></circle>')
+            art.append(f'<path d="{path}" stroke="{color}" stroke-opacity=".4"/>')
+            art.append(f'<circle r="2.5" fill="{color}" class="motion"><animateMotion path="{path}" dur="4.7s" begin="-{a}s" repeatCount="indefinite"/></circle>')
         for i, (x, y) in enumerate(points):
-            art.append(f'<rect x="{x-17}" y="{y-17}" width="34" height="34" rx="8" fill="#0d211e" stroke="{color}" stroke-opacity=".65"/><text x="{x}" y="{y+4}" text-anchor="middle" font-size="11" class="mono mint">{["UI","API","MAP","DEP","REV"][i]}</text>')
+            art.append(f'<rect x="{x-25}" y="{y-18}" width="50" height="36" rx="8" fill="#0b1928" stroke="{color}" stroke-opacity=".65"/><text x="{x}" y="{y+4}" text-anchor="middle" font-size="10" class="mono">{["SRC","API","MAP","REVIEW"][i]}</text>')
     elif key == "talentos":
-        # Equal, decorative tracks: these are not fabricated candidate scores.
-        for i in range(3):
-            y = 70+i*62
-            art.append(f'<rect x="825" y="{y}" width="285" height="43" rx="9" fill="#131122" stroke="#39304e"/>')
-            art.append(f'<circle cx="849" cy="{y+21}" r="9" fill="#b5a0ff" opacity=".6"/><path d="M874 {y+16}H1010M874 {y+27}H978" stroke="#b5a0ff" opacity=".4"/>')
-            art.append(f'<circle cx="1084" cy="{y+21}" r="4" fill="#b5a0ff" class="motion"><animate attributeName="opacity" values=".25;1;.25" dur="4s" begin="-{i}s" repeatCount="indefinite"/></circle>')
-        art.append('<path d="M812 48H1124V251H812Z" fill="none" stroke="#b5a0ff" stroke-opacity=".12"/>')
+        for i, label in enumerate(["RESUME", "MODEL", "EVIDENCE"]):
+            x = 27+i*135
+            art.append(f'<rect x="{x}" y="191" width="113" height="70" rx="9" fill="#141329" stroke="{color}" stroke-opacity=".35"/><text x="{x+56}" y="219" text-anchor="middle" font-size="10" class="mono violet">{label}</text><path d="M{x+22} 234H{x+91}M{x+22} 245H{x+75}" stroke="{color}" stroke-opacity=".35"/>')
+            if i<2:
+                path=f'M{x+113} 226H{x+135}'
+                art.append(f'<path d="{path}" stroke="{color}" stroke-opacity=".5"/><circle r="2.4" fill="{color}" class="motion"><animateMotion path="{path}" dur="2.7s" begin="-{i}s" repeatCount="indefinite"/></circle>')
     else:
-        art.append(orbit(964, 147, 105, color))
-        art.append(f'<path d="M964 78L1017 101V146Q1017 183 964 211Q911 183 911 146V101Z" fill="#1e1913" stroke="{color}" stroke-width="1.5"/>')
-        art.append(f'<rect x="945" y="138" width="38" height="32" rx="5" fill="none" stroke="{color}" stroke-width="2"/><path d="M952 138V128A12 12 0 0 1 976 128V138" fill="none" stroke="{color}" stroke-width="2"/>')
-        art.append(f'<circle cx="964" cy="153" r="3" fill="{color}"/>')
+        art.append(f'<path d="M222 175L262 192V223Q262 253 222 275Q182 253 182 223V192Z" fill="#211d17" stroke="{color}" stroke-width="1.5"/>')
+        art.append(f'<rect x="208" y="216" width="28" height="25" rx="4" fill="none" stroke="{color}" stroke-width="1.6"/><path d="M213 216V208A9 9 0 0 1 231 208V216" fill="none" stroke="{color}" stroke-width="1.6"/>')
+        for x, label in [(70,"POLICY"),(375,"AUDIT")]:
+            art.append(f'<circle cx="{x}" cy="226" r="23" fill="#171923" stroke="{color}" stroke-opacity=".4"/><text x="{x}" y="270" text-anchor="middle" font-size="10" class="mono" style="fill:{color}">{label}</text>')
+        for path in ['M93 226H181','M263 226H352']:
+            art.append(f'<path d="{path}" stroke="{color}" stroke-opacity=".4"/><circle r="2.5" fill="{color}" class="motion"><animateMotion path="{path}" dur="3.7s" repeatCount="indefinite"/></circle>')
     content = f'''
-<rect x="2" y="2" width="1196" height="286" rx="18" fill="url(#grid)"/>
-<path d="M28 42V28H64M1136 262H1172V226" stroke="{color}" stroke-opacity=".5" fill="none"/>
-<text x="50" y="60" font-size="12" letter-spacing="2" class="mono" style="fill:{color}">{index} / {category}</text>
-<text x="46" y="141" font-size="70" font-weight="800" letter-spacing="-2">{title}</text>
-<text x="50" y="184" font-size="19" class="muted">{tagline}</text>
-<text x="50" y="239" font-size="12" letter-spacing="1" class="mono" style="fill:{color}">{stack}</text>
-<path d="M760 40V250" stroke="#243039"/>
+<rect x="2" y="2" width="446" height="346" rx="18" fill="url(#grid)"/>
+<path d="M20 45V20H45M403 330H428V305" stroke="{color}" stroke-opacity=".5" fill="none"/>
+<text x="27" y="43" font-size="11" letter-spacing="1.2" class="mono" style="fill:{color}">{index} / {category}</text>
+<text x="24" y="101" font-size="47" font-weight="800" letter-spacing="-1.5">{title}</text>
+<text x="27" y="132" font-size="15">{tagline}</text>
+<text x="27" y="155" font-size="14" class="muted">{second_line}</text>
+<path d="M27 292H421" stroke="{color}" stroke-opacity=".2"/>
+<text x="27" y="321" font-size="10.5" class="mono" style="fill:{color}">{tools}</text>
 {''.join(art)}
 '''
-    return svg(1200, 290, f"{title} — {category.lower()}", tagline+" Decorative project illustration.", content)
+    return svg(450, 350, f"{title} — {category.lower()}", tagline+" "+second_line+" Decorative project illustration.", content)
 
 
 def stack():
