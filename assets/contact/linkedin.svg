@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="68" viewBox="0 0 220 68" role="img" aria-label="LinkedIn: Let’s connect">
+<title>LinkedIn — Let’s connect</title>
+<style>@media(prefers-reduced-motion:reduce){.motion{display:none}}</style>
+<defs><linearGradient id="panel"><stop stop-color="#102039"/><stop offset="1" stop-color="#080f1d"/></linearGradient></defs>
+<rect x="1" y="1" width="218" height="66" rx="12" fill="url(#panel)" stroke="#2a4260"/>
+<svg x="17" y="18" width="32" height="32" viewBox="0 0 24 24" fill="#3695f0" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+<text x="64" y="30" fill="#edf3f8" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-weight="700" font-size="18">LinkedIn</text>
+<text x="64" y="49" fill="#a5b7ca" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="11">Let’s connect</text>
+<path d="M192 27L199 34L192 41M185 34H199" fill="none" stroke="#3695f0" stroke-width="1.5"/>
+<path d="M16 66H204" stroke="#3695f0" stroke-opacity=".22"/>
+<path d="M16 66H49" stroke="#3695f0" stroke-opacity=".8" class="motion"><animateTransform attributeName="transform" type="translate" values="0 0;155 0;0 0" dur="9s" repeatCount="indefinite"/></path>
+</svg>

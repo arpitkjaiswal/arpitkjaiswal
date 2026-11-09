@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="90" viewBox="0 0 80 90" role="img" aria-label="Ruff">
+<title>Ruff</title>
+<defs><linearGradient id="tile" x2="1" y2="1"><stop stop-color="#102139"/><stop offset="1" stop-color="#080e1b"/></linearGradient></defs>
+<rect x="1" y="1" width="78" height="88" rx="12" fill="url(#tile)" stroke="#263b56"/>
+<path d="M15 1H65" stroke="#D7FF64" stroke-opacity=".65"/>
+<svg x="20" y="14" width="40" height="40" viewBox="0 0 24 24" fill="#D7FF64" aria-hidden="true"><path d="M3 0C1.338 0 0 1.338 0 3v18c0 1.662 1.338 3 3 3h18c1.662 0 3-1.338 3-3V3c0-1.662-1.338-3-3-3Zm4.2 7.2h8.641c.53 0 .959.43.959.959v3.266c0 .53-.43.959-.959.959h-.961v.768h1.92V16.8h-4.416v-2.88h-.768v2.88H7.2Zm3.648 3.648v.768h2.304v-.768z"/></svg>
+<text x="40" y="76" text-anchor="middle" fill="#edf3f8" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="9.2">Ruff</text>
+</svg>

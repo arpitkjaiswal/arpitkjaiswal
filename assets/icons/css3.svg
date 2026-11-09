@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="90" viewBox="0 0 80 90" role="img" aria-label="CSS3">
+<title>CSS3</title>
+<defs><linearGradient id="tile" x2="1" y2="1"><stop stop-color="#102139"/><stop offset="1" stop-color="#080e1b"/></linearGradient></defs>
+<rect x="1" y="1" width="78" height="88" rx="12" fill="url(#tile)" stroke="#263b56"/>
+<path d="M15 1H65" stroke="#1572B6" stroke-opacity=".65"/>
+<svg x="20" y="14" width="40" height="40" viewBox="0 0 24 24" fill="#1572B6" aria-hidden="true"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg>
+<text x="40" y="76" text-anchor="middle" fill="#edf3f8" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="9.2">CSS3</text>
+</svg>

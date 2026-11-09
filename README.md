@@ -8,7 +8,13 @@
 
 I’m **Arpit Kumar Jaiswal**, a developer from **MIT Manipal**. I build with **Python and TypeScript**, working across backend systems, developer tools, and applied AI. My projects focus on making complicated systems easier to understand, use, and verify.
 
-**[Email](mailto:arpit.kr.jaiswal@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302)** · **[Engineering walkthroughs](./docs/engineering-notes.md)**
+<p align="left">
+<a href="https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302"><img src="./assets/contact/linkedin.svg" width="176" alt="LinkedIn: Let’s connect" /></a>
+<a href="mailto:arpit.kr.jaiswal@gmail.com"><img src="./assets/contact/email.svg" width="176" alt="Email: Say hello" /></a>
+<a href="https://github.com/arpitkjaiswal?tab=repositories"><img src="./assets/contact/github.svg" width="176" alt="GitHub: Explore the code" /></a>
+</p>
+
+[Read the engineering walkthroughs](./docs/engineering-notes.md)
 
 ## Selected work
 
@@ -87,7 +93,73 @@ The [engineering walkthroughs](./docs/engineering-notes.md) connect each impleme
 
 **Python and TypeScript** are my main tools. The rest of the stack comes from the applications linked here.
 
-<img src="./assets/stack.svg" width="100%" alt="Technology index: Python, TypeScript, JavaScript, Java, C, C++, SQL; React, Vite, Node.js, Express, FastAPI, Pydantic, MCP; PostgreSQL, SQLAlchemy, Alembic, MongoDB, Redis, SQLite; PyTorch, scikit-learn, Whisper, NumPy, Pandas, SciPy; Docker, GitHub Actions, Linux, pytest, Playwright, Ruff, uv; optional OpenAI, Anthropic, and Ollama integrations." />
+Select an icon to explore the technology. Project examples are listed below.
+
+**Languages & foundations**
+
+<p>
+<a href="https://www.python.org/" title="Explore Python"><img src="./assets/icons/python.svg" width="80" height="90" alt="Python" /></a>
+<a href="https://www.typescriptlang.org/" title="Explore TypeScript"><img src="./assets/icons/typescript.svg" width="80" height="90" alt="TypeScript" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="Explore JavaScript"><img src="./assets/icons/javascript.svg" width="80" height="90" alt="JavaScript" /></a>
+<a href="https://dev.java/" title="Explore Java"><img src="./assets/icons/java.svg" width="80" height="90" alt="Java" /></a>
+<a href="https://en.cppreference.com/w/c" title="Explore C"><img src="./assets/icons/c.svg" width="80" height="90" alt="C" /></a>
+<a href="https://isocpp.org/" title="Explore C++"><img src="./assets/icons/cplusplus.svg" width="80" height="90" alt="C++" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="Explore HTML5"><img src="./assets/icons/html5.svg" width="80" height="90" alt="HTML5" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="Explore CSS3"><img src="./assets/icons/css3.svg" width="80" height="90" alt="CSS3" /></a>
+</p>
+
+**Web & APIs**
+
+<p>
+<a href="https://react.dev/" title="Explore React"><img src="./assets/icons/react.svg" width="80" height="90" alt="React" /></a>
+<a href="https://vite.dev/" title="Explore Vite"><img src="./assets/icons/vite.svg" width="80" height="90" alt="Vite" /></a>
+<a href="https://nodejs.org/" title="Explore Node.js"><img src="./assets/icons/nodedotjs.svg" width="80" height="90" alt="Node.js" /></a>
+<a href="https://expressjs.com/" title="Explore Express"><img src="./assets/icons/express.svg" width="80" height="90" alt="Express" /></a>
+<a href="https://fastapi.tiangolo.com/" title="Explore FastAPI"><img src="./assets/icons/fastapi.svg" width="80" height="90" alt="FastAPI" /></a>
+<a href="https://docs.pydantic.dev/" title="Explore Pydantic"><img src="./assets/icons/pydantic.svg" width="80" height="90" alt="Pydantic" /></a>
+</p>
+
+**Databases & storage**
+
+<p>
+<a href="https://www.postgresql.org/" title="Explore PostgreSQL"><img src="./assets/icons/postgresql.svg" width="80" height="90" alt="PostgreSQL" /></a>
+<a href="https://www.mongodb.com/" title="Explore MongoDB"><img src="./assets/icons/mongodb.svg" width="80" height="90" alt="MongoDB" /></a>
+<a href="https://redis.io/" title="Explore Redis"><img src="./assets/icons/redis.svg" width="80" height="90" alt="Redis" /></a>
+<a href="https://www.sqlite.org/" title="Explore SQLite"><img src="./assets/icons/sqlite.svg" width="80" height="90" alt="SQLite" /></a>
+<a href="https://www.sqlalchemy.org/" title="Explore SQLAlchemy"><img src="./assets/icons/sqlalchemy.svg" width="80" height="90" alt="SQLAlchemy" /></a>
+</p>
+
+**Machine learning & data**
+
+<p>
+<a href="https://pytorch.org/" title="Explore PyTorch"><img src="./assets/icons/pytorch.svg" width="80" height="90" alt="PyTorch" /></a>
+<a href="https://scikit-learn.org/" title="Explore scikit-learn"><img src="./assets/icons/scikitlearn.svg" width="80" height="90" alt="scikit-learn" /></a>
+<a href="https://numpy.org/" title="Explore NumPy"><img src="./assets/icons/numpy.svg" width="80" height="90" alt="NumPy" /></a>
+<a href="https://pandas.pydata.org/" title="Explore pandas"><img src="./assets/icons/pandas.svg" width="80" height="90" alt="pandas" /></a>
+<a href="https://scipy.org/" title="Explore SciPy"><img src="./assets/icons/scipy.svg" width="80" height="90" alt="SciPy" /></a>
+</p>
+
+**Tools & delivery**
+
+<p>
+<a href="https://www.docker.com/" title="Explore Docker"><img src="./assets/icons/docker.svg" width="80" height="90" alt="Docker" /></a>
+<a href="https://git-scm.com/" title="Explore Git"><img src="./assets/icons/git.svg" width="80" height="90" alt="Git" /></a>
+<a href="https://github.com/" title="Explore GitHub"><img src="./assets/icons/github.svg" width="80" height="90" alt="GitHub" /></a>
+<a href="https://github.com/features/actions" title="Explore GitHub Actions"><img src="./assets/icons/githubactions.svg" width="80" height="90" alt="GitHub Actions" /></a>
+<a href="https://www.kernel.org/" title="Explore Linux"><img src="./assets/icons/linux.svg" width="80" height="90" alt="Linux" /></a>
+<a href="https://docs.pytest.org/" title="Explore pytest"><img src="./assets/icons/pytest.svg" width="80" height="90" alt="pytest" /></a>
+<a href="https://playwright.dev/" title="Explore Playwright"><img src="./assets/icons/playwright.svg" width="80" height="90" alt="Playwright" /></a>
+<a href="https://docs.astral.sh/ruff/" title="Explore Ruff"><img src="./assets/icons/ruff.svg" width="80" height="90" alt="Ruff" /></a>
+<a href="https://docs.astral.sh/uv/" title="Explore uv"><img src="./assets/icons/uv.svg" width="80" height="90" alt="uv" /></a>
+</p>
+
+**AI integrations**
+
+<p>
+<a href="https://platform.openai.com/docs/" title="Explore OpenAI"><img src="./assets/icons/openai.svg" width="80" height="90" alt="OpenAI" /></a>
+<a href="https://docs.anthropic.com/" title="Explore Anthropic"><img src="./assets/icons/anthropic.svg" width="80" height="90" alt="Anthropic" /></a>
+<a href="https://ollama.com/" title="Explore Ollama"><img src="./assets/icons/ollama.svg" width="80" height="90" alt="Ollama" /></a>
+</p>
 
 <details>
 <summary><b>Stack details and where each tool appears</b></summary>
@@ -151,4 +223,8 @@ Save the explorer HTML file and open it in a browser to **search, filter, pan, z
 
 Open to **software engineering roles, internships, and collaborations**, especially around developer tools, backend systems, and useful AI applications.
 
-**[Email me](mailto:arpit.kr.jaiswal@gmail.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302)** · **[Browse the code](https://github.com/arpitkjaiswal?tab=repositories)**
+<p align="left">
+<a href="https://www.linkedin.com/in/arpit-kumar-jaiswal-819478302"><img src="./assets/contact/linkedin.svg" width="176" alt="LinkedIn: Let’s connect" /></a>
+<a href="mailto:arpit.kr.jaiswal@gmail.com"><img src="./assets/contact/email.svg" width="176" alt="Email: Say hello" /></a>
+<a href="https://github.com/arpitkjaiswal?tab=repositories"><img src="./assets/contact/github.svg" width="176" alt="GitHub: Explore the code" /></a>
+</p>

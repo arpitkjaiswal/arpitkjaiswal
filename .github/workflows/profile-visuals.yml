@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "scripts/**"
+      - assets/icon-sources.json
       - .github/workflows/profile-visuals.yml
 
 permissions:

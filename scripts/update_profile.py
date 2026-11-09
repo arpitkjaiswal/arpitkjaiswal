@@ -17,6 +17,7 @@ from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from profile_artwork import architecture, divider, footer, header, project_card, stack, svg
+from profile_icons import build_icon_artwork
 from work_atlas import build_atlas
 
 USER = "arpitkjaiswal"
@@ -272,9 +273,12 @@ def main():
                **{f"project-{name}.svg": project_card(name)
                   for name in ("nexora", "talentos", "aegisvault")}}
     artwork.update(build_atlas(data))
+    artwork.update(build_icon_artwork())
     ASSETS.mkdir(exist_ok=True)
     for name, source in artwork.items():
-        (ASSETS / name).write_text(source)
+        target = ASSETS / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(source)
     if fresh:
         snapshot.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     print(f"Rendered {len(artwork)} profile assets from {len(data['repositories'])} repositories and {len(data['contributions'])} calendar days ({data['updated']}).")
