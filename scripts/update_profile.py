@@ -13,6 +13,7 @@ from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from profile_artwork import architecture, divider, footer, header, project_card, stack, svg
@@ -123,7 +124,7 @@ def collect():
     repos = []
     for page in range(1, 21):
         parser = RepositoryParser()
-        parser.feed(fetch(f"https://github.com/{USER}?tab=repositories&page={page}"))
+        parser.feed(fetch(f"https://github.com/{USER}?page={page}&tab=repositories"))
         if not parser.repos:
             raise ValueError(f"No repository cards on page {page}; refusing partial data")
         repos.extend(parser.repos)
@@ -138,7 +139,7 @@ def collect():
     return {
         "user": USER,
         "updated": datetime.now(timezone.utc).date().isoformat(),
-        "sources": [f"https://github.com/{USER}?tab=repositories",
+        "sources": [f"https://github.com/{USER}?page=1&tab=repositories",
                     f"https://github.com/users/{USER}/contributions"],
         "repositories": repos,
         "contributions": contributions.days(),
@@ -238,12 +239,31 @@ def monthly(data):
                "; ".join(f"{month}: {counts[month]}" for month in months), "\n".join(content))
 
 
+def load_profile_data(offline=False, allow_cached=False):
+    snapshot = ASSETS / "profile-data.json"
+    if offline:
+        return json.loads(snapshot.read_text()), False
+    try:
+        return collect(), True
+    except HTTPError as error:
+        # Scheduled artwork generation may use already-verified metadata during
+        # upstream outages. Authentication and other permanent failures still fail.
+        if not allow_cached or error.code not in {429, 500, 502, 503, 504} or not snapshot.exists():
+            raise
+        cached = json.loads(snapshot.read_text())
+        print(f"::warning title=GitHub metadata unavailable::HTTP {error.code}. "
+              f"Using saved snapshot dated {cached['updated']} UTC; graph data has not been refreshed.")
+        return cached, False
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--offline", action="store_true", help="Render the saved snapshot without fetching")
+    parser.add_argument("--allow-cached", action="store_true",
+                        help="Warn and retain the dated snapshot during transient GitHub HTTP failures")
     args = parser.parse_args()
     snapshot = ASSETS / "profile-data.json"
-    data = json.loads(snapshot.read_text()) if args.offline else collect()
+    data, fresh = load_profile_data(args.offline, args.allow_cached)
     # Render everything before writing, so parsing failures preserve the previous graphs.
     artwork = {"header.svg": header(), "divider.svg": divider(),
                "languages.svg": languages(data), "contributions.svg": calendar(data),
@@ -255,7 +275,7 @@ def main():
     ASSETS.mkdir(exist_ok=True)
     for name, source in artwork.items():
         (ASSETS / name).write_text(source)
-    if not args.offline:
+    if fresh:
         snapshot.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     print(f"Rendered {len(artwork)} profile assets from {len(data['repositories'])} repositories and {len(data['contributions'])} calendar days ({data['updated']}).")
 

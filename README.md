@@ -143,7 +143,7 @@ Save the explorer HTML file and open it in a browser to **search, filter, pan, z
 - **Monthly chart:** contributions grouped into the latest 12 calendar months; the current month is partial.
 - **Languages:** one GitHub-detected primary language per public non-fork repository. This profile and repositories without a detected language are excluded. Counts describe repositories, not lines of code or proficiency.
 - **Work atlas:** includes every public non-fork project repository, including those without a detected language. Project areas are curated; tool links come from reviewed manifests and READMEs. Links describe primary languages or documented tool use, not dependencies between repositories. Motion is decorative.
-- **Updates:** the daily workflow refreshes the checked-in graphics. Snapshot dates appear on each graph; the last successful version stays visible if a refresh is delayed.
+- **Updates:** the daily workflow refreshes the checked-in graphics. During GitHub HTTP outages, it warns and preserves the dated snapshot. Snapshot dates remain unchanged until fresh data is fetched successfully.
 
 [Data snapshot](./assets/profile-data.json) · [Refresh script](./scripts/update_profile.py) · [Workflow runs](https://github.com/arpitkjaiswal/arpitkjaiswal/actions/workflows/profile-visuals.yml)
 
