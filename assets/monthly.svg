@@ -1,10 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="348" viewBox="0 0 580 348" role="img" aria-labelledby="title desc">
 <title id="title">Monthly GitHub contributions</title><desc id="desc">2025-12: 1; 2026-01: 15; 2026-02: 41; 2026-03: 23; 2026-04: 24; 2026-05: 0; 2026-06: 60; 2026-07: 89; 2026-08: 62; 2026-09: 5; 2026-10: 163; 2026-11: 32</desc>
-<defs><linearGradient id="border"><stop stop-color="#164e63"/><stop offset="1" stop-color="#4c1d95"/></linearGradient>
-<linearGradient id="accent"><stop stop-color="#22d3ee"><animate attributeName="stop-color" values="#22d3ee;#a78bfa;#22d3ee" dur="12s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#a78bfa"><animate attributeName="stop-color" values="#a78bfa;#22d3ee;#a78bfa" dur="12s" repeatCount="indefinite"/></stop></linearGradient></defs>
-<style>text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#e2e8f0}.muted{fill:#94a3b8}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}</style>
-<rect x="1" y="1" width="578" height="346" rx="20" fill="#080f20" stroke="url(#border)"/>
-<text x="32" y="42" font-size="20" font-weight="700">The building rhythm</text>
+<defs>
+<linearGradient id="border"><stop stop-color="#28433f"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#86f7cf"><animate attributeName="stop-color" values="#86f7cf;#b5a0ff;#86f7cf" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#86f7cf" stop-opacity=".13"/><stop offset="1" stop-color="#86f7cf" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#86f7cf" stroke-opacity=".045"/></pattern>
+</defs>
+<style>
+text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
+.muted{fill:#99a8ba}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.mint{fill:#86f7cf}.violet{fill:#b5a0ff}
+@media(prefers-reduced-motion:reduce){.motion{display:none}}
+</style>
+<rect x="1" y="1" width="578" height="346" rx="18" fill="#080c12" stroke="url(#border)"/>
+<text x="32" y="42" font-size="20" font-weight="700">Monthly contributions</text>
 <text x="32" y="68" font-size="12" class="muted">GitHub contributions by month · current month is partial</text>
 <path d="M48 260H548" stroke="#1b2942" stroke-dasharray="3 6"/>
 <text x="40" y="264" text-anchor="end" font-size="9" class="muted">0</text>

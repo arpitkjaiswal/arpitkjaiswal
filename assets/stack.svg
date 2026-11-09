@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+<title id="title">Project technology index</title><desc id="desc">Languages, APIs, storage, machine learning, delivery, and optional AI integrations present in Arpit&#x27;s projects.</desc>
+<defs>
+<linearGradient id="border"><stop stop-color="#28433f"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#86f7cf"><animate attributeName="stop-color" values="#86f7cf;#b5a0ff;#86f7cf" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#86f7cf" stop-opacity=".13"/><stop offset="1" stop-color="#86f7cf" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#86f7cf" stroke-opacity=".045"/></pattern>
+</defs>
+<style>
+text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
+.muted{fill:#99a8ba}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.mint{fill:#86f7cf}.violet{fill:#b5a0ff}
+@media(prefers-reduced-motion:reduce){.motion{display:none}}
+</style>
+<rect x="1" y="1" width="1198" height="408" rx="18" fill="#080c12" stroke="url(#border)"/>
+<text x="32" y="43" font-size="12" letter-spacing="2" class="mono mint">TECHNOLOGY INDEX / TOOLS IN CONTEXT</text>
+<text x="32" y="77" font-size="16" class="muted">A toolkit shaped by the projects below the badges.</text>
+<rect x="32" y="110" width="358" height="122" rx="10" fill="#0d141c" stroke="#243239"/>
+<text x="50" y="138" font-size="11" letter-spacing="1.5" class="mono mint">01 / LANGUAGES</text>
+<text x="50" y="172" font-size="14">Python · TypeScript · JavaScript</text><text x="50" y="197" font-size="13" class="muted">Java · C · C++ · SQL</text>
+<circle cx="366" cy="135" r="3" fill="#86f7cf" class="motion"><animate attributeName="opacity" values=".25;.8;.25" dur="5s" begin="-0s" repeatCount="indefinite"/></circle>
+<rect x="421" y="110" width="358" height="122" rx="10" fill="#0d141c" stroke="#243239"/>
+<text x="439" y="138" font-size="11" letter-spacing="1.5" class="mono mint">02 / WEB &amp; APIs</text>
+<text x="439" y="172" font-size="14">React · Vite · Node.js · Express</text><text x="439" y="197" font-size="13" class="muted">FastAPI · Pydantic · MCP</text>
+<circle cx="755" cy="135" r="3" fill="#86f7cf" class="motion"><animate attributeName="opacity" values=".25;.8;.25" dur="5s" begin="-1s" repeatCount="indefinite"/></circle>
+<rect x="810" y="110" width="358" height="122" rx="10" fill="#0d141c" stroke="#243239"/>
+<text x="828" y="138" font-size="11" letter-spacing="1.5" class="mono mint">03 / DATA &amp; STORAGE</text>
+<text x="828" y="172" font-size="14">PostgreSQL · SQLAlchemy · Alembic</text><text x="828" y="197" font-size="13" class="muted">MongoDB · Redis · SQLite</text>
+<circle cx="1144" cy="135" r="3" fill="#86f7cf" class="motion"><animate attributeName="opacity" values=".25;.8;.25" dur="5s" begin="-2s" repeatCount="indefinite"/></circle>
+<rect x="32" y="256" width="358" height="122" rx="10" fill="#0d141c" stroke="#243239"/>
+<text x="50" y="284" font-size="11" letter-spacing="1.5" class="mono mint">04 / MACHINE LEARNING</text>
+<text x="50" y="318" font-size="14">PyTorch · scikit-learn · Whisper</text><text x="50" y="343" font-size="13" class="muted">NumPy · Pandas · SciPy</text>
+<circle cx="366" cy="281" r="3" fill="#86f7cf" class="motion"><animate attributeName="opacity" values=".25;.8;.25" dur="5s" begin="-3s" repeatCount="indefinite"/></circle>
+<rect x="421" y="256" width="358" height="122" rx="10" fill="#0d141c" stroke="#243239"/>
+<text x="439" y="284" font-size="11" letter-spacing="1.5" class="mono mint">05 / DELIVERY &amp; QUALITY</text>
+<text x="439" y="318" font-size="14">Docker · GitHub Actions · Linux</text><text x="439" y="343" font-size="13" class="muted">pytest · Playwright · Ruff · uv</text>
+<circle cx="755" cy="281" r="3" fill="#86f7cf" class="motion"><animate attributeName="opacity" values=".25;.8;.25" dur="5s" begin="-4s" repeatCount="indefinite"/></circle>
+<rect x="810" y="256" width="358" height="122" rx="10" fill="#0d141c" stroke="#243239"/>
+<text x="828" y="284" font-size="11" letter-spacing="1.5" class="mono mint">06 / AI INTEGRATIONS</text>
+<text x="828" y="318" font-size="14">OpenAI · Anthropic · Ollama</text><text x="828" y="343" font-size="13" class="muted">Provider adapters · local models</text>
+<circle cx="1144" cy="281" r="3" fill="#86f7cf" class="motion"><animate attributeName="opacity" values=".25;.8;.25" dur="5s" begin="-5s" repeatCount="indefinite"/></circle>
+</svg>

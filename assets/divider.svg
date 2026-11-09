@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="32" viewBox="0 0 1200 32" role="img" aria-label="Animated cyan and violet divider">
-<defs><linearGradient id="line"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs>
-<path d="M20 16H1180" stroke="url(#line)"/>
-<circle cy="16" r="3" fill="#22d3ee"><animate attributeName="cx" values="20;1180;20" dur="14s" repeatCount="indefinite"/></circle>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="48" viewBox="0 0 1200 48" role="img" aria-label="Animated mint signal divider">
+<style>@media(prefers-reduced-motion:reduce){.motion{display:none}}</style>
+<path d="M0 24H1200" stroke="#20312f"/><path d="M0 24H96M1104 24H1200" stroke="#86f7cf"/>
+<path d="M0 24H80" stroke="#b5a0ff" stroke-width="2" class="motion"><animateTransform attributeName="transform" type="translate" values="0 0;1120 0;0 0" dur="18s" repeatCount="indefinite"/></path>
+<path d="M592 24L600 16L608 24L600 32Z" fill="#080c12" stroke="#86f7cf"/>
 </svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+<title id="title">AegisVault — security research prototype</title><desc id="desc">Policy-aware reads. Verifiable audit trails. Decorative project illustration.</desc>
+<defs>
+<linearGradient id="border"><stop stop-color="#28433f"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#86f7cf"><animate attributeName="stop-color" values="#86f7cf;#b5a0ff;#86f7cf" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#86f7cf" stop-opacity=".13"/><stop offset="1" stop-color="#86f7cf" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#86f7cf" stroke-opacity=".045"/></pattern>
+</defs>
+<style>
+text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
+.muted{fill:#99a8ba}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.mint{fill:#86f7cf}.violet{fill:#b5a0ff}
+@media(prefers-reduced-motion:reduce){.motion{display:none}}
+</style>
+<rect x="1" y="1" width="1198" height="288" rx="18" fill="#080c12" stroke="url(#border)"/>
+
+<rect x="2" y="2" width="1196" height="286" rx="18" fill="url(#grid)"/>
+<path d="M28 42V28H64M1136 262H1172V226" stroke="#e8bc85" stroke-opacity=".5" fill="none"/>
+<text x="50" y="60" font-size="12" letter-spacing="2" class="mono" style="fill:#e8bc85">03 / SECURITY RESEARCH PROTOTYPE</text>
+<text x="46" y="141" font-size="70" font-weight="800" letter-spacing="-2">AegisVault</text>
+<text x="50" y="184" font-size="19" class="muted">Policy-aware reads. Verifiable audit trails.</text>
+<text x="50" y="239" font-size="12" letter-spacing="1" class="mono" style="fill:#e8bc85">PYTHON / POSTGRESQL / CRYPTOGRAPHY</text>
+<path d="M760 40V250" stroke="#243039"/>
+<circle cx="964" cy="147" r="105" fill="url(#halo)"/>
+<ellipse cx="964" cy="147" rx="105" ry="37.8" fill="none" stroke="#e8bc85" stroke-opacity=".35" transform="rotate(-32 964 147)"/>
+<ellipse cx="964" cy="147" rx="105" ry="37.8" fill="none" stroke="#e8bc85" stroke-opacity=".35" transform="rotate(32 964 147)"/>
+<g class="motion"><circle cx="964" cy="147" r="86.1" fill="none" stroke="#e8bc85" stroke-width="1.5" stroke-dasharray="80 18 2 18" opacity=".65"><animateTransform attributeName="transform" type="rotate" from="0 964 147" to="360 964 147" dur="35s" repeatCount="indefinite"/></circle>
+<circle cx="964" cy="147" r="65.1" fill="none" stroke="#b5a0ff" stroke-dasharray="3 14" opacity=".8"><animateTransform attributeName="transform" type="rotate" from="360 964 147" to="0 964 147" dur="24s" repeatCount="indefinite"/></circle></g><path d="M964 78L1017 101V146Q1017 183 964 211Q911 183 911 146V101Z" fill="#1e1913" stroke="#e8bc85" stroke-width="1.5"/><rect x="945" y="138" width="38" height="32" rx="5" fill="none" stroke="#e8bc85" stroke-width="2"/><path d="M952 138V128A12 12 0 0 1 976 128V138" fill="none" stroke="#e8bc85" stroke-width="2"/><circle cx="964" cy="153" r="3" fill="#e8bc85"/>
+
+</svg>
