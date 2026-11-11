@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="580" height="348" viewBox="0 0 580 348" role="img" aria-labelledby="title desc">
-<title id="title">Monthly GitHub contributions</title><desc id="desc">2025-12: 1; 2026-01: 15; 2026-02: 41; 2026-03: 23; 2026-04: 24; 2026-05: 0; 2026-06: 60; 2026-07: 89; 2026-08: 62; 2026-09: 5; 2026-10: 163; 2026-11: 34</desc>
+<title id="title">Monthly GitHub contributions</title><desc id="desc">2025-12: 1; 2026-01: 15; 2026-02: 41; 2026-03: 23; 2026-04: 24; 2026-05: 0; 2026-06: 60; 2026-07: 89; 2026-08: 62; 2026-09: 5; 2026-10: 163; 2026-11: 35</desc>
 <defs>
 <linearGradient id="border"><stop stop-color="#174464"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
 <linearGradient id="accent"><stop stop-color="#78dcff"><animate attributeName="stop-color" values="#78dcff;#b5a0ff;#78dcff" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
@@ -56,9 +56,9 @@ text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
 <rect x="466" y="110.00" width="23" height="150.00" rx="4" fill="url(#accent)"><title>2026-10: 163 contributions</title></rect>
 <text x="477.5" y="102.00" text-anchor="middle" font-size="10" class="mono">163</text>
 <text x="477.5" y="280" text-anchor="middle" font-size="10" class="muted">Oct</text>
-<rect x="507" y="228.71" width="23" height="31.29" rx="4" fill="url(#accent)"><title>2026-11: 34 contributions</title></rect>
-<text x="518.5" y="220.71" text-anchor="middle" font-size="10" class="mono">34</text>
+<rect x="507" y="227.79" width="23" height="32.21" rx="4" fill="url(#accent)"><title>2026-11: 35 contributions</title></rect>
+<text x="518.5" y="219.79" text-anchor="middle" font-size="10" class="mono">35</text>
 <text x="518.5" y="280" text-anchor="middle" font-size="10" class="muted">Nov</text>
 <path d="M48 260H548" stroke="#475569"/>
-<text x="32" y="318" font-size="11" class="muted">2025-12 → 2026-11 · updated 2026-11-10 UTC</text>
+<text x="32" y="318" font-size="11" class="muted">2025-12 → 2026-11 · updated 2026-11-11 UTC</text>
 </svg>
