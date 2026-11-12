@@ -416,6 +416,6 @@ text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
 <text x="48" y="1988" font-size="14" class="mono mint">INNER / PRIMARY LANGUAGES</text>
 <text x="620" y="1988" font-size="14" class="mono violet">MIDDLE / DOCUMENTED TOOLS</text>
 <text x="1240" y="1988" font-size="14" class="mono muted">OUTER / REPOSITORIES BY AREA</text>
-<text x="48" y="2026" font-size="14" class="muted">33 forks excluded · snapshot 2026-11-11 UTC · areas curated · signals decorative</text>
+<text x="48" y="2026" font-size="14" class="muted">33 forks excluded · snapshot 2026-11-12 UTC · areas curated · signals decorative</text>
 <text x="48" y="2052" font-size="13" class="muted">Connections show shared languages or documented tool use, not dependencies between repositories.</text>
 </svg>

@@ -1,19 +1,19 @@
 {
   "user": "arpitkjaiswal",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "sources": [
     "https://github.com/arpitkjaiswal?page=1&tab=repositories",
     "https://github.com/users/arpitkjaiswal/contributions"
   ],
   "repositories": [
     {
-      "name": "arpitkjaiswal.github.io",
-      "language": "JavaScript",
+      "name": "arpitkjaiswal",
+      "language": "HTML",
       "fork": false
     },
     {
-      "name": "arpitkjaiswal",
-      "language": "HTML",
+      "name": "arpitkjaiswal.github.io",
+      "language": "JavaScript",
       "fork": false
     },
     {
@@ -2240,6 +2240,11 @@
     },
     {
       "date": "2026-11-11",
+      "level": 0,
+      "count": 0
+    },
+    {
+      "date": "2026-11-12",
       "level": 0,
       "count": 0
     }
