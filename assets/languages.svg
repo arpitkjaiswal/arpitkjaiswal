@@ -37,5 +37,5 @@ text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
 <text x="134" y="181" text-anchor="middle" font-size="34" font-weight="800">37</text>
 <text x="134" y="204" text-anchor="middle" font-size="12" class="muted">PROJECTS</text>
 <circle class="motion" cx="134" cy="181" r="92" fill="none" stroke="#86f7cf" opacity=".35" stroke-dasharray="5 12"><animateTransform attributeName="transform" type="rotate" from="0 134 181" to="360 134 181" dur="60s" repeatCount="indefinite"/></circle>
-<text x="32" y="318" font-size="11" class="muted">One primary language per project · not code volume · 2026-11-12</text>
+<text x="32" y="318" font-size="11" class="muted">One primary language per project · not code volume · 2026-11-13</text>
 </svg>
