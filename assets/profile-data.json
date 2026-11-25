@@ -7,17 +7,17 @@
   ],
   "repositories": [
     {
+      "name": "synclEE",
+      "language": "JavaScript",
+      "fork": false
+    },
+    {
       "name": "arpitkjaiswal",
       "language": "HTML",
       "fork": false
     },
     {
       "name": "arpitkjaiswal.github.io",
-      "language": "JavaScript",
-      "fork": false
-    },
-    {
-      "name": "synclEE",
       "language": "JavaScript",
       "fork": false
     },
