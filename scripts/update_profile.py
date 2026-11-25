@@ -271,7 +271,7 @@ def main():
                "monthly.svg": monthly(data), "architecture.svg": architecture(),
                "stack.svg": stack(), "footer.svg": footer(),
                **{f"project-{name}.svg": project_card(name)
-                  for name in ("nexora", "talentos", "aegisvault")}}
+                  for name in ("nexora", "talentos", "synclee")}}
     artwork.update(build_atlas(data))
     artwork.update(build_icon_artwork())
     ASSETS.mkdir(exist_ok=True)

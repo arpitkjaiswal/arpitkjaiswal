@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="350" viewBox="0 0 450 350" role="img" aria-labelledby="title desc">
+<title id="title">synclEE — developer tools</title><desc id="desc">Save accepted coding solutions to your GitHub repository. Decorative project illustration.</desc>
+<defs>
+<linearGradient id="border"><stop stop-color="#174464"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#78dcff"><animate attributeName="stop-color" values="#78dcff;#b5a0ff;#78dcff" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#78dcff" stop-opacity=".18"/><stop offset="1" stop-color="#78dcff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#78dcff" stroke-opacity=".045"/></pattern>
+</defs>
+<style>
+text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
+.muted{fill:#99a8ba}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.mint{fill:#78dcff}.violet{fill:#b5a0ff}
+.static-only{display:none}
+@media(prefers-reduced-motion:reduce){.motion{display:none}.static-only{display:inline}}
+</style>
+<rect x="1" y="1" width="448" height="348" rx="18" fill="#070d18" stroke="url(#border)"/>
+
+<rect x="2" y="2" width="446" height="346" rx="18" fill="url(#grid)"/>
+<path d="M20 45V20H45M403 330H428V305" stroke="#97e8c7" stroke-opacity=".5" fill="none"/>
+<text x="27" y="43" font-size="11" letter-spacing="1.2" class="mono" style="fill:#97e8c7">03 / DEVELOPER TOOLS</text>
+<text x="24" y="101" font-size="47" font-weight="800" letter-spacing="-1.5">synclEE</text>
+<text x="27" y="132" font-size="15">Save accepted coding solutions</text>
+<text x="27" y="155" font-size="14" class="muted">to your GitHub repository.</text>
+<path d="M27 292H421" stroke="#97e8c7" stroke-opacity=".2"/>
+<text x="27" y="321" font-size="10.5" class="mono" style="fill:#97e8c7">JAVASCRIPT / CHROME / GITHUB API</text>
+<path d="M68 224H375" fill="none" stroke="#97e8c7" stroke-opacity=".5"/><circle cx="68" cy="224" r="11" fill="#11221d" stroke="#97e8c7"/><text x="68" y="261" text-anchor="middle" font-size="11" class="mono">SUBMIT</text><circle cx="222" cy="224" r="11" fill="#11221d" stroke="#97e8c7"/><text x="222" y="261" text-anchor="middle" font-size="11" class="mono">ACCEPTED</text><circle cx="375" cy="224" r="11" fill="#11221d" stroke="#97e8c7"/><text x="375" y="261" text-anchor="middle" font-size="11" class="mono">COMMIT</text>
+
+</svg>

@@ -137,11 +137,11 @@ def architecture():
             ("FASTAPI BOUNDARY", "Validated inputs and bounded extraction"),
             ("SCIKIT-LEARN", "Pairwise TF-IDF and skill coverage"),
             ("SQLALCHEMY / POSTGRESQL", "Transactional records and migrations")]),
-        ("AegisVault", "ENCRYPTION RESEARCH", "#e8bc85", [
-            ("PYTHON SDK / HTTP API", "Explicit document operations"),
-            ("POLICY + MANIFEST", "Tenant, role, purpose, and contracts"),
-            ("ENCRYPTION + SEARCH", "AEAD payloads and scoped HMAC terms"),
-            ("DATABASE + AUDIT", "Atomic updates and authenticated events")]),
+        ("synclEE", "CHROME EXTENSION", "#97e8c7", [
+            ("SUBMITTED CODE", "Read the solution from the submission or editor"),
+            ("ACCEPTED VERDICT", "Check the platform result before syncing"),
+            ("GITHUB CONTENTS API", "Compare the file and commit changed code"),
+            ("POPUP DASHBOARD", "Count successful commits by platform")]),
     ]
     content = ['<rect x="2" y="2" width="1396" height="756" rx="18" fill="url(#grid)"/>',
                '<text x="42" y="48" font-size="12" letter-spacing="2.5" class="mono mint">ENGINEERING BLUEPRINT / THREE IMPLEMENTATIONS</text>',
@@ -158,8 +158,8 @@ def architecture():
             content.append(f'<rect x="{x}" y="{y}" width="404" height="83" rx="10" fill="#0d141c" stroke="{color}" stroke-opacity=".25"/><path d="M{x} {y+15}V{y+68}" stroke="{color}" stroke-width="2"/>')
             content.append(f'<text x="{x+19}" y="{y+31}" font-size="12" letter-spacing=".8" class="mono" style="fill:{color}">{label}</text><text x="{x+19}" y="{y+58}" font-size="13" class="muted">{description}</text>')
     content.append('<path d="M42 685H1358" stroke="#26383a"/><text x="42" y="716" font-size="12" class="muted">Conceptual request paths from project documentation. Each application has its own scope and deployment model.</text>')
-    return svg(1400, 760, "Architecture of NEXORA, TalentOS, and AegisVault",
-               "Three documented application paths: repository analysis, explainable candidate ranking, and policy-aware encrypted document storage. Moving signals illustrate the paths and do not represent live traffic.", "\n".join(content))
+    return svg(1400, 760, "Architecture of NEXORA, TalentOS, and synclEE",
+               "Three documented application paths: repository analysis, explainable candidate ranking, and accepted solution syncing. Moving signals illustrate the paths and do not represent live traffic.", "\n".join(content))
 
 
 def project_card(key):
@@ -168,8 +168,8 @@ def project_card(key):
                    "REACT / TYPESCRIPT / NODE.JS", "#78dcff"),
         "talentos": ("02", "EXPLAINABLE ML", "TalentOS", "Rank with evidence.", "Keep the reasoning visible.",
                      "FASTAPI / REACT / SCIKIT-LEARN", "#b5a0ff"),
-        "aegisvault": ("03", "SECURITY RESEARCH", "AegisVault", "Make data boundaries explicit.", "Policy. Encryption. Audit.",
-                       "PYTHON / POSTGRESQL / CRYPTOGRAPHY", "#e8bc85"),
+        "synclee": ("03", "DEVELOPER TOOLS", "synclEE", "Save accepted coding solutions", "to your GitHub repository.",
+                    "JAVASCRIPT / CHROME / GITHUB API", "#97e8c7"),
     }
     index, category, title, tagline, second_line, tools, color = projects[key]
     art = []
@@ -190,12 +190,9 @@ def project_card(key):
                 path=f'M{x+113} 226H{x+135}'
                 art.append(f'<path d="{path}" stroke="{color}" stroke-opacity=".5"/><circle r="2.4" fill="{color}" class="motion"><animateMotion path="{path}" dur="2.7s" begin="-{i}s" repeatCount="indefinite"/></circle>')
     else:
-        art.append(f'<path d="M222 175L262 192V223Q262 253 222 275Q182 253 182 223V192Z" fill="#211d17" stroke="{color}" stroke-width="1.5"/>')
-        art.append(f'<rect x="208" y="216" width="28" height="25" rx="4" fill="none" stroke="{color}" stroke-width="1.6"/><path d="M213 216V208A9 9 0 0 1 231 208V216" fill="none" stroke="{color}" stroke-width="1.6"/>')
-        for x, label in [(70,"POLICY"),(375,"AUDIT")]:
-            art.append(f'<circle cx="{x}" cy="226" r="23" fill="#171923" stroke="{color}" stroke-opacity=".4"/><text x="{x}" y="270" text-anchor="middle" font-size="10" class="mono" style="fill:{color}">{label}</text>')
-        for path in ['M93 226H181','M263 226H352']:
-            art.append(f'<path d="{path}" stroke="{color}" stroke-opacity=".4"/><circle r="2.5" fill="{color}" class="motion"><animateMotion path="{path}" dur="3.7s" repeatCount="indefinite"/></circle>')
+        art.append(f'<path d="M68 224H375" fill="none" stroke="{color}" stroke-opacity=".5"/>')
+        for x, label in [(68, "SUBMIT"), (222, "ACCEPTED"), (375, "COMMIT")]:
+            art.append(f'<circle cx="{x}" cy="224" r="11" fill="#11221d" stroke="{color}"/><text x="{x}" y="261" text-anchor="middle" font-size="11" class="mono">{label}</text>')
     content = f'''
 <rect x="2" y="2" width="446" height="346" rx="18" fill="url(#grid)"/>
 <path d="M20 45V20H45M403 330H428V305" stroke="{color}" stroke-opacity=".5" fill="none"/>

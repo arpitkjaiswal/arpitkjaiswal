@@ -79,6 +79,14 @@ This image is copied unchanged from the project's `docs/overview.png` at the sou
 
 </details>
 
+## synclEE — save accepted submissions
+
+The extension reads the submitted code and waits for an accepted verdict. On LeetCode it can match a verdict to a submission ID. The other adapters snapshot the editor buffer at submission time and watch for a fresh result.
+
+The worker serializes writes to the selected repository. It compares the existing file with the captured code, skips identical contents, and retries a conflicting update once. The popup increments its counter after a successful commit.
+
+[Capture implementation](https://github.com/arpitkjaiswal/synclEE/blob/main/extension/capture.js) · [GitHub write logic](https://github.com/arpitkjaiswal/synclEE/blob/main/extension/sync.js)
+
 ## AegisVault — make the data boundary explicit
 
 **Problem.** Encrypted storage still needs an application contract: who may read a record, how search is scoped, how concurrent changes behave, and what the audit trail can establish.

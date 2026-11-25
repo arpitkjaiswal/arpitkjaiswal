@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
-<title id="title">Architecture of NEXORA, TalentOS, and AegisVault</title><desc id="desc">Three documented application paths: repository analysis, explainable candidate ranking, and policy-aware encrypted document storage. Moving signals illustrate the paths and do not represent live traffic.</desc>
+<title id="title">Architecture of NEXORA, TalentOS, and synclEE</title><desc id="desc">Three documented application paths: repository analysis, explainable candidate ranking, and accepted solution syncing. Moving signals illustrate the paths and do not represent live traffic.</desc>
 <defs>
 <linearGradient id="border"><stop stop-color="#174464"/><stop offset=".55" stop-color="#202b39"/><stop offset="1" stop-color="#3a3155"/></linearGradient>
 <linearGradient id="accent"><stop stop-color="#78dcff"><animate attributeName="stop-color" values="#78dcff;#b5a0ff;#78dcff" dur="16s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#b5a0ff"/></linearGradient>
@@ -47,20 +47,20 @@ text{font-family:system-ui,-apple-system,Segoe UI,sans-serif;fill:#edf3f8}
 <circle r="2.8" fill="#b5a0ff" class="motion"><animateMotion path="M692 522V550" dur="2s" begin="-1.7999999999999998s" repeatCount="indefinite"/></circle>
 <rect x="490" y="550" width="404" height="83" rx="10" fill="#0d141c" stroke="#b5a0ff" stroke-opacity=".25"/><path d="M490 565V618" stroke="#b5a0ff" stroke-width="2"/>
 <text x="509" y="581" font-size="12" letter-spacing=".8" class="mono" style="fill:#b5a0ff">SQLALCHEMY / POSTGRESQL</text><text x="509" y="608" font-size="13" class="muted">Transactional records and migrations</text>
-<text x="938" y="157" font-size="27" font-weight="750">AegisVault</text><text x="938" y="182" font-size="10" letter-spacing="1.5" class="mono" style="fill:#e8bc85">ENCRYPTION RESEARCH</text>
-<rect x="938" y="217" width="404" height="83" rx="10" fill="#0d141c" stroke="#e8bc85" stroke-opacity=".25"/><path d="M938 232V285" stroke="#e8bc85" stroke-width="2"/>
-<text x="957" y="248" font-size="12" letter-spacing=".8" class="mono" style="fill:#e8bc85">PYTHON SDK / HTTP API</text><text x="957" y="275" font-size="13" class="muted">Explicit document operations</text>
-<path d="M1140 300V328" stroke="#e8bc85" stroke-opacity=".5"/><path d="M1136 321L1140 326L1144 321" fill="none" stroke="#e8bc85"/>
-<circle r="2.8" fill="#e8bc85" class="motion"><animateMotion path="M1140 300V328" dur="2s" begin="-0.6s" repeatCount="indefinite"/></circle>
-<rect x="938" y="328" width="404" height="83" rx="10" fill="#0d141c" stroke="#e8bc85" stroke-opacity=".25"/><path d="M938 343V396" stroke="#e8bc85" stroke-width="2"/>
-<text x="957" y="359" font-size="12" letter-spacing=".8" class="mono" style="fill:#e8bc85">POLICY + MANIFEST</text><text x="957" y="386" font-size="13" class="muted">Tenant, role, purpose, and contracts</text>
-<path d="M1140 411V439" stroke="#e8bc85" stroke-opacity=".5"/><path d="M1136 432L1140 437L1144 432" fill="none" stroke="#e8bc85"/>
-<circle r="2.8" fill="#e8bc85" class="motion"><animateMotion path="M1140 411V439" dur="2s" begin="-1.2s" repeatCount="indefinite"/></circle>
-<rect x="938" y="439" width="404" height="83" rx="10" fill="#0d141c" stroke="#e8bc85" stroke-opacity=".25"/><path d="M938 454V507" stroke="#e8bc85" stroke-width="2"/>
-<text x="957" y="470" font-size="12" letter-spacing=".8" class="mono" style="fill:#e8bc85">ENCRYPTION + SEARCH</text><text x="957" y="497" font-size="13" class="muted">AEAD payloads and scoped HMAC terms</text>
-<path d="M1140 522V550" stroke="#e8bc85" stroke-opacity=".5"/><path d="M1136 543L1140 548L1144 543" fill="none" stroke="#e8bc85"/>
-<circle r="2.8" fill="#e8bc85" class="motion"><animateMotion path="M1140 522V550" dur="2s" begin="-1.7999999999999998s" repeatCount="indefinite"/></circle>
-<rect x="938" y="550" width="404" height="83" rx="10" fill="#0d141c" stroke="#e8bc85" stroke-opacity=".25"/><path d="M938 565V618" stroke="#e8bc85" stroke-width="2"/>
-<text x="957" y="581" font-size="12" letter-spacing=".8" class="mono" style="fill:#e8bc85">DATABASE + AUDIT</text><text x="957" y="608" font-size="13" class="muted">Atomic updates and authenticated events</text>
+<text x="938" y="157" font-size="27" font-weight="750">synclEE</text><text x="938" y="182" font-size="10" letter-spacing="1.5" class="mono" style="fill:#97e8c7">CHROME EXTENSION</text>
+<rect x="938" y="217" width="404" height="83" rx="10" fill="#0d141c" stroke="#97e8c7" stroke-opacity=".25"/><path d="M938 232V285" stroke="#97e8c7" stroke-width="2"/>
+<text x="957" y="248" font-size="12" letter-spacing=".8" class="mono" style="fill:#97e8c7">SUBMITTED CODE</text><text x="957" y="275" font-size="13" class="muted">Read the solution from the submission or editor</text>
+<path d="M1140 300V328" stroke="#97e8c7" stroke-opacity=".5"/><path d="M1136 321L1140 326L1144 321" fill="none" stroke="#97e8c7"/>
+<circle r="2.8" fill="#97e8c7" class="motion"><animateMotion path="M1140 300V328" dur="2s" begin="-0.6s" repeatCount="indefinite"/></circle>
+<rect x="938" y="328" width="404" height="83" rx="10" fill="#0d141c" stroke="#97e8c7" stroke-opacity=".25"/><path d="M938 343V396" stroke="#97e8c7" stroke-width="2"/>
+<text x="957" y="359" font-size="12" letter-spacing=".8" class="mono" style="fill:#97e8c7">ACCEPTED VERDICT</text><text x="957" y="386" font-size="13" class="muted">Check the platform result before syncing</text>
+<path d="M1140 411V439" stroke="#97e8c7" stroke-opacity=".5"/><path d="M1136 432L1140 437L1144 432" fill="none" stroke="#97e8c7"/>
+<circle r="2.8" fill="#97e8c7" class="motion"><animateMotion path="M1140 411V439" dur="2s" begin="-1.2s" repeatCount="indefinite"/></circle>
+<rect x="938" y="439" width="404" height="83" rx="10" fill="#0d141c" stroke="#97e8c7" stroke-opacity=".25"/><path d="M938 454V507" stroke="#97e8c7" stroke-width="2"/>
+<text x="957" y="470" font-size="12" letter-spacing=".8" class="mono" style="fill:#97e8c7">GITHUB CONTENTS API</text><text x="957" y="497" font-size="13" class="muted">Compare the file and commit changed code</text>
+<path d="M1140 522V550" stroke="#97e8c7" stroke-opacity=".5"/><path d="M1136 543L1140 548L1144 543" fill="none" stroke="#97e8c7"/>
+<circle r="2.8" fill="#97e8c7" class="motion"><animateMotion path="M1140 522V550" dur="2s" begin="-1.7999999999999998s" repeatCount="indefinite"/></circle>
+<rect x="938" y="550" width="404" height="83" rx="10" fill="#0d141c" stroke="#97e8c7" stroke-opacity=".25"/><path d="M938 565V618" stroke="#97e8c7" stroke-width="2"/>
+<text x="957" y="581" font-size="12" letter-spacing=".8" class="mono" style="fill:#97e8c7">POPUP DASHBOARD</text><text x="957" y="608" font-size="13" class="muted">Count successful commits by platform</text>
 <path d="M42 685H1358" stroke="#26383a"/><text x="42" y="716" font-size="12" class="muted">Conceptual request paths from project documentation. Each application has its own scope and deployment model.</text>
 </svg>

@@ -22,7 +22,7 @@ I’m **Arpit Kumar Jaiswal**, a developer from **MIT Manipal**. I build with **
 
 <a href="https://github.com/arpitkjaiswal/NEXORA"><img src="./assets/project-nexora.svg" width="32%" alt="NEXORA: repository analysis and developer tooling, built with React, TypeScript, and Node.js. Open the source repository." /></a>
 <a href="https://github.com/arpitkjaiswal/Candidate-Ranking-System"><img src="./assets/project-talentos.svg" width="32%" alt="TalentOS: explainable candidate ranking with React, FastAPI, and scikit-learn. Open the source repository." /></a>
-<a href="https://github.com/arpitkjaiswal/AegisVault"><img src="./assets/project-aegisvault.svg" width="32%" alt="AegisVault: policy-aware encryption research using Python and PostgreSQL. Open the source repository." /></a>
+<a href="https://github.com/arpitkjaiswal/synclEE"><img src="./assets/project-synclee.svg" width="32%" alt="synclEE saves accepted coding solutions to GitHub. Open the source repository." /></a>
 
 </div>
 
@@ -53,13 +53,13 @@ Original screenshot from the [project documentation](https://github.com/arpitkja
 
 </details>
 
-### AegisVault
+### synclEE
 
-**Make data boundaries explicit.** A Python SDK and HTTP API for policy-gated encrypted records, tenant-scoped exact search, and authenticated audit chains.
+**Save accepted solutions to GitHub.** This Chrome extension captures submissions from LeetCode, CodeChef, HackerRank, and GeeksforGeeks and saves them to a repository you choose. The popup tracks successful commits by platform.
 
-**Engineering to inspect:** manifest-bound interpretation, atomic record/search-term updates, optimistic revisions, and plaintext release after read-audit commit. Research prototype; not independently security-audited.
+The sync worker checks the current file before writing. Submitting identical code skips the commit, and a conflicting write gets one retry with the latest file revision.
 
-[Source](https://github.com/arpitkjaiswal/AegisVault) · [Design decisions](./docs/engineering-notes.md#aegisvault--make-the-data-boundary-explicit) · [Security boundaries](https://github.com/arpitkjaiswal/AegisVault/blob/HEAD/docs/security.md) · [Recorded verification](https://github.com/arpitkjaiswal/AegisVault/blob/HEAD/docs/status.md)
+[Source](https://github.com/arpitkjaiswal/synclEE) · [Download for Chrome](https://arpitkjaiswal.github.io/synclEE/) · [Popup screenshots](https://github.com/arpitkjaiswal/synclEE#screenshots)
 
 <details>
 <summary><b>More work: voice interfaces, computer vision, document search, and developer tools</b></summary>
@@ -85,7 +85,7 @@ Original screenshot from the [project documentation](https://github.com/arpitkja
 
 I care about the behavior behind the interface: **clear contracts, consistent state changes, inspectable results, and useful failure states**. These three projects apply those ideas in different ways.
 
-<img src="./assets/architecture.svg" width="100%" alt="Three application blueprints: NEXORA source analysis, TalentOS bounded extraction and explainable ranking, and AegisVault policy, encryption, transactional storage, and audit" />
+<img src="./assets/architecture.svg" width="100%" alt="Three application blueprints: NEXORA source analysis, TalentOS bounded extraction and explainable ranking, and synclEE submission capture, verdict checking, and GitHub commits" />
 
 The [engineering walkthroughs](./docs/engineering-notes.md) connect each implementation to its design choices, tradeoffs, source revisions, and recorded verification.
 
@@ -170,10 +170,10 @@ Select an icon to explore the technology. Project examples are listed below.
 | :--- | :--- | :--- |
 | Frontend | React · TypeScript · Vite · HTML · CSS | NEXORA, TalentOS, Concord |
 | APIs & validation | FastAPI · Pydantic · Node.js · Express · HTTPX · MCP | DevOS, NEXORA, LeafScan |
-| Persistence | PostgreSQL · SQLAlchemy · Alembic · SQLite · MongoDB · optional Redis | AegisVault, TalentOS, LeafScan, URLShortener |
+| Persistence | PostgreSQL · SQLAlchemy · Alembic · SQLite · MongoDB · optional Redis | TalentOS, LeafScan, URLShortener |
 | ML & data | PyTorch · scikit-learn · NumPy · Pandas · SciPy · Matplotlib · Seaborn | LeafScan, candidate ranking, data-analysis projects |
 | Voice & providers | Whisper · PySide6 · OpenAI · Anthropic · optional Ollama | LEXA |
-| Delivery & verification | Docker · GitHub Actions · pytest · Playwright · Hypothesis · Ruff · uv | NEXORA, AegisVault, TalentOS |
+| Delivery & verification | Docker · GitHub Actions · pytest · Playwright · Hypothesis · Ruff · uv | NEXORA, synclEE, TalentOS |
 | Programming foundations | Java · C · C++ · JavaScript · SQL · Verilog | Coursework, algorithms, and programming foundations |
 
 These tools reflect project manifests, documentation, and my stated foundations. Some integrations are optional; each repository describes its implementation scope. Forks are excluded from the language graph below.
