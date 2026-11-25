@@ -1,6 +1,6 @@
 {
   "user": "arpitkjaiswal",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "width": 1800,
   "height": 2080,
   "nodes": [
@@ -19,9 +19,9 @@
       "kind": "repository",
       "name": "AI_Candidate_Ranking_System",
       "label": "AI Candidate Ranking",
-      "x": 936.78,
-      "y": 451.11,
-      "angle": -86.54347826086956,
+      "x": 936.0,
+      "y": 451.06,
+      "angle": -86.61702127659575,
       "group": "ai",
       "area": "AI & DATA",
       "color": "#b5a0ff",
@@ -33,9 +33,9 @@
       "kind": "repository",
       "name": "Candidate-Ranking-System",
       "label": "TalentOS",
-      "x": 1009.8,
-      "y": 459.96,
-      "angle": -79.63043478260869,
+      "x": 1007.49,
+      "y": 459.54,
+      "angle": -79.85106382978724,
       "group": "ai",
       "area": "AI & DATA",
       "color": "#b5a0ff",
@@ -47,9 +47,9 @@
       "kind": "repository",
       "name": "CNN",
       "label": "LeafScan / CNN",
-      "x": 1081.22,
-      "y": 477.54,
-      "angle": -72.71739130434783,
+      "x": 1077.48,
+      "y": 476.39,
+      "angle": -73.08510638297872,
       "group": "ai",
       "area": "AI & DATA",
       "color": "#b5a0ff",
@@ -61,9 +61,9 @@
       "kind": "repository",
       "name": "Data_Analytic_miniproject",
       "label": "Data Analytics Mini-proje…",
-      "x": 1150.01,
-      "y": 503.59,
-      "angle": -65.80434782608695,
+      "x": 1145.0,
+      "y": 501.36,
+      "angle": -66.31914893617021,
       "group": "ai",
       "area": "AI & DATA",
       "color": "#b5a0ff",
@@ -75,9 +75,9 @@
       "kind": "repository",
       "name": "DocumentAnalyser",
       "label": "DocumentAnalyser",
-      "x": 1215.16,
-      "y": 537.72,
-      "angle": -58.89130434782608,
+      "x": 1209.11,
+      "y": 534.12,
+      "angle": -59.55319148936171,
       "group": "ai",
       "area": "AI & DATA",
       "color": "#b5a0ff",
@@ -89,9 +89,9 @@
       "kind": "repository",
       "name": "Hypermart-Sales-Data-Analysis-Report-",
       "label": "Hypermart Sales Analysis",
-      "x": 1275.74,
-      "y": 579.46,
-      "angle": -51.97826086956522,
+      "x": 1268.91,
+      "y": 574.2,
+      "angle": -52.787234042553195,
       "group": "ai",
       "area": "AI & DATA",
       "color": "#b5a0ff",
@@ -103,9 +103,9 @@
       "kind": "repository",
       "name": "LEXA",
       "label": "LEXA",
-      "x": 1330.84,
-      "y": 628.17,
-      "angle": -45.065217391304344,
+      "x": 1323.58,
+      "y": 621.05,
+      "angle": -46.02127659574468,
       "group": "ai",
       "area": "AI & DATA",
       "color": "#b5a0ff",
@@ -117,9 +117,9 @@
       "kind": "repository",
       "name": "NovaFlow-AI",
       "label": "NovaFlow-AI",
-      "x": 1379.69,
-      "y": 683.17,
-      "angle": -38.15217391304348,
+      "x": 1372.34,
+      "y": 674.01,
+      "angle": -39.25531914893617,
       "group": "ai",
       "area": "AI & DATA",
       "color": "#b5a0ff",
@@ -131,9 +131,9 @@
       "kind": "repository",
       "name": "TerraMind",
       "label": "TerraMind",
-      "x": 1421.56,
-      "y": 743.65,
-      "angle": -31.23913043478261,
+      "x": 1414.53,
+      "y": 732.34,
+      "angle": -32.48936170212765,
       "group": "ai",
       "area": "AI & DATA",
       "color": "#b5a0ff",
@@ -145,9 +145,9 @@
       "kind": "repository",
       "name": "CommitFlow",
       "label": "CommitFlow",
-      "x": 1482.32,
-      "y": 878.34,
-      "angle": -17.32608695652174,
+      "x": 1477.72,
+      "y": 864.19,
+      "angle": -18.723404255319146,
       "group": "tools",
       "area": "TOOLS & WORKSPACES",
       "color": "#86f7cf",
@@ -159,9 +159,9 @@
       "kind": "repository",
       "name": "CommitSync",
       "label": "CommitSync",
-      "x": 1499.95,
-      "y": 949.75,
-      "angle": -10.413043478260866,
+      "x": 1496.76,
+      "y": 933.62,
+      "angle": -11.957446808510635,
       "group": "tools",
       "area": "TOOLS & WORKSPACES",
       "color": "#86f7cf",
@@ -173,9 +173,9 @@
       "kind": "repository",
       "name": "Concord",
       "label": "Concord",
-      "x": 1508.86,
-      "y": 1022.76,
-      "angle": -3.4999999999999964,
+      "x": 1507.5,
+      "y": 1004.8,
+      "angle": -5.191489361702125,
       "group": "tools",
       "area": "TOOLS & WORKSPACES",
       "color": "#86f7cf",
@@ -187,9 +187,9 @@
       "kind": "repository",
       "name": "DevOS-AI-Software-Engineering-Agent",
       "label": "DevOS",
-      "x": 1508.92,
-      "y": 1096.32,
-      "angle": 3.4130434782608745,
+      "x": 1509.77,
+      "y": 1076.76,
+      "angle": 1.5744680851063855,
       "group": "tools",
       "area": "TOOLS & WORKSPACES",
       "color": "#86f7cf",
@@ -201,9 +201,9 @@
       "kind": "repository",
       "name": "NEXORA",
       "label": "NEXORA",
-      "x": 1500.12,
-      "y": 1169.34,
-      "angle": 10.326086956521745,
+      "x": 1503.55,
+      "y": 1148.48,
+      "angle": 8.340425531914896,
       "group": "tools",
       "area": "TOOLS & WORKSPACES",
       "color": "#86f7cf",
@@ -215,9 +215,9 @@
       "kind": "repository",
       "name": "AegisVault",
       "label": "AegisVault",
-      "x": 1456.22,
-      "y": 1310.43,
-      "angle": 24.239130434782613,
+      "x": 1465.16,
+      "y": 1289.56,
+      "angle": 22.10638297872341,
       "group": "backend",
       "area": "BACKEND & SECURITY",
       "color": "#e8bc85",
@@ -229,9 +229,9 @@
       "kind": "repository",
       "name": "Node.js-Express.js",
       "label": "Node.js-Express.js",
-      "x": 1422.04,
-      "y": 1375.56,
-      "angle": 31.152173913043484,
+      "x": 1434.18,
+      "y": 1354.54,
+      "angle": 28.87234042553192,
       "group": "backend",
       "area": "BACKEND & SECURITY",
       "color": "#e8bc85",
@@ -243,9 +243,9 @@
       "kind": "repository",
       "name": "URL-Shortener",
       "label": "URL-Shortener",
-      "x": 1380.26,
-      "y": 1436.1,
-      "angle": 38.06521739130436,
+      "x": 1395.75,
+      "y": 1415.43,
+      "angle": 35.63829787234043,
       "group": "backend",
       "area": "BACKEND & SECURITY",
       "color": "#e8bc85",
@@ -257,9 +257,9 @@
       "kind": "repository",
       "name": "URLShortener",
       "label": "URLShortener",
-      "x": 1331.5,
-      "y": 1491.17,
-      "angle": 44.978260869565226,
+      "x": 1350.43,
+      "y": 1471.36,
+      "angle": 42.404255319148945,
       "group": "backend",
       "area": "BACKEND & SECURITY",
       "color": "#e8bc85",
@@ -271,9 +271,9 @@
       "kind": "repository",
       "name": "veildb",
       "label": "veildb",
-      "x": 1276.46,
-      "y": 1539.97,
-      "angle": 51.89130434782609,
+      "x": 1298.83,
+      "y": 1521.56,
+      "angle": 49.17021276595745,
       "group": "backend",
       "area": "BACKEND & SECURITY",
       "color": "#e8bc85",
@@ -285,9 +285,9 @@
       "kind": "repository",
       "name": "Amazon-Web-Services",
       "label": "Amazon-Web-Services",
-      "x": 1150.01,
-      "y": 1616.41,
-      "angle": 65.80434782608697,
+      "x": 1177.54,
+      "y": 1603.21,
+      "angle": 62.936170212765965,
       "group": "web",
       "area": "WEB EXPERIMENTS",
       "color": "#7ab7ef",
@@ -299,9 +299,9 @@
       "kind": "repository",
       "name": "arpitkjaiswal.github.io",
       "label": "Personal Website",
-      "x": 1081.22,
-      "y": 1642.46,
-      "angle": 72.71739130434783,
+      "x": 1111.61,
+      "y": 1632.12,
+      "angle": 69.70212765957447,
       "group": "web",
       "area": "WEB EXPERIMENTS",
       "color": "#7ab7ef",
@@ -313,9 +313,9 @@
       "kind": "repository",
       "name": "Javascript",
       "label": "Javascript",
-      "x": 1009.8,
-      "y": 1660.04,
-      "angle": 79.6304347826087,
+      "x": 1042.73,
+      "y": 1653.07,
+      "angle": 76.46808510638299,
       "group": "web",
       "area": "WEB EXPERIMENTS",
       "color": "#7ab7ef",
@@ -327,9 +327,9 @@
       "kind": "repository",
       "name": "js",
       "label": "js",
-      "x": 936.78,
-      "y": 1668.89,
-      "angle": 86.54347826086958,
+      "x": 971.87,
+      "y": 1665.75,
+      "angle": 83.2340425531915,
       "group": "web",
       "area": "WEB EXPERIMENTS",
       "color": "#7ab7ef",
@@ -341,9 +341,9 @@
       "kind": "repository",
       "name": "orbit-warden",
       "label": "orbit-warden",
-      "x": 863.22,
-      "y": 1668.89,
-      "angle": 93.45652173913044,
+      "x": 900.0,
+      "y": 1670.0,
+      "angle": 90.0,
       "group": "web",
       "area": "WEB EXPERIMENTS",
       "color": "#7ab7ef",
@@ -355,9 +355,9 @@
       "kind": "repository",
       "name": "Plugin",
       "label": "Plugin",
-      "x": 790.2,
-      "y": 1660.04,
-      "angle": 100.36956521739131,
+      "x": 828.13,
+      "y": 1665.75,
+      "angle": 96.76595744680853,
       "group": "web",
       "area": "WEB EXPERIMENTS",
       "color": "#7ab7ef",
@@ -369,9 +369,9 @@
       "kind": "repository",
       "name": "React-Framework",
       "label": "React-Framework",
-      "x": 718.78,
-      "y": 1642.46,
-      "angle": 107.28260869565219,
+      "x": 757.27,
+      "y": 1653.07,
+      "angle": 103.53191489361703,
       "group": "web",
       "area": "WEB EXPERIMENTS",
       "color": "#7ab7ef",
@@ -383,9 +383,9 @@
       "kind": "repository",
       "name": "DBS",
       "label": "DBS",
-      "x": 584.04,
-      "y": 1581.8,
-      "angle": 121.19565217391306,
+      "x": 620.24,
+      "y": 1602.07,
+      "angle": 117.29787234042553,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -397,9 +397,9 @@
       "kind": "repository",
       "name": "DBS_Lab",
       "label": "DBS_Lab",
-      "x": 523.54,
-      "y": 1539.97,
-      "angle": 128.10869565217394,
+      "x": 558.33,
+      "y": 1565.33,
+      "angle": 124.06382978723404,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -411,9 +411,9 @@
       "kind": "repository",
       "name": "DCCN",
       "label": "DCCN",
-      "x": 468.5,
-      "y": 1491.17,
-      "angle": 135.0217391304348,
+      "x": 501.17,
+      "y": 1521.56,
+      "angle": 130.82978723404256,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -425,9 +425,9 @@
       "kind": "repository",
       "name": "DSA",
       "label": "DSA",
-      "x": 419.74,
-      "y": 1436.1,
-      "angle": 141.93478260869566,
+      "x": 449.57,
+      "y": 1471.36,
+      "angle": 137.59574468085106,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -439,9 +439,9 @@
       "kind": "repository",
       "name": "ESLAB",
       "label": "ESLAB",
-      "x": 377.96,
-      "y": 1375.56,
-      "angle": 148.84782608695653,
+      "x": 404.25,
+      "y": 1415.43,
+      "angle": 144.36170212765958,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -453,9 +453,9 @@
       "kind": "repository",
       "name": "Hotel-management-Application",
       "label": "Hotel Management App",
-      "x": 343.78,
-      "y": 1310.43,
-      "angle": 155.7608695652174,
+      "x": 365.82,
+      "y": 1354.54,
+      "angle": 151.12765957446808,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -467,9 +467,9 @@
       "kind": "repository",
       "name": "hotel-management-system",
       "label": "Hotel Management System",
-      "x": 317.68,
-      "y": 1241.66,
-      "angle": 162.67391304347828,
+      "x": 334.84,
+      "y": 1289.56,
+      "angle": 157.8936170212766,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -481,9 +481,9 @@
       "kind": "repository",
       "name": "IS_LAB",
       "label": "IS_LAB",
-      "x": 300.05,
-      "y": 1170.25,
-      "angle": 169.58695652173915,
+      "x": 311.73,
+      "y": 1221.38,
+      "angle": 164.6595744680851,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -495,9 +495,9 @@
       "kind": "repository",
       "name": "LabcodesDS",
       "label": "LabcodesDS",
-      "x": 291.14,
-      "y": 1097.24,
-      "angle": 176.5,
+      "x": 296.82,
+      "y": 1150.95,
+      "angle": 171.4255319148936,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -509,9 +509,9 @@
       "kind": "repository",
       "name": "leetcode-solutions",
       "label": "leetcode-solutions",
-      "x": 291.08,
-      "y": 1023.68,
-      "angle": 183.41304347826087,
+      "x": 290.3,
+      "y": 1079.25,
+      "angle": 178.1914893617021,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -523,9 +523,9 @@
       "kind": "repository",
       "name": "neetcode-submissions",
       "label": "neetcode-submissions",
-      "x": 299.88,
-      "y": 950.66,
-      "angle": 190.32608695652175,
+      "x": 292.28,
+      "y": 1007.29,
+      "angle": 184.95744680851064,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -537,9 +537,9 @@
       "kind": "repository",
       "name": "OOPS",
       "label": "OOPS",
-      "x": 317.4,
-      "y": 879.22,
-      "angle": 197.23913043478262,
+      "x": 302.72,
+      "y": 936.06,
+      "angle": 191.72340425531917,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -551,9 +551,9 @@
       "kind": "repository",
       "name": "OOPs_Reopo",
       "label": "OOPs_Reopo",
-      "x": 343.4,
-      "y": 810.41,
-      "angle": 204.1521739130435,
+      "x": 321.49,
+      "y": 866.55,
+      "angle": 198.48936170212767,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -565,9 +565,9 @@
       "kind": "repository",
       "name": "Os_Lab",
       "label": "Os_Lab",
-      "x": 377.49,
-      "y": 745.23,
-      "angle": 211.06521739130437,
+      "x": 348.31,
+      "y": 799.74,
+      "angle": 205.25531914893617,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -579,9 +579,9 @@
       "kind": "repository",
       "name": "OSDL",
       "label": "OSDL",
-      "x": 419.17,
-      "y": 684.63,
-      "angle": 217.97826086956525,
+      "x": 382.81,
+      "y": 736.56,
+      "angle": 212.02127659574467,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -593,9 +593,9 @@
       "kind": "repository",
       "name": "OSDL_Lab_Project",
       "label": "OSDL_Lab_Project",
-      "x": 467.85,
-      "y": 629.48,
-      "angle": 224.8913043478261,
+      "x": 424.52,
+      "y": 677.88,
+      "angle": 218.78723404255317,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -607,9 +607,9 @@
       "kind": "repository",
       "name": "Verilog_codes",
       "label": "Verilog_codes",
-      "x": 522.81,
-      "y": 580.6,
-      "angle": 231.804347826087,
+      "x": 472.85,
+      "y": 624.52,
+      "angle": 225.55319148936172,
       "group": "foundations",
       "area": "CS & COURSEWORK",
       "color": "#e99ab7",
@@ -621,9 +621,9 @@
       "kind": "repository",
       "name": "flagsmith",
       "label": "flagsmith",
-      "x": 649.15,
-      "y": 503.97,
-      "angle": 245.71739130434784,
+      "x": 588.74,
+      "y": 535.39,
+      "angle": 239.3191489361702,
       "group": "other",
       "area": "OTHER EXPLORATIONS",
       "color": "#a5d68b",
@@ -635,9 +635,9 @@
       "kind": "repository",
       "name": "GSOC_Practise",
       "label": "GSOC_Practise",
-      "x": 717.89,
-      "y": 477.82,
-      "angle": 252.63043478260872,
+      "x": 652.72,
+      "y": 502.37,
+      "angle": 246.08510638297872,
       "group": "other",
       "area": "OTHER EXPLORATIONS",
       "color": "#a5d68b",
@@ -649,14 +649,28 @@
       "kind": "repository",
       "name": "SentriX",
       "label": "SentriX",
-      "x": 789.29,
-      "y": 460.13,
-      "angle": 259.54347826086956,
+      "x": 720.14,
+      "y": 477.12,
+      "angle": 252.85106382978722,
       "group": "other",
       "area": "OTHER EXPLORATIONS",
       "color": "#a5d68b",
       "language": null,
       "url": "https://github.com/arpitkjaiswal/SentriX"
+    },
+    {
+      "id": "repo:synclEE",
+      "kind": "repository",
+      "name": "synclEE",
+      "label": "synclEE",
+      "x": 790.06,
+      "y": 459.99,
+      "angle": 259.6170212765957,
+      "group": "other",
+      "area": "OTHER EXPLORATIONS",
+      "color": "#a5d68b",
+      "language": "JavaScript",
+      "url": "https://github.com/arpitkjaiswal/synclEE"
     },
     {
       "id": "language:C",
@@ -973,7 +987,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/DSA",
       "id": "edge-1",
-      "path": "M900.0 845.0C900.00 982.60 621.45 1278.14 419.74 1436.1"
+      "path": "M900.0 845.0C900.00 982.60 638.75 1298.59 449.57 1471.36"
     },
     {
       "source": "language:C",
@@ -983,7 +997,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/LabcodesDS",
       "id": "edge-2",
-      "path": "M900.0 845.0C900.00 982.60 546.86 1081.60 291.14 1097.24"
+      "path": "M900.0 845.0C900.00 982.60 550.16 1112.75 296.82 1150.95"
     },
     {
       "source": "language:C",
@@ -993,7 +1007,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Os_Lab",
       "id": "edge-3",
-      "path": "M900.0 845.0C900.00 982.60 596.94 877.43 377.49 745.23"
+      "path": "M900.0 845.0C900.00 982.60 580.02 909.05 348.31 799.74"
     },
     {
       "source": "owner",
@@ -1011,7 +1025,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/URL-Shortener",
       "id": "edge-5",
-      "path": "M1026.37 886.06C945.49 997.38 1178.55 1278.14 1380.26 1436.1"
+      "path": "M1026.37 886.06C945.49 997.38 1187.53 1266.15 1395.75 1415.43"
     },
     {
       "source": "language:CSS",
@@ -1021,7 +1035,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Amazon-Web-Services",
       "id": "edge-6",
-      "path": "M1026.37 886.06C945.49 997.38 1045.01 1382.72 1150.01 1616.41"
+      "path": "M1026.37 886.06C945.49 997.38 1060.97 1375.06 1177.54 1603.21"
     },
     {
       "source": "language:CSS",
@@ -1031,7 +1045,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Plugin",
       "id": "edge-7",
-      "path": "M1026.37 886.06C945.49 997.38 836.32 1408.02 790.2 1660.04"
+      "path": "M1026.37 886.06C945.49 997.38 858.32 1411.34 828.13 1665.75"
     },
     {
       "source": "owner",
@@ -1049,7 +1063,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Javascript",
       "id": "edge-9",
-      "path": "M1104.48 993.56C973.61 1036.08 963.68 1408.02 1009.8 1660.04"
+      "path": "M1104.48 993.56C973.61 1036.08 982.78 1403.98 1042.73 1653.07"
     },
     {
       "source": "language:HTML",
@@ -1059,7 +1073,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/ESLAB",
       "id": "edge-10",
-      "path": "M1104.48 993.56C973.61 1036.08 597.22 1243.02 377.96 1375.56"
+      "path": "M1104.48 993.56C973.61 1036.08 612.47 1266.15 404.25 1415.43"
     },
     {
       "source": "owner",
@@ -1077,7 +1091,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Hotel-management-Application",
       "id": "edge-12",
-      "path": "M1104.48 1126.44C973.61 1083.92 577.39 1205.25 343.78 1310.43"
+      "path": "M1104.48 1126.44C973.61 1083.92 590.18 1230.83 365.82 1354.54"
     },
     {
       "source": "language:Java",
@@ -1087,7 +1101,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/hotel-management-system",
       "id": "edge-13",
-      "path": "M1104.48 1126.44C973.61 1083.92 562.25 1165.36 317.68 1241.66"
+      "path": "M1104.48 1126.44C973.61 1083.92 572.21 1193.14 334.84 1289.56"
     },
     {
       "source": "language:Java",
@@ -1097,7 +1111,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/neetcode-submissions",
       "id": "edge-14",
-      "path": "M1104.48 1126.44C973.61 1083.92 551.93 996.58 299.88 950.66"
+      "path": "M1104.48 1126.44C973.61 1083.92 547.52 1029.43 292.28 1007.29"
     },
     {
       "source": "language:Java",
@@ -1107,7 +1121,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/OOPS",
       "id": "edge-15",
-      "path": "M1104.48 1126.44C973.61 1083.92 562.09 955.15 317.4 879.22"
+      "path": "M1104.48 1126.44C973.61 1083.92 553.58 988.11 302.72 936.06"
     },
     {
       "source": "language:Java",
@@ -1117,7 +1131,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/OSDL",
       "id": "edge-16",
-      "path": "M1104.48 1126.44C973.61 1083.92 621.12 842.29 419.17 684.63"
+      "path": "M1104.48 1126.44C973.61 1083.92 600.03 872.40 382.81 736.56"
     },
     {
       "source": "owner",
@@ -1135,7 +1149,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/CNN",
       "id": "edge-18",
-      "path": "M1026.37 1233.94C945.49 1122.62 1005.11 722.17 1081.22 477.54"
+      "path": "M1026.37 1233.94C945.49 1122.62 1002.94 721.51 1077.48 476.39"
     },
     {
       "source": "language:JavaScript",
@@ -1145,7 +1159,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/CommitFlow",
       "id": "edge-19",
-      "path": "M1026.37 1233.94C945.49 1122.62 1237.75 954.64 1482.32 878.34"
+      "path": "M1026.37 1233.94C945.49 1122.62 1235.08 946.43 1477.72 864.19"
     },
     {
       "source": "language:JavaScript",
@@ -1155,7 +1169,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/CommitSync",
       "id": "edge-20",
-      "path": "M1026.37 1233.94C945.49 1122.62 1247.97 996.06 1499.95 949.75"
+      "path": "M1026.37 1233.94C945.49 1122.62 1246.12 986.70 1496.76 933.62"
     },
     {
       "source": "language:JavaScript",
@@ -1165,7 +1179,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Node.js-Express.js",
       "id": "edge-21",
-      "path": "M1026.37 1233.94C945.49 1122.62 1202.78 1243.02 1422.04 1375.56"
+      "path": "M1026.37 1233.94C945.49 1122.62 1209.82 1230.83 1434.18 1354.54"
     },
     {
       "source": "language:JavaScript",
@@ -1175,7 +1189,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/arpitkjaiswal.github.io",
       "id": "edge-22",
-      "path": "M1026.37 1233.94C945.49 1122.62 1005.11 1397.83 1081.22 1642.46"
+      "path": "M1026.37 1233.94C945.49 1122.62 1022.73 1391.83 1111.61 1632.12"
     },
     {
       "source": "language:JavaScript",
@@ -1185,7 +1199,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/js",
       "id": "edge-23",
-      "path": "M1026.37 1233.94C945.49 1122.62 921.33 1413.16 936.78 1668.89"
+      "path": "M1026.37 1233.94C945.49 1122.62 941.68 1411.34 971.87 1665.75"
     },
     {
       "source": "language:JavaScript",
@@ -1195,7 +1209,7 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/orbit-warden",
       "id": "edge-24",
-      "path": "M1026.37 1233.94C945.49 1122.62 878.67 1413.16 863.22 1668.89"
+      "path": "M1026.37 1233.94C945.49 1122.62 900.00 1413.80 900.0 1670.0"
     },
     {
       "source": "language:JavaScript",
@@ -1205,14 +1219,24 @@
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/React-Framework",
       "id": "edge-25",
-      "path": "M1026.37 1233.94C945.49 1122.62 794.89 1397.83 718.78 1642.46"
+      "path": "M1026.37 1233.94C945.49 1122.62 817.22 1403.98 757.27 1653.07"
+    },
+    {
+      "source": "language:JavaScript",
+      "target": "repo:synclEE",
+      "kind": "language",
+      "color": "#a5d68b",
+      "evidence": "GitHub-detected primary language",
+      "url": "https://github.com/arpitkjaiswal/synclEE",
+      "id": "edge-26",
+      "path": "M1026.37 1233.94C945.49 1122.62 836.23 711.99 790.06 459.99"
     },
     {
       "source": "owner",
       "target": "language:Jupyter Notebook",
       "kind": "portfolio",
       "color": "#86f7cf",
-      "id": "edge-26",
+      "id": "edge-27",
       "path": "M900 1060C900.00 1060.00 900.00 1184.70 900.0 1275.0"
     },
     {
@@ -1222,8 +1246,8 @@
       "color": "#b5a0ff",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Data_Analytic_miniproject",
-      "id": "edge-27",
-      "path": "M900.0 1275.0C900.00 1137.40 1045.01 737.28 1150.01 503.59"
+      "id": "edge-28",
+      "path": "M900.0 1275.0C900.00 1137.40 1042.10 735.99 1145.0 501.36"
     },
     {
       "source": "language:Jupyter Notebook",
@@ -1232,15 +1256,15 @@
       "color": "#b5a0ff",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Hypermart-Sales-Data-Analysis-Report-",
-      "id": "edge-28",
-      "path": "M900.0 1275.0C900.00 1137.40 1117.93 781.29 1275.74 579.46"
+      "id": "edge-29",
+      "path": "M900.0 1275.0C900.00 1137.40 1113.97 778.24 1268.91 574.2"
     },
     {
       "source": "owner",
       "target": "language:No language detected",
       "kind": "portfolio",
       "color": "#86f7cf",
-      "id": "edge-29",
+      "id": "edge-30",
       "path": "M900 1060C900.00 1060.00 826.71 1160.89 773.63 1233.94"
     },
     {
@@ -1250,8 +1274,8 @@
       "color": "#e99ab7",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/DBS",
-      "id": "edge-30",
-      "path": "M773.63 1233.94C854.51 1122.62 716.74 1362.64 584.04 1581.8"
+      "id": "edge-31",
+      "path": "M773.63 1233.94C854.51 1122.62 737.74 1374.40 620.24 1602.07"
     },
     {
       "source": "language:No language detected",
@@ -1260,8 +1284,8 @@
       "color": "#e99ab7",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/DBS_Lab",
-      "id": "edge-31",
-      "path": "M773.63 1233.94C854.51 1122.62 681.65 1338.38 523.54 1539.97"
+      "id": "edge-32",
+      "path": "M773.63 1233.94C854.51 1122.62 701.83 1353.09 558.33 1565.33"
     },
     {
       "source": "language:No language detected",
@@ -1270,8 +1294,8 @@
       "color": "#e99ab7",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/DCCN",
-      "id": "edge-32",
-      "path": "M773.63 1233.94C854.51 1122.62 649.73 1310.08 468.5 1491.17"
+      "id": "edge-33",
+      "path": "M773.63 1233.94C854.51 1122.62 668.68 1327.70 501.17 1521.56"
     },
     {
       "source": "language:No language detected",
@@ -1280,8 +1304,8 @@
       "color": "#e99ab7",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/leetcode-solutions",
-      "id": "edge-33",
-      "path": "M773.63 1233.94C854.51 1122.62 546.83 1038.93 291.08 1023.68"
+      "id": "edge-34",
+      "path": "M773.63 1233.94C854.51 1122.62 546.37 1071.16 290.3 1079.25"
     },
     {
       "source": "language:No language detected",
@@ -1290,8 +1314,8 @@
       "color": "#e99ab7",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/OOPs_Reopo",
-      "id": "edge-34",
-      "path": "M773.63 1233.94C854.51 1122.62 577.17 915.24 343.4 810.41"
+      "id": "edge-35",
+      "path": "M773.63 1233.94C854.51 1122.62 564.46 947.80 321.49 866.55"
     },
     {
       "source": "language:No language detected",
@@ -1300,8 +1324,8 @@
       "color": "#e99ab7",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/OSDL_Lab_Project",
-      "id": "edge-35",
-      "path": "M773.63 1233.94C854.51 1122.62 649.35 810.30 467.85 629.48"
+      "id": "edge-36",
+      "path": "M773.63 1233.94C854.51 1122.62 624.22 838.37 424.52 677.88"
     },
     {
       "source": "language:No language detected",
@@ -1310,8 +1334,8 @@
       "color": "#a5d68b",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/flagsmith",
-      "id": "edge-36",
-      "path": "M773.63 1233.94C854.51 1122.62 754.51 737.50 649.15 503.97"
+      "id": "edge-37",
+      "path": "M773.63 1233.94C854.51 1122.62 719.47 755.73 588.74 535.39"
     },
     {
       "source": "language:No language detected",
@@ -1320,8 +1344,8 @@
       "color": "#a5d68b",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/GSOC_Practise",
-      "id": "edge-37",
-      "path": "M773.63 1233.94C854.51 1122.62 794.38 722.34 717.89 477.82"
+      "id": "edge-38",
+      "path": "M773.63 1233.94C854.51 1122.62 756.58 736.57 652.72 502.37"
     },
     {
       "source": "language:No language detected",
@@ -1330,15 +1354,15 @@
       "color": "#a5d68b",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/SentriX",
-      "id": "edge-38",
-      "path": "M773.63 1233.94C854.51 1122.62 835.79 712.08 789.29 460.13"
+      "id": "edge-39",
+      "path": "M773.63 1233.94C854.51 1122.62 795.68 721.93 720.14 477.12"
     },
     {
       "source": "owner",
       "target": "language:Python",
       "kind": "portfolio",
       "color": "#86f7cf",
-      "id": "edge-39",
+      "id": "edge-40",
       "path": "M900 1060C900.00 1060.00 781.40 1098.54 695.52 1126.44"
     },
     {
@@ -1348,8 +1372,8 @@
       "color": "#b5a0ff",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/AI_Candidate_Ranking_System",
-      "id": "edge-40",
-      "path": "M695.52 1126.44C826.39 1083.92 921.33 706.84 936.78 451.11"
+      "id": "edge-41",
+      "path": "M695.52 1126.44C826.39 1083.92 920.88 706.81 936.0 451.06"
     },
     {
       "source": "language:Python",
@@ -1358,8 +1382,8 @@
       "color": "#b5a0ff",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/DocumentAnalyser",
-      "id": "edge-41",
-      "path": "M695.52 1126.44C826.39 1083.92 1082.79 757.08 1215.16 537.72"
+      "id": "edge-42",
+      "path": "M695.52 1126.44C826.39 1083.92 1079.28 754.99 1209.11 534.12"
     },
     {
       "source": "language:Python",
@@ -1368,8 +1392,8 @@
       "color": "#b5a0ff",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/LEXA",
-      "id": "edge-42",
-      "path": "M695.52 1126.44C826.39 1083.92 1149.89 809.54 1330.84 628.17"
+      "id": "edge-43",
+      "path": "M695.52 1126.44C826.39 1083.92 1145.68 805.41 1323.58 621.05"
     },
     {
       "source": "language:Python",
@@ -1378,8 +1402,8 @@
       "color": "#b5a0ff",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/TerraMind",
-      "id": "edge-43",
-      "path": "M695.52 1126.44C826.39 1083.92 1202.50 876.52 1421.56 743.65"
+      "id": "edge-44",
+      "path": "M695.52 1126.44C826.39 1083.92 1198.43 869.96 1414.53 732.34"
     },
     {
       "source": "language:Python",
@@ -1388,8 +1412,8 @@
       "color": "#86f7cf",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/DevOS-AI-Software-Engineering-Agent",
-      "id": "edge-44",
-      "path": "M695.52 1126.44C826.39 1083.92 1253.17 1081.07 1508.92 1096.32"
+      "id": "edge-45",
+      "path": "M695.52 1126.44C826.39 1083.92 1253.67 1069.72 1509.77 1076.76"
     },
     {
       "source": "language:Python",
@@ -1398,8 +1422,8 @@
       "color": "#e8bc85",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/AegisVault",
-      "id": "edge-45",
-      "path": "M695.52 1126.44C826.39 1083.92 1222.61 1205.25 1456.22 1310.43"
+      "id": "edge-46",
+      "path": "M695.52 1126.44C826.39 1083.92 1227.79 1193.14 1465.16 1289.56"
     },
     {
       "source": "language:Python",
@@ -1408,8 +1432,8 @@
       "color": "#e8bc85",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/URLShortener",
-      "id": "edge-46",
-      "path": "M695.52 1126.44C826.39 1083.92 1150.27 1310.08 1331.5 1491.17"
+      "id": "edge-47",
+      "path": "M695.52 1126.44C826.39 1083.92 1161.25 1298.59 1350.43 1471.36"
     },
     {
       "source": "language:Python",
@@ -1418,8 +1442,8 @@
       "color": "#e8bc85",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/veildb",
-      "id": "edge-47",
-      "path": "M695.52 1126.44C826.39 1083.92 1118.35 1338.38 1276.46 1539.97"
+      "id": "edge-48",
+      "path": "M695.52 1126.44C826.39 1083.92 1131.32 1327.70 1298.83 1521.56"
     },
     {
       "source": "language:Python",
@@ -1428,15 +1452,15 @@
       "color": "#e99ab7",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/IS_LAB",
-      "id": "edge-48",
-      "path": "M695.52 1126.44C826.39 1083.92 552.03 1123.94 300.05 1170.25"
+      "id": "edge-49",
+      "path": "M695.52 1126.44C826.39 1083.92 558.80 1153.60 311.73 1221.38"
     },
     {
       "source": "owner",
       "target": "language:TypeScript",
       "kind": "portfolio",
       "color": "#86f7cf",
-      "id": "edge-49",
+      "id": "edge-50",
       "path": "M900 1060C900.00 1060.00 781.40 1021.46 695.52 993.56"
     },
     {
@@ -1446,8 +1470,8 @@
       "color": "#b5a0ff",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Candidate-Ranking-System",
-      "id": "edge-50",
-      "path": "M695.52 993.56C826.39 1036.08 963.68 711.98 1009.8 459.96"
+      "id": "edge-51",
+      "path": "M695.52 993.56C826.39 1036.08 962.34 711.73 1007.49 459.54"
     },
     {
       "source": "language:TypeScript",
@@ -1456,8 +1480,8 @@
       "color": "#b5a0ff",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/NovaFlow-AI",
-      "id": "edge-51",
-      "path": "M695.52 993.56C826.39 1036.08 1178.22 841.44 1379.69 683.17"
+      "id": "edge-52",
+      "path": "M695.52 993.56C826.39 1036.08 1173.96 836.13 1372.34 674.01"
     },
     {
       "source": "language:TypeScript",
@@ -1466,8 +1490,8 @@
       "color": "#86f7cf",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Concord",
-      "id": "edge-52",
-      "path": "M695.52 993.56C826.39 1036.08 1253.14 1038.40 1508.86 1022.76"
+      "id": "edge-53",
+      "path": "M695.52 993.56C826.39 1036.08 1252.35 1027.98 1507.5 1004.8"
     },
     {
       "source": "language:TypeScript",
@@ -1476,15 +1500,15 @@
       "color": "#86f7cf",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/NEXORA",
-      "id": "edge-53",
-      "path": "M695.52 993.56C826.39 1036.08 1248.07 1123.42 1500.12 1169.34"
+      "id": "edge-54",
+      "path": "M695.52 993.56C826.39 1036.08 1250.06 1111.32 1503.55 1148.48"
     },
     {
       "source": "owner",
       "target": "language:Verilog",
       "kind": "portfolio",
       "color": "#86f7cf",
-      "id": "edge-54",
+      "id": "edge-55",
       "path": "M900 1060C900.00 1060.00 826.71 959.11 773.63 886.06"
     },
     {
@@ -1494,8 +1518,8 @@
       "color": "#e99ab7",
       "evidence": "GitHub-detected primary language",
       "url": "https://github.com/arpitkjaiswal/Verilog_codes",
-      "id": "edge-55",
-      "path": "M773.63 886.06C854.51 997.38 681.23 781.95 522.81 580.6"
+      "id": "edge-56",
+      "path": "M773.63 886.06C854.51 997.38 652.25 807.42 472.85 624.52"
     },
     {
       "source": "tool:Alembic",
@@ -1505,8 +1529,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Candidate-Ranking-System#readme",
       "optional": false,
-      "id": "edge-56",
-      "path": "M932.75 661.34C911.79 916.48 963.68 711.98 1009.8 459.96"
+      "id": "edge-57",
+      "path": "M932.75 661.34C911.79 916.48 962.34 711.73 1007.49 459.54"
     },
     {
       "source": "tool:Docker",
@@ -1516,8 +1540,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Candidate-Ranking-System#readme",
       "optional": false,
-      "id": "edge-57",
-      "path": "M1039.09 684.96C950.07 924.99 963.68 711.98 1009.8 459.96"
+      "id": "edge-58",
+      "path": "M1039.09 684.96C950.07 924.99 962.34 711.73 1007.49 459.54"
     },
     {
       "source": "tool:Docker",
@@ -1527,8 +1551,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/CNN#readme",
       "optional": false,
-      "id": "edge-58",
-      "path": "M1039.09 684.96C950.07 924.99 1005.11 722.17 1081.22 477.54"
+      "id": "edge-59",
+      "path": "M1039.09 684.96C950.07 924.99 1002.94 721.51 1077.48 476.39"
     },
     {
       "source": "tool:Docker",
@@ -1538,8 +1562,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/NEXORA#readme",
       "optional": false,
-      "id": "edge-59",
-      "path": "M1039.09 684.96C950.07 924.99 1248.07 1123.42 1500.12 1169.34"
+      "id": "edge-60",
+      "path": "M1039.09 684.96C950.07 924.99 1250.06 1111.32 1503.55 1148.48"
     },
     {
       "source": "tool:Express",
@@ -1549,8 +1573,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/CNN#readme",
       "optional": false,
-      "id": "edge-60",
-      "path": "M1135.11 736.39C984.64 943.50 1005.11 722.17 1081.22 477.54"
+      "id": "edge-61",
+      "path": "M1135.11 736.39C984.64 943.50 1002.94 721.51 1077.48 476.39"
     },
     {
       "source": "tool:FastAPI",
@@ -1560,8 +1584,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AI_Candidate_Ranking_System#readme",
       "optional": false,
-      "id": "edge-61",
-      "path": "M1213.7 811.83C1012.93 970.66 921.33 706.84 936.78 451.11"
+      "id": "edge-62",
+      "path": "M1213.7 811.83C1012.93 970.66 920.88 706.81 936.0 451.06"
     },
     {
       "source": "tool:FastAPI",
@@ -1571,8 +1595,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Candidate-Ranking-System#readme",
       "optional": false,
-      "id": "edge-62",
-      "path": "M1213.7 811.83C1012.93 970.66 963.68 711.98 1009.8 459.96"
+      "id": "edge-63",
+      "path": "M1213.7 811.83C1012.93 970.66 962.34 711.73 1007.49 459.54"
     },
     {
       "source": "tool:FastAPI",
@@ -1582,8 +1606,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/CNN#readme",
       "optional": false,
-      "id": "edge-63",
-      "path": "M1213.7 811.83C1012.93 970.66 1005.11 722.17 1081.22 477.54"
+      "id": "edge-64",
+      "path": "M1213.7 811.83C1012.93 970.66 1002.94 721.51 1077.48 476.39"
     },
     {
       "source": "tool:FastAPI",
@@ -1593,8 +1617,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/DocumentAnalyser#readme",
       "optional": false,
-      "id": "edge-64",
-      "path": "M1213.7 811.83C1012.93 970.66 1082.79 757.08 1215.16 537.72"
+      "id": "edge-65",
+      "path": "M1213.7 811.83C1012.93 970.66 1079.28 754.99 1209.11 534.12"
     },
     {
       "source": "tool:FastAPI",
@@ -1604,8 +1628,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/DevOS-AI-Software-Engineering-Agent#readme",
       "optional": false,
-      "id": "edge-65",
-      "path": "M1213.7 811.83C1012.93 970.66 1253.17 1081.07 1508.92 1096.32"
+      "id": "edge-66",
+      "path": "M1213.7 811.83C1012.93 970.66 1253.67 1069.72 1509.77 1076.76"
     },
     {
       "source": "tool:FastAPI",
@@ -1615,8 +1639,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AegisVault#readme",
       "optional": false,
-      "id": "edge-66",
-      "path": "M1213.7 811.83C1012.93 970.66 1222.61 1205.25 1456.22 1310.43"
+      "id": "edge-67",
+      "path": "M1213.7 811.83C1012.93 970.66 1227.79 1193.14 1465.16 1289.56"
     },
     {
       "source": "tool:FastAPI",
@@ -1626,8 +1650,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/URLShortener#readme",
       "optional": false,
-      "id": "edge-67",
-      "path": "M1213.7 811.83C1012.93 970.66 1150.27 1310.08 1331.5 1491.17"
+      "id": "edge-68",
+      "path": "M1213.7 811.83C1012.93 970.66 1161.25 1298.59 1350.43 1471.36"
     },
     {
       "source": "tool:MCP",
@@ -1637,8 +1661,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/DevOS-AI-Software-Engineering-Agent#readme",
       "optional": false,
-      "id": "edge-68",
-      "path": "M1269.03 905.67C1032.85 1004.44 1253.17 1081.07 1508.92 1096.32"
+      "id": "edge-69",
+      "path": "M1269.03 905.67C1032.85 1004.44 1253.67 1069.72 1509.77 1076.76"
     },
     {
       "source": "tool:MongoDB",
@@ -1648,8 +1672,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/CNN#readme",
       "optional": false,
-      "id": "edge-69",
-      "path": "M1296.98 1010.95C1042.91 1042.34 1005.11 722.17 1081.22 477.54"
+      "id": "edge-70",
+      "path": "M1296.98 1010.95C1042.91 1042.34 1002.94 721.51 1077.48 476.39"
     },
     {
       "source": "tool:Node.js",
@@ -1659,8 +1683,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/NEXORA#readme",
       "optional": false,
-      "id": "edge-70",
-      "path": "M1295.49 1119.87C1042.38 1081.55 1248.07 1123.42 1500.12 1169.34"
+      "id": "edge-71",
+      "path": "M1295.49 1119.87C1042.38 1081.55 1250.06 1111.32 1503.55 1148.48"
     },
     {
       "source": "tool:NumPy",
@@ -1670,8 +1694,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AI_Candidate_Ranking_System#readme",
       "optional": false,
-      "id": "edge-71",
-      "path": "M1264.67 1224.36C1031.28 1119.17 921.33 706.84 936.78 451.11"
+      "id": "edge-72",
+      "path": "M1264.67 1224.36C1031.28 1119.17 920.88 706.81 936.0 451.06"
     },
     {
       "source": "tool:NumPy",
@@ -1681,8 +1705,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/DocumentAnalyser#readme",
       "optional": false,
-      "id": "edge-72",
-      "path": "M1264.67 1224.36C1031.28 1119.17 1082.79 757.08 1215.16 537.72"
+      "id": "edge-73",
+      "path": "M1264.67 1224.36C1031.28 1119.17 1079.28 754.99 1209.11 534.12"
     },
     {
       "source": "tool:NumPy",
@@ -1692,8 +1716,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/LEXA#readme",
       "optional": false,
-      "id": "edge-73",
-      "path": "M1264.67 1224.36C1031.28 1119.17 1149.89 809.54 1330.84 628.17"
+      "id": "edge-74",
+      "path": "M1264.67 1224.36C1031.28 1119.17 1145.68 805.41 1323.58 621.05"
     },
     {
       "source": "tool:Pandas",
@@ -1703,8 +1727,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AI_Candidate_Ranking_System#readme",
       "optional": false,
-      "id": "edge-74",
-      "path": "M1206.81 1316.65C1010.45 1152.39 921.33 706.84 936.78 451.11"
+      "id": "edge-75",
+      "path": "M1206.81 1316.65C1010.45 1152.39 920.88 706.81 936.0 451.06"
     },
     {
       "source": "tool:Playwright",
@@ -1714,8 +1738,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Concord#readme",
       "optional": false,
-      "id": "edge-75",
-      "path": "M1126.19 1389.91C981.43 1178.77 1253.14 1038.40 1508.86 1022.76"
+      "id": "edge-76",
+      "path": "M1126.19 1389.91C981.43 1178.77 1252.35 1027.98 1507.5 1004.8"
     },
     {
       "source": "tool:Playwright",
@@ -1725,8 +1749,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/NEXORA#readme",
       "optional": false,
-      "id": "edge-76",
-      "path": "M1126.19 1389.91C981.43 1178.77 1248.07 1123.42 1500.12 1169.34"
+      "id": "edge-77",
+      "path": "M1126.19 1389.91C981.43 1178.77 1250.06 1111.32 1503.55 1148.48"
     },
     {
       "source": "tool:PostgreSQL",
@@ -1736,8 +1760,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Candidate-Ranking-System#readme",
       "optional": false,
-      "id": "edge-77",
-      "path": "M1028.79 1438.7C946.36 1196.33 963.68 711.98 1009.8 459.96"
+      "id": "edge-78",
+      "path": "M1028.79 1438.7C946.36 1196.33 962.34 711.73 1007.49 459.54"
     },
     {
       "source": "tool:PostgreSQL",
@@ -1747,8 +1771,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AegisVault#readme",
       "optional": false,
-      "id": "edge-78",
-      "path": "M1028.79 1438.7C946.36 1196.33 1222.61 1205.25 1456.22 1310.43"
+      "id": "edge-79",
+      "path": "M1028.79 1438.7C946.36 1196.33 1227.79 1193.14 1465.16 1289.56"
     },
     {
       "source": "tool:PostgreSQL",
@@ -1758,8 +1782,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/URLShortener#readme",
       "optional": false,
-      "id": "edge-79",
-      "path": "M1028.79 1438.7C946.36 1196.33 1150.27 1310.08 1331.5 1491.17"
+      "id": "edge-80",
+      "path": "M1028.79 1438.7C946.36 1196.33 1161.25 1298.59 1350.43 1471.36"
     },
     {
       "source": "tool:PostgreSQL",
@@ -1769,8 +1793,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/veildb#readme",
       "optional": false,
-      "id": "edge-80",
-      "path": "M1028.79 1438.7C946.36 1196.33 1118.35 1338.38 1276.46 1539.97"
+      "id": "edge-81",
+      "path": "M1028.79 1438.7C946.36 1196.33 1131.32 1327.70 1298.83 1521.56"
     },
     {
       "source": "tool:PySide6",
@@ -1780,8 +1804,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/LEXA#readme",
       "optional": false,
-      "id": "edge-81",
-      "path": "M921.84 1459.4C907.86 1203.78 1149.89 809.54 1330.84 628.17"
+      "id": "edge-82",
+      "path": "M921.84 1459.4C907.86 1203.78 1145.68 805.41 1323.58 621.05"
     },
     {
       "source": "tool:PyTorch",
@@ -1791,8 +1815,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/CNN#readme",
       "optional": false,
-      "id": "edge-82",
-      "path": "M813.28 1450.49C868.78 1200.58 1005.11 722.17 1081.22 477.54"
+      "id": "edge-83",
+      "path": "M813.28 1450.49C868.78 1200.58 1002.94 721.51 1077.48 476.39"
     },
     {
       "source": "tool:Pydantic",
@@ -1802,8 +1826,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/DevOS-AI-Software-Engineering-Agent#readme",
       "optional": false,
-      "id": "edge-83",
-      "path": "M711.14 1412.61C832.01 1186.94 1253.17 1081.07 1508.92 1096.32"
+      "id": "edge-84",
+      "path": "M711.14 1412.61C832.01 1186.94 1253.67 1069.72 1509.77 1076.76"
     },
     {
       "source": "tool:Pydantic",
@@ -1813,8 +1837,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AegisVault#readme",
       "optional": false,
-      "id": "edge-84",
-      "path": "M711.14 1412.61C832.01 1186.94 1222.61 1205.25 1456.22 1310.43"
+      "id": "edge-85",
+      "path": "M711.14 1412.61C832.01 1186.94 1227.79 1193.14 1465.16 1289.56"
     },
     {
       "source": "tool:Pydantic",
@@ -1824,8 +1848,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/URLShortener#readme",
       "optional": false,
-      "id": "edge-85",
-      "path": "M711.14 1412.61C832.01 1186.94 1150.27 1310.08 1331.5 1491.17"
+      "id": "edge-86",
+      "path": "M711.14 1412.61C832.01 1186.94 1161.25 1298.59 1350.43 1471.36"
     },
     {
       "source": "tool:React",
@@ -1835,8 +1859,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Candidate-Ranking-System#readme",
       "optional": false,
-      "id": "edge-86",
-      "path": "M623.01 1348.58C800.28 1163.89 963.68 711.98 1009.8 459.96"
+      "id": "edge-87",
+      "path": "M623.01 1348.58C800.28 1163.89 962.34 711.73 1007.49 459.54"
     },
     {
       "source": "tool:React",
@@ -1846,8 +1870,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/CNN#readme",
       "optional": false,
-      "id": "edge-87",
-      "path": "M623.01 1348.58C800.28 1163.89 1005.11 722.17 1081.22 477.54"
+      "id": "edge-88",
+      "path": "M623.01 1348.58C800.28 1163.89 1002.94 721.51 1077.48 476.39"
     },
     {
       "source": "tool:React",
@@ -1857,8 +1881,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Concord#readme",
       "optional": false,
-      "id": "edge-88",
-      "path": "M623.01 1348.58C800.28 1163.89 1253.14 1038.40 1508.86 1022.76"
+      "id": "edge-89",
+      "path": "M623.01 1348.58C800.28 1163.89 1252.35 1027.98 1507.5 1004.8"
     },
     {
       "source": "tool:React",
@@ -1868,8 +1892,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/NEXORA#readme",
       "optional": false,
-      "id": "edge-89",
-      "path": "M623.01 1348.58C800.28 1163.89 1248.07 1123.42 1500.12 1169.34"
+      "id": "edge-90",
+      "path": "M623.01 1348.58C800.28 1163.89 1250.06 1111.32 1503.55 1148.48"
     },
     {
       "source": "tool:Redis",
@@ -1879,8 +1903,8 @@
       "evidence": "Optional integration documented in README",
       "url": "https://github.com/arpitkjaiswal/URLShortener#readme",
       "optional": true,
-      "id": "edge-90",
-      "path": "M555.43 1263.15C775.95 1133.13 1150.27 1310.08 1331.5 1491.17"
+      "id": "edge-91",
+      "path": "M555.43 1263.15C775.95 1133.13 1161.25 1298.59 1350.43 1471.36"
     },
     {
       "source": "tool:SQLAlchemy",
@@ -1890,8 +1914,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Candidate-Ranking-System#readme",
       "optional": false,
-      "id": "edge-91",
-      "path": "M513.39 1162.65C760.82 1096.95 963.68 711.98 1009.8 459.96"
+      "id": "edge-92",
+      "path": "M513.39 1162.65C760.82 1096.95 962.34 711.73 1007.49 459.54"
     },
     {
       "source": "tool:SQLAlchemy",
@@ -1901,8 +1925,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AegisVault#readme",
       "optional": false,
-      "id": "edge-92",
-      "path": "M513.39 1162.65C760.82 1096.95 1222.61 1205.25 1456.22 1310.43"
+      "id": "edge-93",
+      "path": "M513.39 1162.65C760.82 1096.95 1227.79 1193.14 1465.16 1289.56"
     },
     {
       "source": "tool:SQLAlchemy",
@@ -1912,8 +1936,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/URLShortener#readme",
       "optional": false,
-      "id": "edge-93",
-      "path": "M513.39 1162.65C760.82 1096.95 1150.27 1310.08 1331.5 1491.17"
+      "id": "edge-94",
+      "path": "M513.39 1162.65C760.82 1096.95 1161.25 1298.59 1350.43 1471.36"
     },
     {
       "source": "tool:SQLAlchemy",
@@ -1923,8 +1947,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/veildb#readme",
       "optional": false,
-      "id": "edge-94",
-      "path": "M513.39 1162.65C760.82 1096.95 1118.35 1338.38 1276.46 1539.97"
+      "id": "edge-95",
+      "path": "M513.39 1162.65C760.82 1096.95 1131.32 1327.70 1298.83 1521.56"
     },
     {
       "source": "tool:SQLite",
@@ -1934,8 +1958,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AI_Candidate_Ranking_System#readme",
       "optional": false,
-      "id": "edge-95",
-      "path": "M500.04 1054.54C756.01 1058.03 921.33 706.84 936.78 451.11"
+      "id": "edge-96",
+      "path": "M500.04 1054.54C756.01 1058.03 920.88 706.81 936.0 451.06"
     },
     {
       "source": "tool:SQLite",
@@ -1945,8 +1969,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/DocumentAnalyser#readme",
       "optional": false,
-      "id": "edge-96",
-      "path": "M500.04 1054.54C756.01 1058.03 1082.79 757.08 1215.16 537.72"
+      "id": "edge-97",
+      "path": "M500.04 1054.54C756.01 1058.03 1079.28 754.99 1209.11 534.12"
     },
     {
       "source": "tool:SQLite",
@@ -1956,8 +1980,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/LEXA#readme",
       "optional": false,
-      "id": "edge-97",
-      "path": "M500.04 1054.54C756.01 1058.03 1149.89 809.54 1330.84 628.17"
+      "id": "edge-98",
+      "path": "M500.04 1054.54C756.01 1058.03 1145.68 805.41 1323.58 621.05"
     },
     {
       "source": "tool:SQLite",
@@ -1967,8 +1991,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/DevOS-AI-Software-Engineering-Agent#readme",
       "optional": false,
-      "id": "edge-98",
-      "path": "M500.04 1054.54C756.01 1058.03 1253.17 1081.07 1508.92 1096.32"
+      "id": "edge-99",
+      "path": "M500.04 1054.54C756.01 1058.03 1253.67 1069.72 1509.77 1076.76"
     },
     {
       "source": "tool:SQLite",
@@ -1978,8 +2002,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/URLShortener#readme",
       "optional": false,
-      "id": "edge-99",
-      "path": "M500.04 1054.54C756.01 1058.03 1150.27 1310.08 1331.5 1491.17"
+      "id": "edge-100",
+      "path": "M500.04 1054.54C756.01 1058.03 1161.25 1298.59 1350.43 1471.36"
     },
     {
       "source": "tool:Vite",
@@ -1989,8 +2013,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Candidate-Ranking-System#readme",
       "optional": false,
-      "id": "edge-100",
-      "path": "M516.34 946.83C761.88 1019.26 963.68 711.98 1009.8 459.96"
+      "id": "edge-101",
+      "path": "M516.34 946.83C761.88 1019.26 962.34 711.73 1007.49 459.54"
     },
     {
       "source": "tool:Vite",
@@ -2000,8 +2024,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/CNN#readme",
       "optional": false,
-      "id": "edge-101",
-      "path": "M516.34 946.83C761.88 1019.26 1005.11 722.17 1081.22 477.54"
+      "id": "edge-102",
+      "path": "M516.34 946.83C761.88 1019.26 1002.94 721.51 1077.48 476.39"
     },
     {
       "source": "tool:Vite",
@@ -2011,8 +2035,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Concord#readme",
       "optional": false,
-      "id": "edge-102",
-      "path": "M516.34 946.83C761.88 1019.26 1253.14 1038.40 1508.86 1022.76"
+      "id": "edge-103",
+      "path": "M516.34 946.83C761.88 1019.26 1252.35 1027.98 1507.5 1004.8"
     },
     {
       "source": "tool:Vite",
@@ -2022,8 +2046,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/NEXORA#readme",
       "optional": false,
-      "id": "edge-103",
-      "path": "M516.34 946.83C761.88 1019.26 1248.07 1123.42 1500.12 1169.34"
+      "id": "edge-104",
+      "path": "M516.34 946.83C761.88 1019.26 1250.06 1111.32 1503.55 1148.48"
     },
     {
       "source": "tool:Whisper",
@@ -2033,8 +2057,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/LEXA#readme",
       "optional": false,
-      "id": "edge-104",
-      "path": "M561.1 847.52C778.00 983.51 1149.89 809.54 1330.84 628.17"
+      "id": "edge-105",
+      "path": "M561.1 847.52C778.00 983.51 1145.68 805.41 1323.58 621.05"
     },
     {
       "source": "tool:cryptography",
@@ -2044,8 +2068,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AegisVault#readme",
       "optional": false,
-      "id": "edge-105",
-      "path": "M631.0 763.96C803.16 953.43 1222.61 1205.25 1456.22 1310.43"
+      "id": "edge-106",
+      "path": "M631.0 763.96C803.16 953.43 1227.79 1193.14 1465.16 1289.56"
     },
     {
       "source": "tool:cryptography",
@@ -2055,8 +2079,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/veildb#readme",
       "optional": false,
-      "id": "edge-106",
-      "path": "M631.0 763.96C803.16 953.43 1118.35 1338.38 1276.46 1539.97"
+      "id": "edge-107",
+      "path": "M631.0 763.96C803.16 953.43 1131.32 1327.70 1298.83 1521.56"
     },
     {
       "source": "tool:pytest",
@@ -2066,8 +2090,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Candidate-Ranking-System#readme",
       "optional": false,
-      "id": "edge-107",
-      "path": "M720.84 702.37C835.50 931.25 963.68 711.98 1009.8 459.96"
+      "id": "edge-108",
+      "path": "M720.84 702.37C835.50 931.25 962.34 711.73 1007.49 459.54"
     },
     {
       "source": "tool:pytest",
@@ -2077,8 +2101,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/LEXA#readme",
       "optional": false,
-      "id": "edge-108",
-      "path": "M720.84 702.37C835.50 931.25 1149.89 809.54 1330.84 628.17"
+      "id": "edge-109",
+      "path": "M720.84 702.37C835.50 931.25 1145.68 805.41 1323.58 621.05"
     },
     {
       "source": "tool:pytest",
@@ -2088,8 +2112,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AegisVault#readme",
       "optional": false,
-      "id": "edge-109",
-      "path": "M720.84 702.37C835.50 931.25 1222.61 1205.25 1456.22 1310.43"
+      "id": "edge-110",
+      "path": "M720.84 702.37C835.50 931.25 1227.79 1193.14 1465.16 1289.56"
     },
     {
       "source": "tool:pytest",
@@ -2099,8 +2123,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/URLShortener#readme",
       "optional": false,
-      "id": "edge-110",
-      "path": "M720.84 702.37C835.50 931.25 1150.27 1310.08 1331.5 1491.17"
+      "id": "edge-111",
+      "path": "M720.84 702.37C835.50 931.25 1161.25 1298.59 1350.43 1471.36"
     },
     {
       "source": "tool:pytest",
@@ -2110,8 +2134,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/veildb#readme",
       "optional": false,
-      "id": "edge-111",
-      "path": "M720.84 702.37C835.50 931.25 1118.35 1338.38 1276.46 1539.97"
+      "id": "edge-112",
+      "path": "M720.84 702.37C835.50 931.25 1131.32 1327.70 1298.83 1521.56"
     },
     {
       "source": "tool:scikit-learn",
@@ -2121,8 +2145,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/AI_Candidate_Ranking_System#readme",
       "optional": false,
-      "id": "edge-112",
-      "path": "M823.97 667.29C872.63 918.62 921.33 706.84 936.78 451.11"
+      "id": "edge-113",
+      "path": "M823.97 667.29C872.63 918.62 920.88 706.81 936.0 451.06"
     },
     {
       "source": "tool:scikit-learn",
@@ -2132,8 +2156,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/Candidate-Ranking-System#readme",
       "optional": false,
-      "id": "edge-113",
-      "path": "M823.97 667.29C872.63 918.62 963.68 711.98 1009.8 459.96"
+      "id": "edge-114",
+      "path": "M823.97 667.29C872.63 918.62 962.34 711.73 1007.49 459.54"
     },
     {
       "source": "tool:scikit-learn",
@@ -2143,8 +2167,8 @@
       "evidence": "Tool documented in repository manifest or README",
       "url": "https://github.com/arpitkjaiswal/DocumentAnalyser#readme",
       "optional": false,
-      "id": "edge-114",
-      "path": "M823.97 667.29C872.63 918.62 1082.79 757.08 1215.16 537.72"
+      "id": "edge-115",
+      "path": "M823.97 667.29C872.63 918.62 1079.28 754.99 1209.11 534.12"
     }
   ],
   "groups": [
@@ -2153,56 +2177,56 @@
       "label": "AI & DATA",
       "color": "#b5a0ff",
       "start": -90,
-      "end": -27.782608695652172,
+      "end": -29.106382978723403,
       "count": 9
     },
     {
       "id": "tools",
       "label": "TOOLS & WORKSPACES",
       "color": "#86f7cf",
-      "start": -20.782608695652172,
-      "end": 13.78260869565218,
+      "start": -22.106382978723403,
+      "end": 11.723404255319153,
       "count": 5
     },
     {
       "id": "backend",
       "label": "BACKEND & SECURITY",
       "color": "#e8bc85",
-      "start": 20.78260869565218,
-      "end": 55.34782608695653,
+      "start": 18.723404255319153,
+      "end": 52.55319148936171,
       "count": 5
     },
     {
       "id": "web",
       "label": "WEB EXPERIMENTS",
       "color": "#7ab7ef",
-      "start": 62.34782608695653,
-      "end": 110.73913043478262,
+      "start": 59.55319148936171,
+      "end": 106.91489361702128,
       "count": 7
     },
     {
       "id": "foundations",
       "label": "CS & COURSEWORK",
       "color": "#e99ab7",
-      "start": 117.73913043478262,
-      "end": 235.2608695652174,
+      "start": 113.91489361702128,
+      "end": 228.93617021276594,
       "count": 17
     },
     {
       "id": "other",
       "label": "OTHER EXPLORATIONS",
       "color": "#a5d68b",
-      "start": 242.2608695652174,
+      "start": 235.93617021276594,
       "end": 263.0,
-      "count": 3
+      "count": 4
     }
   ],
   "summary": {
-    "repositories": 46,
+    "repositories": 47,
     "languages": 9,
     "tools": 23,
-    "nodes": 80,
-    "connections": 115,
+    "nodes": 81,
+    "connections": 116,
     "forksExcluded": 34
   },
   "methodology": "Public non-fork repositories only. Areas are curated. Language links use GitHub metadata; tool links use reviewed project documentation. Connections do not imply dependencies between repositories. Motion is decorative."
