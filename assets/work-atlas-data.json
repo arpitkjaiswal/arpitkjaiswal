@@ -1,6 +1,6 @@
 {
   "user": "arpitkjaiswal",
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "width": 1800,
   "height": 2080,
   "nodes": [
@@ -2227,7 +2227,7 @@
     "tools": 23,
     "nodes": 81,
     "connections": 116,
-    "forksExcluded": 34
+    "forksExcluded": 35
   },
   "methodology": "Public non-fork repositories only. Areas are curated. Language links use GitHub metadata; tool links use reviewed project documentation. Connections do not imply dependencies between repositories. Motion is decorative."
 }
